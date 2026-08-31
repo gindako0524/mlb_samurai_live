@@ -15,6 +15,7 @@ TARGET_PLAYERS = {
     807799: {"name": "Masataka Yoshida", "name_ja": "吉田 正尚", "is_pitcher": False},
     808959: {"name": "Munetaka Murakami", "name_ja": "村上 宗隆", "is_pitcher": False},
     672960: {"name": "Kazuma Okamoto", "name_ja": "岡本 和真", "is_pitcher": False},
+    663457: {"name": "Lars Nootbaar", "name_ja": "ヌートバー", "is_pitcher": False},
     # --- 投手 ---
     808967: {"name": "Yoshinobu Yamamoto", "name_ja": "山本 由伸", "is_pitcher": True},
     808963: {"name": "Roki Sasaki", "name_ja": "佐々木 朗希", "is_pitcher": True},
