@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-08-31T01:02:50.090861+00:00",
+  "players": {
+    "660271": {
+      "name": "Shohei Ohtani",
+      "name_ja": "大谷 翔平",
+      "fwar": 0.0,
+      "rwar": 3.7
+    },
+    "808967": {
+      "name": "Yoshinobu Yamamoto",
+      "name_ja": "山本 由伸",
+      "fwar": 0.0,
+      "rwar": 4.7
+    },
+    "684007": {
+      "name": "Shota Imanaga",
+      "name_ja": "今永 昇太",
+      "fwar": 0.0,
+      "rwar": 1.6
+    },
+    "506433": {
+      "name": "Yu Darvish",
+      "name_ja": "ダルビッシュ 有",
+      "fwar": 0.0,
+      "rwar": 0.0
+    },
+    "673540": {
+      "name": "Kodai Senga",
+      "name_ja": "千賀 滉大",
+      "fwar": 0.0,
+      "rwar": -1.4
+    },
+    "673548": {
+      "name": "Seiya Suzuki",
+      "name_ja": "鈴木 誠也",
+      "fwar": 0.0,
+      "rwar": 4.6
+    }
+  }
+}
