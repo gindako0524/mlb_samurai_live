@@ -1,41 +1,69 @@
 {
-  "updated_at": "2026-08-31T01:02:50.090861+00:00",
+  "updated_at": "2026-08-31T04:41:09.936661+00:00",
   "players": {
     "660271": {
       "name": "Shohei Ohtani",
       "name_ja": "大谷 翔平",
       "fwar": 0.0,
-      "rwar": 3.7
+      "rwar": 3.7,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 2.9
     },
     "808967": {
       "name": "Yoshinobu Yamamoto",
       "name_ja": "山本 由伸",
       "fwar": 0.0,
-      "rwar": 4.7
+      "rwar": 4.7,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
     },
     "684007": {
       "name": "Shota Imanaga",
       "name_ja": "今永 昇太",
       "fwar": 0.0,
-      "rwar": 1.6
-    },
-    "506433": {
-      "name": "Yu Darvish",
-      "name_ja": "ダルビッシュ 有",
-      "fwar": 0.0,
-      "rwar": 0.0
-    },
-    "673540": {
-      "name": "Kodai Senga",
-      "name_ja": "千賀 滉大",
-      "fwar": 0.0,
-      "rwar": -1.4
+      "rwar": 1.6,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
     },
     "673548": {
       "name": "Seiya Suzuki",
       "name_ja": "鈴木 誠也",
       "fwar": 0.0,
-      "rwar": 4.6
+      "rwar": 4.6,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
+    },
+    "807799": {
+      "name": "Masataka Yoshida",
+      "name_ja": "吉田 正尚",
+      "fwar": 0.0,
+      "rwar": 0.7,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
+    },
+    "673540": {
+      "name": "Kodai Senga",
+      "name_ja": "千賀 滉大",
+      "fwar": 0.0,
+      "rwar": -1.4,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
+    },
+    "506433": {
+      "name": "Yu Darvish",
+      "name_ja": "ダルビッシュ 有",
+      "fwar": 0.0,
+      "rwar": 0.0,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
+    },
+    "673513": {
+      "name": "Yuki Matsui",
+      "name_ja": "松井 裕樹",
+      "fwar": 0.0,
+      "rwar": 1.6,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
     }
   }
 }
