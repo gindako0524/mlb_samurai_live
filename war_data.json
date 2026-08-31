@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T06:52:43.833959+00:00",
+  "updated_at": "2026-08-31T07:48:31.643969+00:00",
   "players": {
     "660271": {
       "name": "Shohei Ohtani",
@@ -38,6 +38,14 @@
       "name_ja": "岡本 和真",
       "fwar": 0.0,
       "rwar": 1.8,
+      "fwar_pitch": 0.0,
+      "rwar_pitch": 0.0
+    },
+    "663457": {
+      "name": "Lars Nootbaar",
+      "name_ja": "ヌートバー",
+      "fwar": 0.0,
+      "rwar": 0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0
     },
