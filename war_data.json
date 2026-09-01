@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T07:40:01.873872+00:00",
+  "updated_at": "2026-09-01T23:49:22.810163+00:00",
   "players": {
     "660271": {
       "name": "Shohei Ohtani",
@@ -35,7 +35,7 @@
       "name": "Seiya Suzuki",
       "name_ja": "鈴木 誠也",
       "fwar": 0.0,
-      "rwar": 4.4,
+      "rwar": 4.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -66,10 +66,10 @@
         "2023": 3.2,
         "2024": 3.5,
         "2025": 2.6,
-        "2026": 4.4
+        "2026": 4.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 58.9,
+      "career_rwar": 59.1,
       "career_rwar_pitch": 0.0
     },
     "807799": {
@@ -93,16 +93,16 @@
       "name": "Munetaka Murakami",
       "name_ja": "村上 宗隆",
       "fwar": 0.0,
-      "rwar": 2.1,
+      "rwar": 2.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "1964": -0.1,
         "1965": -0.1,
-        "2026": 2.1
+        "2026": 2.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.9,
+      "career_rwar": 2.0,
       "career_rwar_pitch": 0.0
     },
     "672960": {
@@ -123,7 +123,7 @@
       "name": "Lars Nootbaar",
       "name_ja": "ヌートバー",
       "fwar": 0.0,
-      "rwar": 0.2,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -142,7 +142,7 @@
       "name": "Yoshinobu Yamamoto",
       "name_ja": "山本 由伸",
       "fwar": 0.0,
-      "rwar": 4.7,
+      "rwar": 4.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {},
@@ -152,10 +152,10 @@
         "2021": -0.2,
         "2024": 1.9,
         "2025": 4.9,
-        "2026": 4.7
+        "2026": 4.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 11.2
+      "career_rwar_pitch": 11.1
     },
     "808963": {
       "name": "Roki Sasaki",
@@ -238,7 +238,7 @@
       "name": "Yusei Kikuchi",
       "name_ja": "菊池 雄星",
       "fwar": 0.0,
-      "rwar": -0.0,
+      "rwar": -0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {},
@@ -250,16 +250,16 @@
         "2023": 1.8,
         "2024": 1.4,
         "2025": 2.8,
-        "2026": -0.0
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 6.8
+      "career_rwar_pitch": 6.7
     },
     "673540": {
       "name": "Kodai Senga",
       "name_ja": "千賀 滉大",
       "fwar": 0.0,
-      "rwar": -1.4,
+      "rwar": -1.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {},
@@ -268,10 +268,10 @@
         "2023": 4.5,
         "2024": 0.1,
         "2025": 2.3,
-        "2026": -1.4
+        "2026": -1.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.3
+      "career_rwar_pitch": 5.2
     },
     "608372": {
       "name": "Tomoyuki Sugano",
@@ -310,7 +310,7 @@
           "name": "Pete Crow-Armstrong",
           "name_ja": null,
           "team": "CHC",
-          "war": 8.5
+          "war": 8.4
         },
         {
           "name": "Bobby Witt Jr.",
@@ -328,49 +328,49 @@
           "name": "Yordan Alvarez",
           "name_ja": null,
           "team": "HOU",
-          "war": 5.8
+          "war": 5.9
         },
         {
-          "name": "Brice Turang",
+          "name": "Andy Pages",
           "name_ja": null,
-          "team": "MIL",
+          "team": "LAD",
           "war": 5.6
         },
         {
           "name": "Ceddanne Rafaela",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.6
+          "war": 5.5
         },
         {
-          "name": "Wilyer Abreu",
+          "name": "Brice Turang",
           "name_ja": null,
-          "team": "BOS",
-          "war": 5.6
-        },
-        {
-          "name": "Andy Pages",
-          "name_ja": null,
-          "team": "LAD",
+          "team": "MIL",
           "war": 5.5
         },
         {
           "name": "Otto Lopez",
           "name_ja": null,
           "team": "MIA",
+          "war": 5.5
+        },
+        {
+          "name": "Wilyer Abreu",
+          "name_ja": null,
+          "team": "BOS",
           "war": 5.4
         },
         {
           "name": "Corbin Carroll",
           "name_ja": null,
           "team": "ARI",
-          "war": 5.1
+          "war": 5.0
         },
         {
           "name": "Junior Caminero",
           "name_ja": null,
           "team": "TBR",
-          "war": 4.8
+          "war": 4.9
         },
         {
           "name": "Gabriel Moreno",
@@ -379,10 +379,40 @@
           "war": 4.7
         },
         {
+          "name": "Michael Harris II",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 4.6
+        },
+        {
+          "name": "Seiya Suzuki",
+          "name_ja": "鈴木 誠也",
+          "team": "CHC",
+          "war": 4.6
+        },
+        {
           "name": "JJ Wetherholt",
           "name_ja": null,
           "team": "STL",
           "war": 4.6
+        },
+        {
+          "name": "Alex Bregman",
+          "name_ja": null,
+          "team": "CHC",
+          "war": 4.6
+        },
+        {
+          "name": "CJ Abrams",
+          "name_ja": null,
+          "team": "WSN",
+          "war": 4.5
+        },
+        {
+          "name": "Randy Arozarena",
+          "name_ja": null,
+          "team": "SEA",
+          "war": 4.5
         },
         {
           "name": "Miguel Vargas",
@@ -391,63 +421,33 @@
           "war": 4.5
         },
         {
-          "name": "Seiya Suzuki",
-          "name_ja": "鈴木 誠也",
-          "team": "CHC",
-          "war": 4.4
-        },
-        {
-          "name": "CJ Abrams",
-          "name_ja": null,
-          "team": "WSN",
-          "war": 4.4
-        },
-        {
-          "name": "Willson Contreras",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 4.4
-        },
-        {
-          "name": "Dillon Dingler",
-          "name_ja": null,
-          "team": "DET",
-          "war": 4.4
-        },
-        {
-          "name": "Geraldo Perdomo",
-          "name_ja": null,
-          "team": "ARI",
-          "war": 4.4
-        },
-        {
           "name": "Steven Kwan",
           "name_ja": null,
           "team": "CLE",
           "war": 4.3
         },
         {
-          "name": "Michael Harris II",
+          "name": "Geraldo Perdomo",
           "name_ja": null,
-          "team": "ATL",
+          "team": "ARI",
           "war": 4.3
         },
         {
-          "name": "Matt Olson",
+          "name": "Willson Contreras",
           "name_ja": null,
-          "team": "ATL",
+          "team": "BOS",
           "war": 4.3
         },
         {
-          "name": "Alex Bregman",
+          "name": "Dillon Dingler",
           "name_ja": null,
-          "team": "CHC",
+          "team": "DET",
           "war": 4.2
         },
         {
-          "name": "Brandon Lowe",
+          "name": "Ezequiel Duran",
           "name_ja": null,
-          "team": "PIT",
+          "team": "TEX",
           "war": 4.1
         },
         {
@@ -457,22 +457,16 @@
           "war": 4.1
         },
         {
-          "name": "Randy Arozarena",
+          "name": "Cody Bellinger",
           "name_ja": null,
-          "team": "SEA",
+          "team": "NYY",
           "war": 4.1
         },
         {
-          "name": "Ezequiel Duran",
+          "name": "Matt Olson",
           "name_ja": null,
-          "team": "TEX",
-          "war": 4.1
-        },
-        {
-          "name": "Max Muncy",
-          "name_ja": null,
-          "team": "LAD",
-          "war": 4.1
+          "team": "ATL",
+          "war": 4.0
         },
         {
           "name": "Elly De La Cruz",
@@ -481,9 +475,15 @@
           "war": 4.0
         },
         {
-          "name": "Cody Bellinger",
+          "name": "Brandon Lowe",
           "name_ja": null,
-          "team": "NYY",
+          "team": "PIT",
+          "war": 4.0
+        },
+        {
+          "name": "Max Muncy",
+          "name_ja": null,
+          "team": "LAD",
           "war": 4.0
         },
         {
@@ -493,16 +493,16 @@
           "war": 4.0
         },
         {
-          "name": "Pete Alonso",
-          "name_ja": null,
-          "team": "BAL",
-          "war": 4.0
-        },
-        {
           "name": "Tristan Peters",
           "name_ja": null,
           "team": "CHW",
           "war": 3.9
+        },
+        {
+          "name": "Pete Alonso",
+          "name_ja": null,
+          "team": "BAL",
+          "war": 3.8
         },
         {
           "name": "Nick Kurtz",
@@ -511,15 +511,21 @@
           "war": 3.8
         },
         {
-          "name": "Zach Neto",
+          "name": "Ty France",
           "name_ja": null,
-          "team": "LAA",
-          "war": 3.7
+          "team": "SDP",
+          "war": 3.8
         },
         {
           "name": "James Wood",
           "name_ja": null,
           "team": "WSN",
+          "war": 3.7
+        },
+        {
+          "name": "Zach Neto",
+          "name_ja": null,
+          "team": "LAA",
           "war": 3.7
         },
         {
@@ -535,10 +541,10 @@
           "war": 3.6
         },
         {
-          "name": "Ty France",
+          "name": "Bryce Harper",
           "name_ja": null,
-          "team": "SDP",
-          "war": 3.6
+          "team": "PHI",
+          "war": 3.5
         },
         {
           "name": "Shohei Ohtani",
@@ -547,21 +553,9 @@
           "war": 3.5
         },
         {
-          "name": "Caleb Durbin",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 3.5
-        },
-        {
           "name": "Mike Trout",
           "name_ja": null,
           "team": "LAA",
-          "war": 3.5
-        },
-        {
-          "name": "Bryce Harper",
-          "name_ja": null,
-          "team": "PHI",
           "war": 3.4
         },
         {
@@ -571,9 +565,9 @@
           "war": 3.4
         },
         {
-          "name": "Jac Caglianone",
+          "name": "Caleb Durbin",
           "name_ja": null,
-          "team": "KCR",
+          "team": "BOS",
           "war": 3.4
         },
         {
@@ -583,28 +577,34 @@
           "war": 3.3
         },
         {
-          "name": "Bryan Reynolds",
-          "name_ja": null,
-          "team": "PIT",
-          "war": 3.2
-        },
-        {
           "name": "Jackson Chourio",
           "name_ja": null,
           "team": "MIL",
-          "war": 3.2
+          "war": 3.3
         },
         {
           "name": "TJ Rumfield",
           "name_ja": null,
           "team": "COL",
+          "war": 3.3
+        },
+        {
+          "name": "Jac Caglianone",
+          "name_ja": null,
+          "team": "KCR",
           "war": 3.2
         },
         {
           "name": "Chase Meidroth",
           "name_ja": null,
           "team": "CHW",
-          "war": 3.1
+          "war": 3.2
+        },
+        {
+          "name": "Drake Baldwin",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 3.2
         }
       ],
       "al_top": [
@@ -624,25 +624,31 @@
           "name": "Yordan Alvarez",
           "name_ja": null,
           "team": "HOU",
-          "war": 5.8
+          "war": 5.9
         },
         {
           "name": "Ceddanne Rafaela",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.6
+          "war": 5.5
         },
         {
           "name": "Wilyer Abreu",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.6
+          "war": 5.4
         },
         {
           "name": "Junior Caminero",
           "name_ja": null,
           "team": "TBR",
-          "war": 4.8
+          "war": 4.9
+        },
+        {
+          "name": "Randy Arozarena",
+          "name_ja": null,
+          "team": "SEA",
+          "war": 4.5
         },
         {
           "name": "Miguel Vargas",
@@ -651,34 +657,22 @@
           "war": 4.5
         },
         {
-          "name": "Willson Contreras",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 4.4
-        },
-        {
-          "name": "Dillon Dingler",
-          "name_ja": null,
-          "team": "DET",
-          "war": 4.4
-        },
-        {
           "name": "Steven Kwan",
           "name_ja": null,
           "team": "CLE",
           "war": 4.3
         },
         {
-          "name": "Cole Young",
+          "name": "Willson Contreras",
           "name_ja": null,
-          "team": "SEA",
-          "war": 4.1
+          "team": "BOS",
+          "war": 4.3
         },
         {
-          "name": "Randy Arozarena",
+          "name": "Dillon Dingler",
           "name_ja": null,
-          "team": "SEA",
-          "war": 4.1
+          "team": "DET",
+          "war": 4.2
         },
         {
           "name": "Ezequiel Duran",
@@ -687,22 +681,28 @@
           "war": 4.1
         },
         {
+          "name": "Cole Young",
+          "name_ja": null,
+          "team": "SEA",
+          "war": 4.1
+        },
+        {
           "name": "Cody Bellinger",
           "name_ja": null,
           "team": "NYY",
-          "war": 4.0
-        },
-        {
-          "name": "Pete Alonso",
-          "name_ja": null,
-          "team": "BAL",
-          "war": 4.0
+          "war": 4.1
         },
         {
           "name": "Tristan Peters",
           "name_ja": null,
           "team": "CHW",
           "war": 3.9
+        },
+        {
+          "name": "Pete Alonso",
+          "name_ja": null,
+          "team": "BAL",
+          "war": 3.8
         },
         {
           "name": "Nick Kurtz",
@@ -723,16 +723,10 @@
           "war": 3.6
         },
         {
-          "name": "Caleb Durbin",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 3.5
-        },
-        {
           "name": "Mike Trout",
           "name_ja": null,
           "team": "LAA",
-          "war": 3.5
+          "war": 3.4
         },
         {
           "name": "Jeremy Peña",
@@ -741,9 +735,9 @@
           "war": 3.4
         },
         {
-          "name": "Jac Caglianone",
+          "name": "Caleb Durbin",
           "name_ja": null,
-          "team": "KCR",
+          "team": "BOS",
           "war": 3.4
         },
         {
@@ -753,10 +747,22 @@
           "war": 3.3
         },
         {
+          "name": "Jac Caglianone",
+          "name_ja": null,
+          "team": "KCR",
+          "war": 3.2
+        },
+        {
           "name": "Chase Meidroth",
           "name_ja": null,
           "team": "CHW",
-          "war": 3.1
+          "war": 3.2
+        },
+        {
+          "name": "Ryan Jeffers",
+          "name_ja": null,
+          "team": "MIN",
+          "war": 3.0
         },
         {
           "name": "Isaac Paredes",
@@ -768,19 +774,13 @@
           "name": "Taylor Walls",
           "name_ja": null,
           "team": "TBR",
-          "war": 3.0
+          "war": 2.9
         },
         {
           "name": "Chase DeLauter",
           "name_ja": null,
           "team": "CLE",
-          "war": 2.9
-        },
-        {
-          "name": "Yandy Díaz",
-          "name_ja": null,
-          "team": "TBR",
-          "war": 2.9
+          "war": 2.8
         },
         {
           "name": "Wyatt Langford",
@@ -789,9 +789,9 @@
           "war": 2.8
         },
         {
-          "name": "Ben Rice",
+          "name": "Yandy Díaz",
           "name_ja": null,
-          "team": "NYY",
+          "team": "TBR",
           "war": 2.7
         },
         {
@@ -801,16 +801,16 @@
           "war": 2.7
         },
         {
-          "name": "Tyler Soderstrom",
+          "name": "Ben Rice",
           "name_ja": null,
-          "team": "ATH",
+          "team": "NYY",
           "war": 2.6
         },
         {
-          "name": "Ryan Jeffers",
+          "name": "Tyler Soderstrom",
           "name_ja": null,
-          "team": "MIN",
-          "war": 2.6
+          "team": "ATH",
+          "war": 2.5
         },
         {
           "name": "Julio Rodríguez",
@@ -822,12 +822,6 @@
           "name": "Gunnar Henderson",
           "name_ja": null,
           "team": "BAL",
-          "war": 2.5
-        },
-        {
-          "name": "José Ramírez",
-          "name_ja": null,
-          "team": "CLE",
           "war": 2.4
         },
         {
@@ -837,25 +831,25 @@
           "war": 2.3
         },
         {
+          "name": "Corey Seager",
+          "name_ja": null,
+          "team": "TEX",
+          "war": 2.3
+        },
+        {
           "name": "Gleyber Torres",
           "name_ja": null,
           "team": "DET",
           "war": 2.3
         },
         {
-          "name": "Brooks Lee",
+          "name": "Dominic Canzone",
           "name_ja": null,
-          "team": "MIN",
-          "war": 2.3
-        },
-        {
-          "name": "Corey Seager",
-          "name_ja": null,
-          "team": "TEX",
+          "team": "SEA",
           "war": 2.2
         },
         {
-          "name": "Brayan Rocchio",
+          "name": "José Ramírez",
           "name_ja": null,
           "team": "CLE",
           "war": 2.2
@@ -864,12 +858,24 @@
           "name": "Munetaka Murakami",
           "name_ja": "村上 宗隆",
           "team": "CHW",
+          "war": 2.2
+        },
+        {
+          "name": "Brooks Lee",
+          "name_ja": null,
+          "team": "MIN",
+          "war": 2.2
+        },
+        {
+          "name": "José Caballero",
+          "name_ja": null,
+          "team": "NYY",
           "war": 2.1
         },
         {
-          "name": "Zack Gelof",
+          "name": "Jake Burger",
           "name_ja": null,
-          "team": "ATH",
+          "team": "TEX",
           "war": 2.1
         },
         {
@@ -879,33 +885,27 @@
           "war": 2.1
         },
         {
-          "name": "José Caballero",
+          "name": "Zack Gelof",
           "name_ja": null,
-          "team": "NYY",
-          "war": 2.1
+          "team": "ATH",
+          "war": 2.0
         },
         {
-          "name": "Dominic Canzone",
+          "name": "Brayan Rocchio",
           "name_ja": null,
-          "team": "SEA",
-          "war": 2.1
+          "team": "CLE",
+          "war": 2.0
         },
         {
-          "name": "Nolan Schanuel",
+          "name": "Christian Walker",
           "name_ja": null,
-          "team": "LAA",
-          "war": 2.1
+          "team": "HOU",
+          "war": 2.0
         },
         {
           "name": "Riley Greene",
           "name_ja": null,
           "team": "DET",
-          "war": 2.0
-        },
-        {
-          "name": "Jake Burger",
-          "name_ja": null,
-          "team": "TEX",
           "war": 2.0
         }
       ],
@@ -914,31 +914,31 @@
           "name": "Pete Crow-Armstrong",
           "name_ja": null,
           "team": "CHC",
-          "war": 8.5
-        },
-        {
-          "name": "Brice Turang",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 5.6
+          "war": 8.4
         },
         {
           "name": "Andy Pages",
           "name_ja": null,
           "team": "LAD",
+          "war": 5.6
+        },
+        {
+          "name": "Brice Turang",
+          "name_ja": null,
+          "team": "MIL",
           "war": 5.5
         },
         {
           "name": "Otto Lopez",
           "name_ja": null,
           "team": "MIA",
-          "war": 5.4
+          "war": 5.5
         },
         {
           "name": "Corbin Carroll",
           "name_ja": null,
           "team": "ARI",
-          "war": 5.1
+          "war": 5.0
         },
         {
           "name": "Gabriel Moreno",
@@ -947,58 +947,46 @@
           "war": 4.7
         },
         {
-          "name": "JJ Wetherholt",
+          "name": "Michael Harris II",
           "name_ja": null,
-          "team": "STL",
+          "team": "ATL",
           "war": 4.6
         },
         {
           "name": "Seiya Suzuki",
           "name_ja": "鈴木 誠也",
           "team": "CHC",
-          "war": 4.4
+          "war": 4.6
+        },
+        {
+          "name": "JJ Wetherholt",
+          "name_ja": null,
+          "team": "STL",
+          "war": 4.6
+        },
+        {
+          "name": "Alex Bregman",
+          "name_ja": null,
+          "team": "CHC",
+          "war": 4.6
         },
         {
           "name": "CJ Abrams",
           "name_ja": null,
           "team": "WSN",
-          "war": 4.4
+          "war": 4.5
         },
         {
           "name": "Geraldo Perdomo",
           "name_ja": null,
           "team": "ARI",
-          "war": 4.4
-        },
-        {
-          "name": "Michael Harris II",
-          "name_ja": null,
-          "team": "ATL",
           "war": 4.3
         },
         {
           "name": "Matt Olson",
           "name_ja": null,
           "team": "ATL",
-          "war": 4.3
-        },
-        {
-          "name": "Alex Bregman",
-          "name_ja": null,
-          "team": "CHC",
-          "war": 4.2
-        },
-        {
-          "name": "Brandon Lowe",
-          "name_ja": null,
-          "team": "PIT",
-          "war": 4.1
-        },
-        {
-          "name": "Max Muncy",
-          "name_ja": null,
-          "team": "LAD",
-          "war": 4.1
+          "war": 4.0
         },
         {
           "name": "Elly De La Cruz",
@@ -1007,10 +995,28 @@
           "war": 4.0
         },
         {
+          "name": "Brandon Lowe",
+          "name_ja": null,
+          "team": "PIT",
+          "war": 4.0
+        },
+        {
+          "name": "Max Muncy",
+          "name_ja": null,
+          "team": "LAD",
+          "war": 4.0
+        },
+        {
           "name": "Jordan Walker",
           "name_ja": null,
           "team": "STL",
           "war": 4.0
+        },
+        {
+          "name": "Ty France",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 3.8
         },
         {
           "name": "James Wood",
@@ -1025,10 +1031,10 @@
           "war": 3.7
         },
         {
-          "name": "Ty France",
+          "name": "Bryce Harper",
           "name_ja": null,
-          "team": "SDP",
-          "war": 3.6
+          "team": "PHI",
+          "war": 3.5
         },
         {
           "name": "Shohei Ohtani",
@@ -1037,10 +1043,22 @@
           "war": 3.5
         },
         {
-          "name": "Bryce Harper",
+          "name": "Jackson Chourio",
           "name_ja": null,
-          "team": "PHI",
-          "war": 3.4
+          "team": "MIL",
+          "war": 3.3
+        },
+        {
+          "name": "TJ Rumfield",
+          "name_ja": null,
+          "team": "COL",
+          "war": 3.3
+        },
+        {
+          "name": "Drake Baldwin",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 3.2
         },
         {
           "name": "Bryan Reynolds",
@@ -1049,16 +1067,10 @@
           "war": 3.2
         },
         {
-          "name": "Jackson Chourio",
+          "name": "Jake Bauers",
           "name_ja": null,
           "team": "MIL",
-          "war": 3.2
-        },
-        {
-          "name": "TJ Rumfield",
-          "name_ja": null,
-          "team": "COL",
-          "war": 3.2
+          "war": 3.1
         },
         {
           "name": "Dansby Swanson",
@@ -1067,15 +1079,15 @@
           "war": 3.1
         },
         {
-          "name": "Drake Baldwin",
-          "name_ja": null,
-          "team": "ATL",
-          "war": 3.1
-        },
-        {
           "name": "Luis Arraez",
           "name_ja": null,
           "team": "SFG",
+          "war": 3.1
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "name_ja": null,
+          "team": "SDP",
           "war": 3.0
         },
         {
@@ -1085,33 +1097,21 @@
           "war": 3.0
         },
         {
-          "name": "Carson Benge",
-          "name_ja": null,
-          "team": "NYM",
-          "war": 2.9
-        },
-        {
-          "name": "Jake Bauers",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 2.9
-        },
-        {
           "name": "Alec Burleson",
           "name_ja": null,
           "team": "STL",
           "war": 2.9
         },
         {
-          "name": "Fernando Tatis Jr.",
+          "name": "Carson Benge",
           "name_ja": null,
-          "team": "SDP",
+          "team": "NYM",
           "war": 2.9
         },
         {
-          "name": "Ian Happ",
+          "name": "Matt Chapman",
           "name_ja": null,
-          "team": "CHC",
+          "team": "SFG",
           "war": 2.8
         },
         {
@@ -1121,39 +1121,27 @@
           "war": 2.8
         },
         {
-          "name": "Matt Chapman",
+          "name": "Ian Happ",
           "name_ja": null,
-          "team": "SFG",
-          "war": 2.8
+          "team": "CHC",
+          "war": 2.7
         },
         {
           "name": "Kyle Schwarber",
           "name_ja": null,
           "team": "PHI",
-          "war": 2.8
-        },
-        {
-          "name": "Garrett Mitchell",
-          "name_ja": null,
-          "team": "MIL",
           "war": 2.7
         },
         {
           "name": "Hunter Goodman",
           "name_ja": null,
           "team": "COL",
-          "war": 2.6
+          "war": 2.7
         },
         {
-          "name": "Masyn Winn",
+          "name": "Garrett Mitchell",
           "name_ja": null,
-          "team": "STL",
-          "war": 2.6
-        },
-        {
-          "name": "Mauricio Dubón",
-          "name_ja": null,
-          "team": "ATL",
+          "team": "MIL",
           "war": 2.6
         },
         {
@@ -1163,15 +1151,27 @@
           "war": 2.6
         },
         {
+          "name": "Masyn Winn",
+          "name_ja": null,
+          "team": "STL",
+          "war": 2.6
+        },
+        {
           "name": "Jackson Merrill",
           "name_ja": null,
           "team": "SDP",
-          "war": 2.5
+          "war": 2.6
         },
         {
           "name": "Iván Herrera",
           "name_ja": null,
           "team": "STL",
+          "war": 2.5
+        },
+        {
+          "name": "Heriberto Hernández",
+          "name_ja": null,
+          "team": "MIA",
           "war": 2.5
         },
         {
@@ -1181,33 +1181,33 @@
           "war": 2.5
         },
         {
-          "name": "Nico Hoerner",
-          "name_ja": null,
-          "team": "CHC",
-          "war": 2.4
-        },
-        {
           "name": "Rafael Devers",
           "name_ja": null,
           "team": "SFG",
+          "war": 2.5
+        },
+        {
+          "name": "Nico Hoerner",
+          "name_ja": null,
+          "team": "CHC",
+          "war": 2.5
+        },
+        {
+          "name": "Mauricio Dubón",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 2.5
+        },
+        {
+          "name": "William Contreras",
+          "name_ja": null,
+          "team": "MIL",
           "war": 2.4
         },
         {
-          "name": "Heriberto Hernández",
+          "name": "Mookie Betts",
           "name_ja": null,
-          "team": "MIA",
-          "war": 2.3
-        },
-        {
-          "name": "Sal Stewart",
-          "name_ja": null,
-          "team": "CIN",
-          "war": 2.3
-        },
-        {
-          "name": "Luis García Jr.",
-          "name_ja": null,
-          "team": "WSN",
+          "team": "LAD",
           "war": 2.3
         }
       ]
@@ -1218,7 +1218,7 @@
           "name": "Cristopher Sánchez",
           "name_ja": null,
           "team": "PHI",
-          "war": 7.5
+          "war": 7.6
         },
         {
           "name": "Cam Schlittler",
@@ -1236,13 +1236,19 @@
           "name": "Jacob Misiorowski",
           "name_ja": null,
           "team": "MIL",
-          "war": 5.6
+          "war": 5.5
         },
         {
           "name": "Parker Messick",
           "name_ja": null,
           "team": "CLE",
           "war": 5.3
+        },
+        {
+          "name": "Jesús Luzardo",
+          "name_ja": null,
+          "team": "PHI",
+          "war": 5.2
         },
         {
           "name": "Eduardo Rodríguez",
@@ -1254,25 +1260,19 @@
           "name": "Chris Sale",
           "name_ja": null,
           "team": "ATL",
-          "war": 5.1
-        },
-        {
-          "name": "Jesús Luzardo",
-          "name_ja": null,
-          "team": "PHI",
-          "war": 5.1
-        },
-        {
-          "name": "Yoshinobu Yamamoto",
-          "name_ja": "山本 由伸",
-          "team": "LAD",
-          "war": 4.7
+          "war": 5.2
         },
         {
           "name": "Chase Burns",
           "name_ja": null,
           "team": "CIN",
           "war": 4.7
+        },
+        {
+          "name": "Yoshinobu Yamamoto",
+          "name_ja": "山本 由伸",
+          "team": "LAD",
+          "war": 4.6
         },
         {
           "name": "Zack Wheeler",
@@ -1293,10 +1293,28 @@
           "war": 3.8
         },
         {
+          "name": "Michael King",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 3.7
+        },
+        {
           "name": "Braxton Ashcraft",
           "name_ja": null,
           "team": "PIT",
           "war": 3.6
+        },
+        {
+          "name": "Taj Bradley",
+          "name_ja": null,
+          "team": "MIN",
+          "war": 3.5
+        },
+        {
+          "name": "Sonny Gray",
+          "name_ja": null,
+          "team": "BOS",
+          "war": 3.5
         },
         {
           "name": "Nick Martinez",
@@ -1305,45 +1323,15 @@
           "war": 3.5
         },
         {
-          "name": "Michael King",
-          "name_ja": null,
-          "team": "SDP",
-          "war": 3.5
-        },
-        {
-          "name": "Sandy Alcantara",
-          "name_ja": null,
-          "team": "MIA",
-          "war": 3.4
-        },
-        {
-          "name": "Sonny Gray",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 3.4
-        },
-        {
-          "name": "Michael Wacha",
-          "name_ja": null,
-          "team": "KCR",
-          "war": 3.4
-        },
-        {
-          "name": "Drew Rasmussen",
-          "name_ja": null,
-          "team": "TBR",
-          "war": 3.4
-        },
-        {
           "name": "Keider Montero",
           "name_ja": null,
           "team": "DET",
           "war": 3.4
         },
         {
-          "name": "Foster Griffin",
+          "name": "Drew Rasmussen",
           "name_ja": null,
-          "team": "WSN",
+          "team": "TBR",
           "war": 3.3
         },
         {
@@ -1359,22 +1347,40 @@
           "war": 3.3
         },
         {
-          "name": "Louis Varland",
+          "name": "Michael Wacha",
           "name_ja": null,
-          "team": "TOR",
+          "team": "KCR",
           "war": 3.3
         },
         {
-          "name": "Taj Bradley",
+          "name": "Foster Griffin",
           "name_ja": null,
-          "team": "MIN",
+          "team": "WSN",
+          "war": 3.3
+        },
+        {
+          "name": "Sandy Alcantara",
+          "name_ja": null,
+          "team": "MIA",
+          "war": 3.3
+        },
+        {
+          "name": "Louis Varland",
+          "name_ja": null,
+          "team": "TOR",
           "war": 3.2
         },
         {
-          "name": "Reid Detmers",
+          "name": "Jhoan Duran",
           "name_ja": null,
-          "team": "LAA",
-          "war": 3.1
+          "team": "PHI",
+          "war": 3.0
+        },
+        {
+          "name": "Max Fried",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 3.0
         },
         {
           "name": "Cade Cavalli",
@@ -1383,9 +1389,15 @@
           "war": 3.0
         },
         {
-          "name": "Max Fried",
+          "name": "Reid Detmers",
           "name_ja": null,
-          "team": "NYY",
+          "team": "LAA",
+          "war": 3.0
+        },
+        {
+          "name": "Walbert Ureña",
+          "name_ja": null,
+          "team": "LAA",
           "war": 3.0
         },
         {
@@ -1401,21 +1413,9 @@
           "war": 2.9
         },
         {
-          "name": "Jhoan Duran",
+          "name": "Peter Lambert",
           "name_ja": null,
-          "team": "PHI",
-          "war": 2.9
-        },
-        {
-          "name": "Mason Miller",
-          "name_ja": null,
-          "team": "SDP",
-          "war": 2.9
-        },
-        {
-          "name": "Paul Blackburn",
-          "name_ja": null,
-          "team": "NYY",
+          "team": "HOU",
           "war": 2.9
         },
         {
@@ -1425,16 +1425,16 @@
           "war": 2.9
         },
         {
-          "name": "Nolan McLean",
+          "name": "Paul Blackburn",
           "name_ja": null,
-          "team": "NYM",
-          "war": 2.8
+          "team": "NYY",
+          "war": 2.9
         },
         {
-          "name": "Peter Lambert",
+          "name": "Mason Miller",
           "name_ja": null,
-          "team": "HOU",
-          "war": 2.8
+          "team": "SDP",
+          "war": 2.9
         },
         {
           "name": "Tarik Skubal",
@@ -1443,16 +1443,10 @@
           "war": 2.8
         },
         {
-          "name": "Max Meyer",
+          "name": "Nolan McLean",
           "name_ja": null,
-          "team": "MIA",
-          "war": 2.7
-        },
-        {
-          "name": "Grant Taylor",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 2.7
+          "team": "NYM",
+          "war": 2.8
         },
         {
           "name": "Casey Mize",
@@ -1467,21 +1461,21 @@
           "war": 2.7
         },
         {
+          "name": "Grant Taylor",
+          "name_ja": null,
+          "team": "CHW",
+          "war": 2.7
+        },
+        {
+          "name": "Max Meyer",
+          "name_ja": null,
+          "team": "MIA",
+          "war": 2.7
+        },
+        {
           "name": "José Soriano",
           "name_ja": null,
           "team": "LAA",
-          "war": 2.6
-        },
-        {
-          "name": "Walbert Ureña",
-          "name_ja": null,
-          "team": "LAA",
-          "war": 2.6
-        },
-        {
-          "name": "Logan Henderson",
-          "name_ja": null,
-          "team": "MIL",
           "war": 2.6
         },
         {
@@ -1497,6 +1491,12 @@
           "war": 2.6
         },
         {
+          "name": "Logan Henderson",
+          "name_ja": null,
+          "team": "MIL",
+          "war": 2.6
+        },
+        {
           "name": "Emerson Hancock",
           "name_ja": null,
           "team": "SEA",
@@ -1509,9 +1509,9 @@
           "war": 2.5
         },
         {
-          "name": "Kyle Harrison",
+          "name": "Martín Pérez",
           "name_ja": null,
-          "team": "MIL",
+          "team": "ATL",
           "war": 2.5
         }
       ],
@@ -1547,34 +1547,34 @@
           "war": 3.8
         },
         {
-          "name": "Nick Martinez",
+          "name": "Taj Bradley",
           "name_ja": null,
-          "team": "TBR",
+          "team": "MIN",
           "war": 3.5
         },
         {
           "name": "Sonny Gray",
           "name_ja": null,
           "team": "BOS",
-          "war": 3.4
+          "war": 3.5
         },
         {
-          "name": "Michael Wacha",
-          "name_ja": null,
-          "team": "KCR",
-          "war": 3.4
-        },
-        {
-          "name": "Drew Rasmussen",
+          "name": "Nick Martinez",
           "name_ja": null,
           "team": "TBR",
-          "war": 3.4
+          "war": 3.5
         },
         {
           "name": "Keider Montero",
           "name_ja": null,
           "team": "DET",
           "war": 3.4
+        },
+        {
+          "name": "Drew Rasmussen",
+          "name_ja": null,
+          "team": "TBR",
+          "war": 3.3
         },
         {
           "name": "J.T. Ginn",
@@ -1589,22 +1589,16 @@
           "war": 3.3
         },
         {
-          "name": "Louis Varland",
+          "name": "Michael Wacha",
           "name_ja": null,
-          "team": "TOR",
+          "team": "KCR",
           "war": 3.3
         },
         {
-          "name": "Taj Bradley",
+          "name": "Louis Varland",
           "name_ja": null,
-          "team": "MIN",
+          "team": "TOR",
           "war": 3.2
-        },
-        {
-          "name": "Reid Detmers",
-          "name_ja": null,
-          "team": "LAA",
-          "war": 3.1
         },
         {
           "name": "Max Fried",
@@ -1613,9 +1607,21 @@
           "war": 3.0
         },
         {
-          "name": "Paul Blackburn",
+          "name": "Reid Detmers",
           "name_ja": null,
-          "team": "NYY",
+          "team": "LAA",
+          "war": 3.0
+        },
+        {
+          "name": "Walbert Ureña",
+          "name_ja": null,
+          "team": "LAA",
+          "war": 3.0
+        },
+        {
+          "name": "Peter Lambert",
+          "name_ja": null,
+          "team": "HOU",
           "war": 2.9
         },
         {
@@ -1625,22 +1631,16 @@
           "war": 2.9
         },
         {
-          "name": "Peter Lambert",
+          "name": "Paul Blackburn",
           "name_ja": null,
-          "team": "HOU",
-          "war": 2.8
+          "team": "NYY",
+          "war": 2.9
         },
         {
           "name": "Tarik Skubal",
           "name_ja": null,
           "team": "DET",
           "war": 2.8
-        },
-        {
-          "name": "Grant Taylor",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 2.7
         },
         {
           "name": "Casey Mize",
@@ -1655,13 +1655,13 @@
           "war": 2.7
         },
         {
-          "name": "José Soriano",
+          "name": "Grant Taylor",
           "name_ja": null,
-          "team": "LAA",
-          "war": 2.6
+          "team": "CHW",
+          "war": 2.7
         },
         {
-          "name": "Walbert Ureña",
+          "name": "José Soriano",
           "name_ja": null,
           "team": "LAA",
           "war": 2.6
@@ -1700,24 +1700,18 @@
           "name": "Steven Okert",
           "name_ja": null,
           "team": "HOU",
-          "war": 2.3
+          "war": 2.4
         },
         {
           "name": "Payton Tolle",
           "name_ja": null,
           "team": "BOS",
-          "war": 2.3
+          "war": 2.2
         },
         {
           "name": "Kevin Kelly",
           "name_ja": null,
           "team": "TBR",
-          "war": 2.2
-        },
-        {
-          "name": "Ryan Weathers",
-          "name_ja": null,
-          "team": "NYY",
           "war": 2.2
         },
         {
@@ -1727,10 +1721,16 @@
           "war": 2.2
         },
         {
+          "name": "Ryan Weathers",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 2.2
+        },
+        {
           "name": "Gavin Williams",
           "name_ja": null,
           "team": "CLE",
-          "war": 2.1
+          "war": 2.2
         },
         {
           "name": "Brandon Young",
@@ -1742,12 +1742,6 @@
           "name": "Trey Yesavage",
           "name_ja": null,
           "team": "TOR",
-          "war": 2.0
-        },
-        {
-          "name": "Anthony Kay",
-          "name_ja": null,
-          "team": "CHW",
           "war": 2.0
         },
         {
@@ -1769,21 +1763,33 @@
           "war": 1.9
         },
         {
-          "name": "Hunter Brown",
+          "name": "Aroldis Chapman",
           "name_ja": null,
-          "team": "HOU",
-          "war": 1.8
+          "team": "BOS",
+          "war": 1.9
         },
         {
-          "name": "David Bednar",
+          "name": "Jacob deGrom",
           "name_ja": null,
-          "team": "NYY",
+          "team": "TEX",
           "war": 1.8
         },
         {
           "name": "Davis Martin",
           "name_ja": null,
           "team": "CHW",
+          "war": 1.8
+        },
+        {
+          "name": "Hunter Brown",
+          "name_ja": null,
+          "team": "HOU",
+          "war": 1.8
+        },
+        {
+          "name": "Connelly Early",
+          "name_ja": null,
+          "team": "BOS",
           "war": 1.8
         },
         {
@@ -1799,16 +1805,10 @@
           "war": 1.7
         },
         {
-          "name": "Connelly Early",
+          "name": "Anthony Kay",
           "name_ja": null,
-          "team": "BOS",
+          "team": "CHW",
           "war": 1.7
-        },
-        {
-          "name": "Aroldis Chapman",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 1.6
         },
         {
           "name": "Bailey Ober",
@@ -1822,13 +1822,19 @@
           "name": "Cristopher Sánchez",
           "name_ja": null,
           "team": "PHI",
-          "war": 7.5
+          "war": 7.6
         },
         {
           "name": "Jacob Misiorowski",
           "name_ja": null,
           "team": "MIL",
-          "war": 5.6
+          "war": 5.5
+        },
+        {
+          "name": "Jesús Luzardo",
+          "name_ja": null,
+          "team": "PHI",
+          "war": 5.2
         },
         {
           "name": "Eduardo Rodríguez",
@@ -1840,19 +1846,7 @@
           "name": "Chris Sale",
           "name_ja": null,
           "team": "ATL",
-          "war": 5.1
-        },
-        {
-          "name": "Jesús Luzardo",
-          "name_ja": null,
-          "team": "PHI",
-          "war": 5.1
-        },
-        {
-          "name": "Yoshinobu Yamamoto",
-          "name_ja": "山本 由伸",
-          "team": "LAD",
-          "war": 4.7
+          "war": 5.2
         },
         {
           "name": "Chase Burns",
@@ -1861,10 +1855,22 @@
           "war": 4.7
         },
         {
+          "name": "Yoshinobu Yamamoto",
+          "name_ja": "山本 由伸",
+          "team": "LAD",
+          "war": 4.6
+        },
+        {
           "name": "Zack Wheeler",
           "name_ja": null,
           "team": "PHI",
           "war": 4.0
+        },
+        {
+          "name": "Michael King",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 3.7
         },
         {
           "name": "Braxton Ashcraft",
@@ -1873,22 +1879,22 @@
           "war": 3.6
         },
         {
-          "name": "Michael King",
+          "name": "Foster Griffin",
           "name_ja": null,
-          "team": "SDP",
-          "war": 3.5
+          "team": "WSN",
+          "war": 3.3
         },
         {
           "name": "Sandy Alcantara",
           "name_ja": null,
           "team": "MIA",
-          "war": 3.4
+          "war": 3.3
         },
         {
-          "name": "Foster Griffin",
+          "name": "Jhoan Duran",
           "name_ja": null,
-          "team": "WSN",
-          "war": 3.3
+          "team": "PHI",
+          "war": 3.0
         },
         {
           "name": "Cade Cavalli",
@@ -1906,12 +1912,6 @@
           "name": "Kyle Leahy",
           "name_ja": null,
           "team": "STL",
-          "war": 2.9
-        },
-        {
-          "name": "Jhoan Duran",
-          "name_ja": null,
-          "team": "PHI",
           "war": 2.9
         },
         {
@@ -1933,28 +1933,22 @@
           "war": 2.7
         },
         {
-          "name": "Logan Henderson",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 2.6
-        },
-        {
           "name": "Paul Skenes",
           "name_ja": null,
           "team": "PIT",
           "war": 2.6
         },
         {
-          "name": "Kyle Harrison",
+          "name": "Logan Henderson",
           "name_ja": null,
           "team": "MIL",
-          "war": 2.5
+          "war": 2.6
         },
         {
           "name": "Martín Pérez",
           "name_ja": null,
           "team": "ATL",
-          "war": 2.4
+          "war": 2.5
         },
         {
           "name": "Andre Pallante",
@@ -1969,13 +1963,13 @@
           "war": 2.2
         },
         {
-          "name": "Robbie Ray",
+          "name": "Logan Webb",
           "name_ja": null,
           "team": "SFG",
           "war": 2.1
         },
         {
-          "name": "Logan Webb",
+          "name": "Robbie Ray",
           "name_ja": null,
           "team": "SFG",
           "war": 2.1
@@ -1984,6 +1978,12 @@
           "name": "Didier Fuentes",
           "name_ja": null,
           "team": "ATL",
+          "war": 2.1
+        },
+        {
+          "name": "Yohan Ramírez",
+          "name_ja": null,
+          "team": "PIT",
           "war": 2.0
         },
         {
@@ -1993,33 +1993,27 @@
           "war": 2.0
         },
         {
-          "name": "Yohan Ramírez",
+          "name": "Aaron Nola",
           "name_ja": null,
-          "team": "PIT",
-          "war": 2.0
-        },
-        {
-          "name": "Eury Pérez",
-          "name_ja": null,
-          "team": "MIA",
-          "war": 2.0
-        },
-        {
-          "name": "Justin Wrobleski",
-          "name_ja": null,
-          "team": "LAD",
+          "team": "PHI",
           "war": 2.0
         },
         {
           "name": "Grant Holmes",
           "name_ja": null,
           "team": "ATL",
+          "war": 2.0
+        },
+        {
+          "name": "Justin Wrobleski",
+          "name_ja": null,
+          "team": "LAD",
           "war": 1.9
         },
         {
-          "name": "Michael Soroka",
+          "name": "Eury Pérez",
           "name_ja": null,
-          "team": "ARI",
+          "team": "MIA",
           "war": 1.9
         },
         {
@@ -2029,15 +2023,21 @@
           "war": 1.9
         },
         {
-          "name": "Trevor Megill",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 1.9
-        },
-        {
           "name": "Luke Weaver",
           "name_ja": null,
           "team": "NYM",
+          "war": 1.9
+        },
+        {
+          "name": "Michael Soroka",
+          "name_ja": null,
+          "team": "ARI",
+          "war": 1.9
+        },
+        {
+          "name": "Trevor Megill",
+          "name_ja": null,
+          "team": "MIL",
           "war": 1.9
         },
         {
@@ -2047,10 +2047,10 @@
           "war": 1.9
         },
         {
-          "name": "Clay Holmes",
+          "name": "Brennan Bernardino",
           "name_ja": null,
-          "team": "NYM",
-          "war": 1.8
+          "team": "COL",
+          "war": 1.9
         },
         {
           "name": "Juan Morillo",
@@ -2059,9 +2059,9 @@
           "war": 1.8
         },
         {
-          "name": "Brennan Bernardino",
+          "name": "Clay Holmes",
           "name_ja": null,
-          "team": "COL",
+          "team": "NYM",
           "war": 1.8
         },
         {
@@ -2071,21 +2071,9 @@
           "war": 1.8
         },
         {
-          "name": "Tanner Scott",
+          "name": "Michael McGreevy",
           "name_ja": null,
-          "team": "LAD",
-          "war": 1.7
-        },
-        {
-          "name": "Yuki Matsui",
-          "name_ja": "松井 裕樹",
-          "team": "SDP",
-          "war": 1.7
-        },
-        {
-          "name": "Mason Montgomery",
-          "name_ja": null,
-          "team": "PIT",
+          "team": "STL",
           "war": 1.7
         },
         {
@@ -2095,9 +2083,15 @@
           "war": 1.7
         },
         {
-          "name": "Michael McGreevy",
+          "name": "Tanner Scott",
           "name_ja": null,
-          "team": "STL",
+          "team": "LAD",
+          "war": 1.7
+        },
+        {
+          "name": "Mason Montgomery",
+          "name_ja": null,
+          "team": "PIT",
           "war": 1.7
         },
         {
@@ -2107,16 +2101,22 @@
           "war": 1.7
         },
         {
-          "name": "Christian Scott",
+          "name": "Kyle Harrison",
           "name_ja": null,
-          "team": "NYM",
-          "war": 1.6
+          "team": "MIL",
+          "war": 1.7
         },
         {
-          "name": "Aaron Nola",
+          "name": "Yuki Matsui",
+          "name_ja": "松井 裕樹",
+          "team": "SDP",
+          "war": 1.7
+        },
+        {
+          "name": "Brandon Pfaadt",
           "name_ja": null,
-          "team": "PHI",
-          "war": 1.6
+          "team": "ARI",
+          "war": 1.7
         }
       ]
     }
