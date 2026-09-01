@@ -99,6 +99,30 @@ def build_leaderboard(df, top_n=LEADER_TOP_N):
     return {"mlb_top": mlb_top, "al_top": al_top, "nl_top": nl_top}
 
 
+def extract_war_by_year(df, last_name):
+    """名字でマッチする選手の年度別WARを {年度: WAR} の辞書で返す（通算成績画面用）"""
+    if df is None or df.empty:
+        return {}
+    name_cols = [c for c in df.columns if c.lower() in ['name', 'name_common', 'playername']]
+    if not name_cols or 'WAR' not in df.columns or 'year_ID' not in df.columns:
+        return {}
+    target_col = name_cols[0]
+    matched = df[df[target_col].astype(str).str.lower().str.contains(last_name.lower().strip(), na=False)]
+    if matched.empty:
+        return {}
+    result = {}
+    for _, row in matched.iterrows():
+        year = row.get('year_ID')
+        war = row.get('WAR')
+        if year is None or war is None:
+            continue
+        try:
+            result[str(int(year))] = round(float(war), 1)
+        except Exception:
+            continue
+    return result
+
+
 def fetch_war_data():
     output = {}
     print("データ抽出開始...")
@@ -120,17 +144,19 @@ def fetch_war_data():
 
     # 2. Baseball-Reference
     try:
-        b_bat = bwar_bat()
-        b_bat = b_bat[b_bat['year_ID'] == CURRENT_YEAR] if b_bat is not None else None
+        b_bat_full = bwar_bat()
+        b_bat = b_bat_full[b_bat_full['year_ID'] == CURRENT_YEAR] if b_bat_full is not None else None
     except Exception as e:
         print(f"[エラー] B-Ref打者データ取得失敗: {e}")
+        b_bat_full = None
         b_bat = None
 
     try:
-        b_pitch = bwar_pitch()
-        b_pitch = b_pitch[b_pitch['year_ID'] == CURRENT_YEAR] if b_pitch is not None else None
+        b_pitch_full = bwar_pitch()
+        b_pitch = b_pitch_full[b_pitch_full['year_ID'] == CURRENT_YEAR] if b_pitch_full is not None else None
     except Exception as e:
         print(f"[エラー] B-Ref投手データ取得失敗: {e}")
+        b_pitch_full = None
         b_pitch = None
 
     # 3. 対象選手（日本人選手）ごとのWARを抽出
@@ -159,6 +185,12 @@ def fetch_war_data():
                 fwar = p_fwar
                 rwar = p_rwar
 
+        # ★ 年度別WAR・通算WAR（打撃・投手それぞれ、Baseball-Reference全期間データより算出）
+        war_by_year_bat = extract_war_by_year(b_bat_full, last_name) if (not is_pitcher or is_two_way) else {}
+        war_by_year_pitch = extract_war_by_year(b_pitch_full, last_name) if (is_pitcher or is_two_way) else {}
+        career_rwar_bat = round(sum(war_by_year_bat.values()), 1) if war_by_year_bat else 0.0
+        career_rwar_pitch_total = round(sum(war_by_year_pitch.values()), 1) if war_by_year_pitch else 0.0
+
         output[str(mlb_id)] = {
             "name": name,
             "name_ja": pinfo["name_ja"],
@@ -166,8 +198,12 @@ def fetch_war_data():
             "rwar": rwar,
             "fwar_pitch": fwar_pitch,
             "rwar_pitch": rwar_pitch,
+            "war_by_year": war_by_year_bat,
+            "war_by_year_pitch": war_by_year_pitch,
+            "career_rwar": career_rwar_bat,
+            "career_rwar_pitch": career_rwar_pitch_total,
         }
-        print(f"[{pinfo['name_ja']}] fWAR: {fwar}, rWAR: {rwar}, fWAR(投): {fwar_pitch}, rWAR(投): {rwar_pitch}")
+        print(f"[{pinfo['name_ja']}] fWAR: {fwar}, rWAR: {rwar}, fWAR(投): {fwar_pitch}, rWAR(投): {rwar_pitch}, 通算rWAR: {career_rwar_bat}, 通算rWAR(投): {career_rwar_pitch_total}")
 
     # 4. MLB全体・リーグ別のWARランキング（上位50件）を作成
     batter_leaders = build_leaderboard(b_bat)
