@@ -1,5 +1,6 @@
 # update_war.py
 import json
+import math
 from datetime import datetime, timezone
 import pybaseball
 from pybaseball import batting_stats, pitching_stats, bwar_bat, bwar_pitch
@@ -46,7 +47,10 @@ def search_war(df, last_name):
         war_cols = [c for c in matched.columns if c.upper() == 'WAR']
         if war_cols:
             try:
-                return round(float(matched[war_cols[0]].iloc[0]), 1)
+                val = float(matched[war_cols[0]].iloc[0])
+                if math.isnan(val):
+                    return 0.0
+                return round(val, 1)
             except Exception as e:
                 print(f"  [WAR変換エラー] {last_name}: {e}")
                 return 0.0
@@ -117,7 +121,10 @@ def extract_war_by_year(df, last_name):
         if year is None or war is None:
             continue
         try:
-            result[str(int(year))] = round(float(war), 1)
+            war_float = float(war)
+            if math.isnan(war_float):
+                continue  # ★ NaNはJSON非対応（Python jsonはNaNを不正なリテラルとして出力してしまう）
+            result[str(int(year))] = round(war_float, 1)
         except Exception:
             continue
     return result
