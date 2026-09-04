@@ -80,8 +80,10 @@ class SettingsView extends ConsumerWidget {
             style: TextStyle(fontSize: 11, color: Colors.white54),
           ),
           const SizedBox(height: 10),
-          Container(
-            decoration: BoxDecoration(color: const Color(0xFF1E1E2C), borderRadius: BorderRadius.circular(10)),
+          Material(
+            color: const Color(0xFF1E1E2C),
+            borderRadius: BorderRadius.circular(10),
+            clipBehavior: Clip.antiAlias,
             child: Column(
               children: List.generate(sortedPlayers.length, (i) {
                 final p = sortedPlayers[i];

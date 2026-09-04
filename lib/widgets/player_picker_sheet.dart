@@ -57,7 +57,7 @@ Future<JapanesePlayer?> showPlayerPickerSheet(
                     child: ListView.separated(
                       controller: scrollController,
                       itemCount: sorted.length,
-                      separatorBuilder: (_, __) => const Divider(height: 1, color: Colors.white12),
+                      separatorBuilder: (_, _) => const Divider(height: 1, color: Colors.white12),
                       itemBuilder: (context, index) {
                         final p = sorted[index];
                         final isSelected = p.id == currentPlayerId;

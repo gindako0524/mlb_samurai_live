@@ -135,7 +135,7 @@ class AdvancedStatsCard extends ConsumerWidget {
                     );
                   },
                   loading: () => const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.tealAccent)),
-                  error: (_, __) => const SizedBox.shrink(),
+                  error: (_, _) => const SizedBox.shrink(),
                 ),
                 if (isPitcher && asyncWhiff != null)
                   asyncWhiff.when(
@@ -145,7 +145,7 @@ class AdvancedStatsCard extends ConsumerWidget {
                       return _MiniField(field: _Field('Whiff%', '${v.toStringAsFixed(1)}%', 'whiffPercent'));
                     },
                     loading: () => const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.tealAccent)),
-                    error: (_, __) => const SizedBox.shrink(),
+                    error: (_, _) => const SizedBox.shrink(),
                   ),
                 if (!isPitcher && asyncBatterStatcast != null)
                   asyncBatterStatcast.when(
@@ -176,7 +176,7 @@ class AdvancedStatsCard extends ConsumerWidget {
                       );
                     },
                     loading: () => const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.tealAccent)),
-                    error: (_, __) => const SizedBox.shrink(),
+                    error: (_, _) => const SizedBox.shrink(),
                   ),
                 asyncOaa.when(
                   data: (map) {
@@ -185,7 +185,7 @@ class AdvancedStatsCard extends ConsumerWidget {
                     return _MiniField(field: _Field('OAA', v > 0 ? '+${v.toStringAsFixed(0)}' : v.toStringAsFixed(0), 'oaa'));
                   },
                   loading: () => const SizedBox.shrink(),
-                  error: (_, __) => const SizedBox.shrink(),
+                  error: (_, _) => const SizedBox.shrink(),
                 ),
               ],
             ),

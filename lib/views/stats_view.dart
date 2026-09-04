@@ -9,7 +9,6 @@ import 'package:http/http.dart' as http;
 import 'package:table_calendar/table_calendar.dart';
 import '../models/player.dart';
 import '../services/schedule_provider.dart';
-import '../utils/jst_time.dart';
 import 'compare_view.dart';
 import '../services/head_to_head_service.dart';
 import 'career_stats_view.dart';
@@ -40,9 +39,7 @@ class _StatsViewState extends ConsumerState<StatsView> {
   bool _ohtaniPitcherMode = false;
 
   // 公認WARデータ
-  double _fwar = 0.0;
   double _rwar = 0.0;
-  double _fwarPitch = 0.0;
   double _rwarPitch = 0.0;
 
   // 取得した詳細スタッツ
@@ -161,9 +158,7 @@ class _StatsViewState extends ConsumerState<StatsView> {
           final playerMap = data['players']?[playerId.toString()];
           if (playerMap != null && mounted) {
             setState(() {
-              _fwar = (playerMap['fwar'] as num?)?.toDouble() ?? 0.0;
               _rwar = (playerMap['rwar'] as num?)?.toDouble() ?? 0.0;
-              _fwarPitch = (playerMap['fwar_pitch'] as num?)?.toDouble() ?? 0.0;
               _rwarPitch = (playerMap['rwar_pitch'] as num?)?.toDouble() ?? 0.0;
             });
             return;
