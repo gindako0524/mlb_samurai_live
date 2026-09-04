@@ -63,6 +63,21 @@ class SeasonProjectionCard extends StatelessWidget {
 
     final List<MapEntry<String, String>> projected = [];
     if (isPitcher) {
+      // ★ 投手は残り試合すべてに登板するわけではない(先発なら5〜6試合に1回程度)。
+      //   「これまでの登板数 ÷ チームの消化試合数」を登板頻度とみなし、
+      //   残りのチーム試合数に掛けることで、ローテーションを踏まえた
+      //   残り登板数の見積もりを算出して表示する。
+      //   ※下記の勝敗・奪三振等の予想値自体は、この登板頻度を反映した
+      //   「チーム消化試合数を分母にしたペース換算」と数学的に同じ計算式のため、
+      //   もともと「残り試合すべてに登板する」前提にはなっていない。
+      final gamesStarted = _num(seasonStats['gamesStarted']);
+      final gamesPitched = _num(seasonStats['gamesPitched']) ?? _num(seasonStats['gamesPlayed']);
+      final playerAppearances = (gamesStarted != null && gamesStarted > 0) ? gamesStarted : gamesPitched;
+      if (playerAppearances != null && playerAppearances > 0) {
+        final remainingTeamGames = _fullSeasonGames - teamGames;
+        final estRemainingAppearances = remainingTeamGames * playerAppearances / teamGames;
+        projected.add(MapEntry('予想残り登板数', '${estRemainingAppearances.round()}試合'));
+      }
       final wins = projCount('wins');
       final losses = projCount('losses');
       if (wins != null && losses != null) projected.add(MapEntry('勝敗', '$wins勝$losses敗'));
@@ -125,9 +140,14 @@ class SeasonProjectionCard extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              'チームの消化試合数（$teamGames試合${playerGames != null ? '中、本人出場${playerGames.round()}試合' : ''}）を基準に、'
-              '残り${_fullSeasonGames - teamGames}試合も今のペースが続いた場合の単純な目安です。'
-              'ZiPS・PECOTA・THE BAT Xのような加齢・回帰・残り対戦相手を考慮した本格的な投影ではありません。',
+              isPitcher
+                  ? 'チームの消化試合数（$teamGames試合${playerGames != null ? '中、本人登板${playerGames.round()}試合' : ''}）を基準に、'
+                      '残り${_fullSeasonGames - teamGames}試合における「これまでの登板頻度」から残り登板数を見積もり、'
+                      'その分を今のペースで加算した単純な目安です（残り全試合に登板する前提ではありません）。'
+                      'ZiPS・PECOTA・THE BAT Xのような加齢・回帰・残り対戦相手を考慮した本格的な投影ではありません。'
+                  : 'チームの消化試合数（$teamGames試合${playerGames != null ? '中、本人出場${playerGames.round()}試合' : ''}）を基準に、'
+                      '残り${_fullSeasonGames - teamGames}試合も今のペースが続いた場合の単純な目安です。'
+                      'ZiPS・PECOTA・THE BAT Xのような加齢・回帰・残り対戦相手を考慮した本格的な投影ではありません。',
               style: const TextStyle(fontSize: 10, color: Colors.white38),
             ),
           ],

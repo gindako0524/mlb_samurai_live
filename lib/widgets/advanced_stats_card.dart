@@ -19,6 +19,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../services/advanced_stats_provider.dart';
 import '../services/statcast_provider.dart';
+import '../utils/stat_glossary.dart';
+
+class _Field {
+  final String label;
+  final String val;
+  final String? statKey;
+
+  const _Field(this.label, this.val, [this.statKey]);
+}
 
 class AdvancedStatsCard extends ConsumerWidget {
   final int playerId;
@@ -43,29 +52,29 @@ class AdvancedStatsCard extends ConsumerWidget {
     final asyncBatterStatcast = isPitcher ? null : ref.watch(statcastBatterLeaderboardProvider);
     final asyncWhiff = isPitcher ? ref.watch(statcastPitcherWhiffProvider) : null;
 
-    final List<MapEntry<String, String>> computed = [];
+    final List<_Field> computed = [];
     if (isPitcher) {
       final so = _num(seasonStats['strikeOuts']);
       final bb = _num(seasonStats['baseOnBalls']);
       final bf = _num(seasonStats['battersFaced']);
       if (so != null && bf != null && bf > 0) {
-        computed.add(MapEntry('K%', '${(so / bf * 100).toStringAsFixed(1)}%'));
+        computed.add(_Field('K%', '${(so / bf * 100).toStringAsFixed(1)}%', 'kPercent'));
       }
       if (bb != null && bf != null && bf > 0) {
-        computed.add(MapEntry('BB%', '${(bb / bf * 100).toStringAsFixed(1)}%'));
+        computed.add(_Field('BB%', '${(bb / bf * 100).toStringAsFixed(1)}%', 'bbPercent'));
       }
       if (so != null && bb != null && bf != null && bf > 0) {
-        computed.add(MapEntry('K-BB%', '${((so - bb) / bf * 100).toStringAsFixed(1)}%'));
+        computed.add(_Field('K-BB%', '${((so - bb) / bf * 100).toStringAsFixed(1)}%', 'kMinusBbPercent'));
       }
     } else {
       final avg = _num(seasonStats['avg']);
       final slg = _num(seasonStats['slg']);
       if (avg != null && slg != null) {
-        computed.add(MapEntry('ISO', (slg - avg).toStringAsFixed(3).replaceFirst('0.', '.')));
+        computed.add(_Field('ISO', (slg - avg).toStringAsFixed(3).replaceFirst('0.', '.'), 'iso'));
       }
       final babip = seasonStats['babip'];
       if (babip != null) {
-        computed.add(MapEntry('BABIP', babip.toString()));
+        computed.add(_Field('BABIP', babip.toString(), 'babip'));
       }
     }
 
@@ -74,7 +83,7 @@ class AdvancedStatsCard extends ConsumerWidget {
       if (isPitcher) return;
       final ops = _num(seasonStats['ops']);
       if (ops != null && league.leagueOps != null && league.leagueOps! > 0) {
-        computed.add(MapEntry('OPS+', (100 * ops / league.leagueOps!).round().toString()));
+        computed.add(_Field('OPS+', (100 * ops / league.leagueOps!).round().toString(), 'opsPlus'));
       }
     });
 
@@ -99,30 +108,30 @@ class AdvancedStatsCard extends ConsumerWidget {
               spacing: 20,
               runSpacing: 10,
               children: [
-                for (final c in computed) _MiniField(label: c.key, val: c.value),
+                for (final c in computed) _MiniField(field: c),
                 asyncAdv.when(
                   data: (adv) {
-                    final fields = <MapEntry<String, String>>[];
+                    final fields = <_Field>[];
                     if (isPitcher) {
-                      if (adv.fip != null) fields.add(MapEntry('FIP', adv.fip!.toStringAsFixed(2)));
-                      if (adv.xfip != null) fields.add(MapEntry('xFIP', adv.xfip!.toStringAsFixed(2)));
+                      if (adv.fip != null) fields.add(_Field('FIP', adv.fip!.toStringAsFixed(2), 'fip'));
+                      if (adv.xfip != null) fields.add(_Field('xFIP', adv.xfip!.toStringAsFixed(2), 'xfip'));
                       if (adv.eraMinus != null) {
-                        fields.add(MapEntry('ERA-', adv.eraMinus!.toStringAsFixed(0)));
-                        fields.add(MapEntry('ERA+', (10000 / adv.eraMinus!).round().toString()));
+                        fields.add(_Field('ERA-', adv.eraMinus!.toStringAsFixed(0), 'eraMinus'));
+                        fields.add(_Field('ERA+', (10000 / adv.eraMinus!).round().toString(), 'eraPlus'));
                       }
                     } else {
-                      if (adv.woba != null) fields.add(MapEntry('wOBA', adv.woba!.toStringAsFixed(3)));
-                      if (adv.wRc != null) fields.add(MapEntry('wRC', adv.wRc!.toStringAsFixed(1)));
-                      if (adv.wRcPlus != null) fields.add(MapEntry('wRC+', adv.wRcPlus!.toStringAsFixed(0)));
+                      if (adv.woba != null) fields.add(_Field('wOBA', adv.woba!.toStringAsFixed(3), 'woba'));
+                      if (adv.wRc != null) fields.add(_Field('wRC', adv.wRc!.toStringAsFixed(1), 'wrc'));
+                      if (adv.wRcPlus != null) fields.add(_Field('wRC+', adv.wRcPlus!.toStringAsFixed(0), 'wrcPlus'));
                     }
-                    if (adv.xba != null) fields.add(MapEntry('xBA', adv.xba!));
-                    if (adv.xslg != null) fields.add(MapEntry('xSLG', adv.xslg!));
-                    if (adv.xwoba != null) fields.add(MapEntry('xwOBA', adv.xwoba!));
+                    if (adv.xba != null) fields.add(_Field('xBA', adv.xba!, 'xba'));
+                    if (adv.xslg != null) fields.add(_Field('xSLG', adv.xslg!, 'xslg'));
+                    if (adv.xwoba != null) fields.add(_Field('xwOBA', adv.xwoba!, 'xwoba'));
                     if (fields.isEmpty) return const SizedBox.shrink();
                     return Wrap(
                       spacing: 20,
                       runSpacing: 10,
-                      children: [for (final f in fields) _MiniField(label: f.key, val: f.value)],
+                      children: [for (final f in fields) _MiniField(field: f)],
                     );
                   },
                   loading: () => const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.tealAccent)),
@@ -133,7 +142,7 @@ class AdvancedStatsCard extends ConsumerWidget {
                     data: (whiffMap) {
                       final v = whiffMap[playerId];
                       if (v == null) return const SizedBox.shrink();
-                      return _MiniField(label: 'Whiff%', val: '${v.toStringAsFixed(1)}%');
+                      return _MiniField(field: _Field('Whiff%', '${v.toStringAsFixed(1)}%', 'whiffPercent'));
                     },
                     loading: () => const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.tealAccent)),
                     error: (_, __) => const SizedBox.shrink(),
@@ -143,17 +152,27 @@ class AdvancedStatsCard extends ConsumerWidget {
                     data: (map) {
                       final row = map[playerId];
                       if (row == null) return const SizedBox.shrink();
-                      final fields = <MapEntry<String, String>>[];
-                      if (row.exitVelocityAvg != null) fields.add(MapEntry('Exit Velocity', '${row.exitVelocityAvg!.toStringAsFixed(1)} mph'));
-                      if (row.launchAngleAvg != null) fields.add(MapEntry('Launch Angle', '${row.launchAngleAvg!.toStringAsFixed(1)}°'));
-                      if (row.barrelRate != null) fields.add(MapEntry('Barrel%', '${row.barrelRate!.toStringAsFixed(1)}%'));
-                      if (row.hardHitPercent != null) fields.add(MapEntry('Hard Hit%', '${row.hardHitPercent!.toStringAsFixed(1)}%'));
-                      if (row.sprintSpeed != null) fields.add(MapEntry('Sprint Speed', '${row.sprintSpeed!.toStringAsFixed(1)} ft/s'));
+                      final fields = <_Field>[];
+                      if (row.exitVelocityAvg != null) {
+                        fields.add(_Field('Exit Velocity', '${row.exitVelocityAvg!.toStringAsFixed(1)} mph', 'exitVelocity'));
+                      }
+                      if (row.launchAngleAvg != null) {
+                        fields.add(_Field('Launch Angle', '${row.launchAngleAvg!.toStringAsFixed(1)}°', 'launchAngle'));
+                      }
+                      if (row.barrelRate != null) {
+                        fields.add(_Field('Barrel%', '${row.barrelRate!.toStringAsFixed(1)}%', 'barrelPercent'));
+                      }
+                      if (row.hardHitPercent != null) {
+                        fields.add(_Field('Hard Hit%', '${row.hardHitPercent!.toStringAsFixed(1)}%', 'hardHitPercent'));
+                      }
+                      if (row.sprintSpeed != null) {
+                        fields.add(_Field('Sprint Speed', '${row.sprintSpeed!.toStringAsFixed(1)} ft/s', 'sprintSpeed'));
+                      }
                       if (fields.isEmpty) return const SizedBox.shrink();
                       return Wrap(
                         spacing: 20,
                         runSpacing: 10,
-                        children: [for (final f in fields) _MiniField(label: f.key, val: f.value)],
+                        children: [for (final f in fields) _MiniField(field: f)],
                       );
                     },
                     loading: () => const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.tealAccent)),
@@ -163,7 +182,7 @@ class AdvancedStatsCard extends ConsumerWidget {
                   data: (map) {
                     final v = map[playerId];
                     if (v == null) return const SizedBox.shrink();
-                    return _MiniField(label: 'OAA', val: v > 0 ? '+${v.toStringAsFixed(0)}' : v.toStringAsFixed(0));
+                    return _MiniField(field: _Field('OAA', v > 0 ? '+${v.toStringAsFixed(0)}' : v.toStringAsFixed(0), 'oaa'));
                   },
                   loading: () => const SizedBox.shrink(),
                   error: (_, __) => const SizedBox.shrink(),
@@ -177,7 +196,8 @@ class AdvancedStatsCard extends ConsumerWidget {
               'OPS+は簡易版(球場補正なし、30球団合算のリーグ平均との比較)。'
               'Exit Velocity/Launch Angle/Barrel%/Hard Hit%/Sprint Speed/Whiff%/OAAは'
               'Baseball Savant公式リーダーボード(規定打席・投球回到達者のみ集計)。'
-              'UZR・DRS・BsR・CSW%は無料の公式ソースが無いため未対応です。',
+              'UZR・DRS・BsR・CSW%は無料の公式ソースが無いため未対応です。'
+              '各項目名の(ⓘ)アイコンで簡単な説明が見られます。',
               style: TextStyle(fontSize: 10, color: Colors.white38),
             ),
           ],
@@ -188,19 +208,24 @@ class AdvancedStatsCard extends ConsumerWidget {
 }
 
 class _MiniField extends StatelessWidget {
-  final String label;
-  final String val;
+  final _Field field;
 
-  const _MiniField({required this.label, required this.val});
+  const _MiniField({required this.field});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(label, style: const TextStyle(fontSize: 10, color: Colors.white54)),
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(field.label, style: const TextStyle(fontSize: 10, color: Colors.white54)),
+            StatInfoIcon(field.statKey, size: 11),
+          ],
+        ),
         const SizedBox(height: 2),
-        Text(val, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.white)),
+        Text(field.val, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.white)),
       ],
     );
   }
