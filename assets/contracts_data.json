@@ -361,6 +361,256 @@
       "startYear": 2027,
       "endYear": 2032,
       "notes": "2026年3月締結。球団オプションなし。2031・2032年に成績連動のエスカレーターがあり、条件を満たせば総額最大$133Mまで増える可能性がある。"
+    },
+    "608324": {
+      "playerName": "Alex Bregman",
+      "team": "CHC",
+      "years": 5,
+      "totalValueUsd": 175000000,
+      "aavUsd": 35000000,
+      "startYear": 2026,
+      "endYear": 2030,
+      "notes": "2026年1月にカブスと締結。オプトアウトなし、フルノートレード条項付き。総額のうち$70Mを繰延。"
+    },
+    "621043": {
+      "playerName": "Carlos Correa",
+      "team": "HOU",
+      "years": 6,
+      "totalValueUsd": 200000000,
+      "aavUsd": 33333333,
+      "startYear": 2023,
+      "endYear": 2028,
+      "notes": "2023年にツインズと締結した契約。2025年8月にアストロズへトレードされ、ツインズが一部負担する形で残りの契約をアストロズが引き継いでいる。2029〜2032年に球団オプションあり。"
+    },
+    "543760": {
+      "playerName": "Marcus Semien",
+      "team": "NYM",
+      "years": 7,
+      "totalValueUsd": 175000000,
+      "aavUsd": 25000000,
+      "startYear": 2022,
+      "endYear": 2028,
+      "notes": "2021年12月にレンジャーズと締結した契約。ブランドン・ニモとのトレードでメッツへ移籍し、残りの契約をメッツが引き継いでいる。"
+    },
+    "592332": {
+      "playerName": "Kevin Gausman",
+      "team": "CHC",
+      "years": 5,
+      "totalValueUsd": 110000000,
+      "aavUsd": 22000000,
+      "startYear": 2022,
+      "endYear": 2026,
+      "notes": "2022年にブルージェイズと締結した契約(2026年が最終年)。2026年8月のトレード期限にカブスへ移籍。"
+    },
+    "592662": {
+      "playerName": "Robbie Ray",
+      "team": "SD",
+      "years": 5,
+      "totalValueUsd": 115000000,
+      "aavUsd": 23000000,
+      "startYear": 2022,
+      "endYear": 2026,
+      "notes": "2021年にマリナーズと締結した契約(2026年が最終年)。ジャイアンツを経て2026年8月にパドレスへトレード。"
+    },
+    "622491": {
+      "playerName": "Luis Castillo",
+      "team": "CHW",
+      "years": 5,
+      "totalValueUsd": 108000000,
+      "aavUsd": 21600000,
+      "startYear": 2023,
+      "endYear": 2028,
+      "notes": "2023年にマリナーズと締結した契約。2026年8月にホワイトソックスへトレード。トレード後の保証額は2026〜2027年で約$30M(＋2028年に180イニング到達で発動する$25Mのベスティングオプション)に圧縮されている。"
+    },
+    "592206": {
+      "playerName": "Nick Castellanos",
+      "team": "SD",
+      "years": 5,
+      "totalValueUsd": 100000000,
+      "aavUsd": 20000000,
+      "startYear": 2022,
+      "endYear": 2026,
+      "notes": "2022年にフィリーズと締結した契約(2026年が最終年、総額ちょうど$100M)。2026年2月にフィリーズを戦力外となり、パドレスとMLB最低年俸に近い契約で合意。残りの年俸の大部分はフィリーズが負担している特殊なケース。"
+    },
+    "663656": {
+      "playerName": "Kyle Tucker",
+      "team": "LAD",
+      "years": 4,
+      "totalValueUsd": 240000000,
+      "aavUsd": 60000000,
+      "startYear": 2026,
+      "endYear": 2029,
+      "notes": "2026年1月締結。$64Mの契約金、2年目・3年目終了後にオプトアウト可能。年俸の一部($30M)を繰延。"
+    },
+    "607043": {
+      "playerName": "Brandon Nimmo",
+      "team": "TEX",
+      "years": 8,
+      "totalValueUsd": 162000000,
+      "aavUsd": 20250000,
+      "startYear": 2023,
+      "endYear": 2030,
+      "notes": "2022年にメッツと締結した契約。2026年にマーカス・セミエンとのトレードでレンジャーズへ移籍。"
+    },
+    "607074": {
+      "playerName": "Carlos Rodón",
+      "team": "NYY",
+      "years": 6,
+      "totalValueUsd": 162000000,
+      "aavUsd": 27000000,
+      "startYear": 2023,
+      "endYear": 2028,
+      "notes": "2022年12月締結。フルノートレード条項付き。"
+    },
+    "621244": {
+      "playerName": "José Berríos",
+      "team": "TOR",
+      "years": 7,
+      "totalValueUsd": 131000000,
+      "aavUsd": 18714286,
+      "startYear": 2023,
+      "endYear": 2029,
+      "notes": "2021年11月に延長契約を締結。"
+    },
+    "665926": {
+      "playerName": "Andrés Giménez",
+      "team": "TOR",
+      "years": 7,
+      "totalValueUsd": 106500000,
+      "aavUsd": 15214286,
+      "startYear": 2023,
+      "endYear": 2029,
+      "notes": "2023年にガーディアンズと締結した契約(2030年に球団オプションあり)。2025年にブルージェイズへトレード。"
+    },
+    "660670": {
+      "playerName": "Ronald Acuña Jr.",
+      "team": "ATL",
+      "years": 8,
+      "totalValueUsd": 100000000,
+      "aavUsd": 12500000,
+      "startYear": 2019,
+      "endYear": 2026,
+      "notes": "2019年締結。2027・2028年に球団オプション(各$17M)があり、両方行使されれば総額最大$124Mまで増える。"
+    },
+    "605397": {
+      "playerName": "Joe Musgrove",
+      "team": "SD",
+      "years": 5,
+      "totalValueUsd": 100000000,
+      "aavUsd": 20000000,
+      "startYear": 2023,
+      "endYear": 2027,
+      "notes": "2024年10月にトミー・ジョン手術を受け、2025年シーズンを全休。2026年もリハビリ中で復帰時期は不透明。"
+    },
+    "519317": {
+      "playerName": "Giancarlo Stanton",
+      "team": "NYY",
+      "years": 13,
+      "totalValueUsd": 325000000,
+      "aavUsd": 25000000,
+      "startYear": 2015,
+      "endYear": 2027,
+      "notes": "2015年にマーリンズと締結した契約。2018年にヤンキースへトレードされ、2020年シーズン終了後のオプトアウト権を行使せず残留を選択。2028年に球団オプションあり。"
+    },
+    "621020": {
+      "playerName": "Dansby Swanson",
+      "team": "CHC",
+      "years": 7,
+      "totalValueUsd": 177000000,
+      "aavUsd": 25285714,
+      "startYear": 2023,
+      "endYear": 2029,
+      "notes": "2022年12月締結。フルノートレード条項付き。"
+    },
+    "592885": {
+      "playerName": "Christian Yelich",
+      "team": "MIL",
+      "years": 9,
+      "totalValueUsd": 215000000,
+      "aavUsd": 23888889,
+      "startYear": 2020,
+      "endYear": 2028,
+      "notes": "2020年春に延長契約を締結(既存の2年分と合わせて9年総額$215M)。年俸の一部を毎年繰延、2031〜2042年に分割払い。2029年に球団・選手双方合意のオプションあり。"
+    },
+    "514888": {
+      "playerName": "José Altuve",
+      "team": "HOU",
+      "years": 5,
+      "totalValueUsd": 125000000,
+      "aavUsd": 25000000,
+      "startYear": 2025,
+      "endYear": 2029,
+      "notes": "2024年2月締結の延長契約(2018年締結の旧7年$163.5M契約の後継)。"
+    },
+    "668804": {
+      "playerName": "Bryan Reynolds",
+      "team": "PIT",
+      "years": 8,
+      "totalValueUsd": 106750000,
+      "aavUsd": 13343750,
+      "startYear": 2023,
+      "endYear": 2030,
+      "notes": "2023年4月締結。球団史上最大の契約。2031年に球団オプションあり。"
+    },
+    "621439": {
+      "playerName": "Byron Buxton",
+      "team": "MIN",
+      "years": 7,
+      "totalValueUsd": 100000000,
+      "aavUsd": 14285714,
+      "startYear": 2022,
+      "endYear": 2028,
+      "notes": "2022年締結。フルノートレード条項付き。"
+    },
+    "669257": {
+      "playerName": "Will Smith",
+      "team": "LAD",
+      "years": 10,
+      "totalValueUsd": 140000000,
+      "aavUsd": 14000000,
+      "startYear": 2024,
+      "endYear": 2033,
+      "notes": "2024年3月締結。捕手の契約総額としては歴代3位。"
+    },
+    "554430": {
+      "playerName": "Zack Wheeler",
+      "team": "PHI",
+      "years": 3,
+      "totalValueUsd": 126000000,
+      "aavUsd": 42000000,
+      "startYear": 2025,
+      "endYear": 2027,
+      "notes": "2024年3月締結の延長契約。平均年俸$42Mは契約延長として当時のMLB史上最高額。"
+    },
+    "596115": {
+      "playerName": "Trevor Story",
+      "team": "BOS",
+      "years": 6,
+      "totalValueUsd": 140000000,
+      "aavUsd": 23333333,
+      "startYear": 2022,
+      "endYear": 2028,
+      "notes": "2022年3月締結。2025年終了後のオプトアウト権を行使せず、残り2年$55Mでの残留を選択。"
+    },
+    "605400": {
+      "playerName": "Aaron Nola",
+      "team": "PHI",
+      "years": 7,
+      "totalValueUsd": 172000000,
+      "aavUsd": 24571429,
+      "startYear": 2024,
+      "endYear": 2030,
+      "notes": "2023年オフに締結。フィリーズが投手に与えた契約として球団史上最大。"
+    },
+    "808982": {
+      "playerName": "Jung Hoo Lee",
+      "team": "SF",
+      "years": 6,
+      "totalValueUsd": 113000000,
+      "aavUsd": 18833333,
+      "startYear": 2024,
+      "endYear": 2029,
+      "notes": "2023年12月締結。4年終了後にオプトアウト可能。韓国出身選手。"
     }
   }
 }
