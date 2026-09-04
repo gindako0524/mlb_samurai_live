@@ -6,6 +6,8 @@ class GameScheduleItem {
   final DateTime gameTimeJst; // 日本時間
   final String awayTeam;
   final String homeTeam;
+  final int? awayTeamId;
+  final int? homeTeamId;
   final int awayScore;
   final int homeScore;
   final String currentInning;
@@ -19,6 +21,8 @@ class GameScheduleItem {
     required this.gameTimeJst,
     required this.awayTeam,
     required this.homeTeam,
+    this.awayTeamId,
+    this.homeTeamId,
     required this.awayScore,
     required this.homeScore,
     required this.currentInning,

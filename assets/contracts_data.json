@@ -1,0 +1,346 @@
+{
+  "updated_at": "2026-09-04",
+  "note": "MLB公式APIには契約金・契約年数のデータが存在しないため、公開報道をもとに手動でまとめたデータです。自動更新はされません。金額はUSD。数値は目安としてご利用ください。選手IDはMLB公式APIで現在の所属球団と突き合わせて確認済みですが、契約条件（オプション等）は変動している可能性があります。",
+  "contracts": {
+    "660271": {
+      "playerName": "Shohei Ohtani",
+      "team": "LAD",
+      "years": 10,
+      "totalValueUsd": 700000000,
+      "aavUsd": 70000000,
+      "startYear": 2024,
+      "endYear": 2033,
+      "notes": "契約総額の大部分（約$680M）を2034年以降に無利子で後払いする「繰延契約」構造。実質年俸価値はAAVより大幅に低いとされる。"
+    },
+    "808967": {
+      "playerName": "Yoshinobu Yamamoto",
+      "team": "LAD",
+      "years": 12,
+      "totalValueUsd": 325000000,
+      "aavUsd": 27083333,
+      "startYear": 2024,
+      "endYear": 2035,
+      "notes": null
+    },
+    "665742": {
+      "playerName": "Juan Soto",
+      "team": "NYM",
+      "years": 15,
+      "totalValueUsd": 765000000,
+      "aavUsd": 51000000,
+      "startYear": 2025,
+      "endYear": 2039,
+      "notes": null
+    },
+    "545361": {
+      "playerName": "Mike Trout",
+      "team": "LAA",
+      "years": 12,
+      "totalValueUsd": 426500000,
+      "aavUsd": 35541667,
+      "startYear": 2019,
+      "endYear": 2030,
+      "notes": "2019年に延長契約を締結。"
+    },
+    "605141": {
+      "playerName": "Mookie Betts",
+      "team": "LAD",
+      "years": 12,
+      "totalValueUsd": 365000000,
+      "aavUsd": 30416667,
+      "startYear": 2021,
+      "endYear": 2032,
+      "notes": null
+    },
+    "592450": {
+      "playerName": "Aaron Judge",
+      "team": "NYY",
+      "years": 9,
+      "totalValueUsd": 360000000,
+      "aavUsd": 40000000,
+      "startYear": 2023,
+      "endYear": 2031,
+      "notes": null
+    },
+    "592518": {
+      "playerName": "Manny Machado",
+      "team": "SD",
+      "years": 11,
+      "totalValueUsd": 350000000,
+      "aavUsd": 31818182,
+      "startYear": 2023,
+      "endYear": 2033,
+      "notes": "2023年に延長契約を締結。"
+    },
+    "665487": {
+      "playerName": "Fernando Tatis Jr.",
+      "team": "SD",
+      "years": 14,
+      "totalValueUsd": 340000000,
+      "aavUsd": 24285714,
+      "startYear": 2021,
+      "endYear": 2034,
+      "notes": null
+    },
+    "596019": {
+      "playerName": "Francisco Lindor",
+      "team": "NYM",
+      "years": 10,
+      "totalValueUsd": 341000000,
+      "aavUsd": 34100000,
+      "startYear": 2022,
+      "endYear": 2031,
+      "notes": null
+    },
+    "646240": {
+      "playerName": "Rafael Devers",
+      "team": "SF",
+      "years": 11,
+      "totalValueUsd": 313500000,
+      "aavUsd": 28500000,
+      "startYear": 2023,
+      "endYear": 2033,
+      "notes": "2023年にレッドソックスと締結した契約。2025年にジャイアンツへトレードされ、残りの契約はジャイアンツが引き継いでいる。"
+    },
+    "608369": {
+      "playerName": "Corey Seager",
+      "team": "TEX",
+      "years": 10,
+      "totalValueUsd": 325000000,
+      "aavUsd": 32500000,
+      "startYear": 2022,
+      "endYear": 2031,
+      "notes": null
+    },
+    "543037": {
+      "playerName": "Gerrit Cole",
+      "team": "NYY",
+      "years": 9,
+      "totalValueUsd": 324000000,
+      "aavUsd": 36000000,
+      "startYear": 2020,
+      "endYear": 2028,
+      "notes": null
+    },
+    "607208": {
+      "playerName": "Trea Turner",
+      "team": "PHI",
+      "years": 11,
+      "totalValueUsd": 300000000,
+      "aavUsd": 27272727,
+      "startYear": 2023,
+      "endYear": 2033,
+      "notes": null
+    },
+    "547180": {
+      "playerName": "Bryce Harper",
+      "team": "PHI",
+      "years": 13,
+      "totalValueUsd": 330000000,
+      "aavUsd": 25384615,
+      "startYear": 2019,
+      "endYear": 2031,
+      "notes": null
+    },
+    "593428": {
+      "playerName": "Xander Bogaerts",
+      "team": "SD",
+      "years": 11,
+      "totalValueUsd": 280000000,
+      "aavUsd": 25454545,
+      "startYear": 2023,
+      "endYear": 2033,
+      "notes": null
+    },
+    "543685": {
+      "playerName": "Anthony Rendon",
+      "team": "LAA",
+      "years": 7,
+      "totalValueUsd": 245000000,
+      "aavUsd": 35000000,
+      "startYear": 2020,
+      "endYear": 2026,
+      "notes": null
+    },
+    "544931": {
+      "playerName": "Stephen Strasburg",
+      "team": "WSH",
+      "years": 7,
+      "totalValueUsd": 245000000,
+      "aavUsd": 35000000,
+      "startYear": 2020,
+      "endYear": 2026,
+      "notes": "度重なる故障により引退表明済みだが、契約自体は保険適用等の扱いを含めて残存している。"
+    },
+    "663586": {
+      "playerName": "Austin Riley",
+      "team": "ATL",
+      "years": 10,
+      "totalValueUsd": 212000000,
+      "aavUsd": 21200000,
+      "startYear": 2022,
+      "endYear": 2031,
+      "notes": null
+    },
+    "605483": {
+      "playerName": "Blake Snell",
+      "team": "LAD",
+      "years": 5,
+      "totalValueUsd": 182000000,
+      "aavUsd": 36400000,
+      "startYear": 2024,
+      "endYear": 2028,
+      "notes": null
+    },
+    "642715": {
+      "playerName": "Willy Adames",
+      "team": "SF",
+      "years": 7,
+      "totalValueUsd": 182000000,
+      "aavUsd": 26000000,
+      "startYear": 2025,
+      "endYear": 2031,
+      "notes": null
+    },
+    "594798": {
+      "playerName": "Jacob deGrom",
+      "team": "TEX",
+      "years": 5,
+      "totalValueUsd": 185000000,
+      "aavUsd": 37000000,
+      "startYear": 2023,
+      "endYear": 2027,
+      "notes": null
+    },
+    "621566": {
+      "playerName": "Matt Olson",
+      "team": "ATL",
+      "years": 8,
+      "totalValueUsd": 168000000,
+      "aavUsd": 21000000,
+      "startYear": 2022,
+      "endYear": 2029,
+      "notes": null
+    },
+    "518692": {
+      "playerName": "Freddie Freeman",
+      "team": "LAD",
+      "years": 6,
+      "totalValueUsd": 162000000,
+      "aavUsd": 27000000,
+      "startYear": 2022,
+      "endYear": 2027,
+      "notes": null
+    },
+    "677951": {
+      "playerName": "Bobby Witt Jr.",
+      "team": "KC",
+      "years": 11,
+      "totalValueUsd": 288750000,
+      "aavUsd": 26250000,
+      "startYear": 2024,
+      "endYear": 2034,
+      "notes": null
+    },
+    "665489": {
+      "playerName": "Vladimir Guerrero Jr.",
+      "team": "TOR",
+      "years": 14,
+      "totalValueUsd": 500000000,
+      "aavUsd": 35714286,
+      "startYear": 2025,
+      "endYear": 2038,
+      "notes": "2025年に球団史上最大規模の延長契約を締結。開始年・終了年は目安で、正確な契約年数は要確認。"
+    },
+    "670541": {
+      "playerName": "Yordan Alvarez",
+      "team": "HOU",
+      "years": 6,
+      "totalValueUsd": 115000000,
+      "aavUsd": 19166667,
+      "startYear": 2023,
+      "endYear": 2028,
+      "notes": null
+    },
+    "677594": {
+      "playerName": "Julio Rodríguez",
+      "team": "SEA",
+      "years": 7,
+      "totalValueUsd": 209300000,
+      "aavUsd": 29900000,
+      "startYear": 2022,
+      "endYear": 2028,
+      "notes": "保証分は7年$209.3M。球団オプションが行使されれば最大12年・総額約$470Mまで延びる可能性がある。"
+    },
+    "682998": {
+      "playerName": "Corbin Carroll",
+      "team": "ARI",
+      "years": 8,
+      "totalValueUsd": 111000000,
+      "aavUsd": 13875000,
+      "startYear": 2023,
+      "endYear": 2030,
+      "notes": null
+    },
+    "506433": {
+      "playerName": "Yu Darvish",
+      "team": "SD",
+      "years": 6,
+      "totalValueUsd": 108000000,
+      "aavUsd": 18000000,
+      "startYear": 2021,
+      "endYear": 2026,
+      "notes": "2023年に契約延長された可能性があり、現在の正確な契約年数・総額は要確認。"
+    },
+    "669203": {
+      "playerName": "Corbin Burnes",
+      "team": "ARI",
+      "years": 6,
+      "totalValueUsd": 210000000,
+      "aavUsd": 35000000,
+      "startYear": 2025,
+      "endYear": 2030,
+      "notes": null
+    },
+    "608331": {
+      "playerName": "Max Fried",
+      "team": "NYY",
+      "years": 8,
+      "totalValueUsd": 218000000,
+      "aavUsd": 27250000,
+      "startYear": 2025,
+      "endYear": 2032,
+      "notes": null
+    },
+    "607192": {
+      "playerName": "Tyler Glasnow",
+      "team": "LAD",
+      "years": 5,
+      "totalValueUsd": 136500000,
+      "aavUsd": 27300000,
+      "startYear": 2024,
+      "endYear": 2028,
+      "notes": null
+    },
+    "543807": {
+      "playerName": "George Springer",
+      "team": "TOR",
+      "years": 6,
+      "totalValueUsd": 150000000,
+      "aavUsd": 25000000,
+      "startYear": 2021,
+      "endYear": 2026,
+      "notes": null
+    },
+    "592178": {
+      "playerName": "Kris Bryant",
+      "team": "COL",
+      "years": 7,
+      "totalValueUsd": 182000000,
+      "aavUsd": 26000000,
+      "startYear": 2022,
+      "endYear": 2028,
+      "notes": null
+    }
+  }
+}

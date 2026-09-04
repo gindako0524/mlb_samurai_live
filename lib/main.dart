@@ -6,6 +6,9 @@ import 'models/schedule.dart';
 import 'views/schedule_view.dart';
 import 'views/live_view.dart';
 import 'views/stats_view.dart';
+import 'views/ranking_view.dart';
+import 'views/standings_view.dart';
+import 'views/vs_matchup_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -66,6 +69,9 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
         initialGame: _selectedGame,
       ),
       const StatsView(),
+      const RankingView(),
+      const StandingsView(),
+      const VsMatchupView(),
     ];
 
     return Scaffold(
@@ -89,6 +95,18 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
           NavigationDestination(
             icon: Icon(Icons.analytics),
             label: '詳細スタッツ',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.leaderboard),
+            label: 'ランキング',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.scoreboard),
+            label: '順位表',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.compare_arrows),
+            label: 'VS',
           ),
         ],
       ),

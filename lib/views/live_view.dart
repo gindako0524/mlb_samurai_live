@@ -2,392 +2,788 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/player.dart';
-import '../models/schedule.dart';
-import '../services/mlb_api_service.dart';
 import '../services/schedule_provider.dart';
-import '../widgets/strike_zone.dart';
-import '../widgets/inning_pitch_meter.dart';
+import '../utils/jst_time.dart';
+import '../services/head_to_head_service.dart';
+import '../widgets/player_picker_sheet.dart';
+import '../services/pinned_players_provider.dart';
+import '../services/language_provider.dart';
+import '../widgets/language_toggle_button.dart';
+import '../utils/mlb_translations.dart';
+import '../widgets/pitch_log_widget.dart';
+import '../utils/live_stat_calc.dart';
+import '../utils/base_out_state.dart';
+import 'game_detail_view.dart';
 
 class LiveView extends ConsumerStatefulWidget {
+  final dynamic initialGame;
   final JapanesePlayer? initialPlayer;
-  final GameScheduleItem? initialGame;
 
-  const LiveView({super.key, this.initialPlayer, this.initialGame});
+  const LiveView({super.key, this.initialGame, this.initialPlayer});
 
   @override
   ConsumerState<LiveView> createState() => _LiveViewState();
 }
 
 class _LiveViewState extends ConsumerState<LiveView> {
-  Timer? _timer;
-  bool _isLoading = false;
-  bool _useDemoMode = false; // 試合がない時間用のデモ切替フラグ
+  late int _selectedPlayerIndex;
+  Timer? _pollingTimer;
 
-  // 画面表示用ステート
-  String _matchupHeader = '対戦カード読込中...';
-  String _inningCountText = '-';
-  String _currentBatter = '打者: -';
-  String _countText = 'カウント: -';
-  String _liveEra = '-';
-  String _eraDiff = '';
-  String _todaySummary = '-';
-  
-  List<PitchData> _currentPitches = [];
-  List<InningPitchData> _innings = [];
+  Map<String, dynamic>? _liveGameData;
+  bool _isLoading = false;
+  String? _errorMessage;
+  // ★ 投手セクションの「○回: ○球」チップで選んだイニングに絞り込むためのフィルター（nullなら全イニング）
+  int? _selectedInning;
+  // ★ 投手が現在追跡中の選手の場合の「試合開始前」防御率ベースライン（シーズン成績−今日の分）
+  Map<String, dynamic>? _pitcherEraBaseline;
+  int? _pitcherEraBaselineForId;
 
   @override
   void initState() {
     super.initState();
-    _fetchLiveData();
-    // 10秒ごとにMLB APIを自動ポーリング
-    _timer = Timer.periodic(const Duration(seconds: 10), (_) => _fetchLiveData());
+    if (widget.initialPlayer != null) {
+      final idx = japanesePlayers.indexWhere((p) => p.id == widget.initialPlayer!.id);
+      _selectedPlayerIndex = idx != -1 ? idx : 0;
+    } else {
+      _selectedPlayerIndex = 0;
+    }
+
+    _fetchLiveGame();
+    _pollingTimer = Timer.periodic(const Duration(seconds: 15), (_) => _fetchLiveGame(isAutoRefresh: true));
   }
 
   @override
   void dispose() {
-    _timer?.cancel();
+    _pollingTimer?.cancel();
     super.dispose();
   }
 
-  // MLB公式APIから最新の投球・カウント・スタッツを抽出
-  Future<void> _fetchLiveData() async {
-    if (_useDemoMode) {
-      _loadDemoData();
-      return;
+  Future<void> _fetchLiveGame({bool isAutoRefresh = false}) async {
+    if (!isAutoRefresh) {
+      setState(() {
+        _isLoading = true;
+        _errorMessage = null;
+      });
     }
 
-    final gamePk = widget.initialGame?.gamePk;
-    if (gamePk == null) {
-      // 試合が未選択の場合は自動でデモモードへフォールバック
-      _loadDemoData();
-      return;
-    }
-
-    setState(() => _isLoading = true);
+    final targetPlayer = japanesePlayers[_selectedPlayerIndex];
 
     try {
       final api = ref.read(apiServiceProvider);
-      final liveData = await api.getLiveGameFeed(gamePk);
+      final schedule = await api.getTodaySchedule();
+      final dates = schedule['dates'] as List<dynamic>? ?? [];
 
-      final gameData = liveData['gameData'] as Map<String, dynamic>?;
-      final liveFeed = liveData['liveData'] as Map<String, dynamic>?;
-      final linescore = liveFeed?['linescore'] as Map<String, dynamic>?;
-      final plays = liveFeed?['plays'] as Map<String, dynamic>?;
-      final currentPlay = plays?['currentPlay'] as Map<String, dynamic>?;
-
-      // 1. スコア・イニング情報
-      final awayTeam = gameData?['teams']?['away']?['name'] ?? 'Away';
-      final homeTeam = gameData?['teams']?['home']?['name'] ?? 'Home';
-      final awayScore = linescore?['teams']?['away']?['runs'] ?? 0;
-      final homeScore = linescore?['teams']?['home']?['runs'] ?? 0;
-      final inningHalf = linescore?['isTopInning'] == true ? '表' : '裏';
-      final inningNum = linescore?['currentInning'] ?? 1;
-      final outs = linescore?['outs'] ?? 0;
-
-      _matchupHeader = '$awayTeam $awayScore - $homeScore $homeTeam';
-      _inningCountText = '$inningNum回$inningHalf $outsアウト';
-
-      // 2. 打者・カウント情報
-      final batterName = currentPlay?['matchup']?['batter']?['fullName'] ?? '打者';
-      final balls = currentPlay?['count']?['balls'] ?? 0;
-      final strikes = currentPlay?['count']?['strikes'] ?? 0;
-      _currentBatter = '打者: $batterName';
-      _countText = 'B:$balls S:$strikes ($outsアウト)';
-
-      // 3. 現在の打席の配球（9分割プロット用）
-      final playEvents = currentPlay?['playEvents'] as List<dynamic>? ?? [];
-      List<PitchData> parsedPitches = [];
-      int pitchIdx = 1;
-
-      for (final event in playEvents) {
-        if (event['isPitch'] == true) {
-          final pitchData = event['pitchData'] as Map<String, dynamic>?;
-          final coords = pitchData?['coordinates'] as Map<String, dynamic>?;
-          final details = event['details'] as Map<String, dynamic>?;
-
-          final px = (coords?['pX'] as num?)?.toDouble() ?? 0.0;
-          final pz = (coords?['pZ'] as num?)?.toDouble() ?? 2.5;
-          final mph = (pitchData?['startSpeed'] as num?)?.toDouble() ?? 90.0;
-          final kmh = mph * 1.60934; // km/h 変換
-
-          parsedPitches.add(PitchData(
-            pitchNumber: pitchIdx++,
-            pitchName: details?['type']?['description'] ?? '球種不明',
-            speedKmh: kmh,
-            x: px,
-            y: pz,
-            callResult: details?['description'] ?? '',
-          ));
-        }
-      }
-
-      // 4. イニング別球数メーターの集計
-      final allPlays = plays?['allPlays'] as List<dynamic>? ?? [];
-      Map<int, int> pitchPerInning = {};
-      for (final p in allPlays) {
-        final inn = (p['about']?['inning'] as num?)?.toInt() ?? 1;
-        final events = p['playEvents'] as List<dynamic>? ?? [];
-        for (final e in events) {
-          if (e['isPitch'] == true) {
-            pitchPerInning[inn] = (pitchPerInning[inn] ?? 0) + 1;
+      // ★ 対象チームが関わる試合を「全部」集める（前後3日=7日間の範囲全て）
+      final List<Map<String, dynamic>> matchedGames = [];
+      for (final d in dates) {
+        final games = d['games'] as List<dynamic>? ?? [];
+        for (final g in games) {
+          final awayId = g['teams']?['away']?['team']?['id'];
+          final homeId = g['teams']?['home']?['team']?['id'];
+          if (awayId == targetPlayer.teamId || homeId == targetPlayer.teamId) {
+            matchedGames.add(g as Map<String, dynamic>);
           }
         }
       }
 
-      List<InningPitchData> parsedInnings = [];
-      pitchPerInning.forEach((inn, count) {
-        parsedInnings.add(InningPitchData(
-          inning: inn,
-          pitchCount: count,
-          isCurrent: inn == inningNum,
-        ));
-      });
+      int? gamePk;
+      if (matchedGames.isNotEmpty) {
+        final now = nowJst();
 
-      // 5. ボックススコアから日本人投手の成績抽出
-      final boxscore = liveFeed?['boxscore'] as Map<String, dynamic>?;
-      final targetPlayerId = widget.initialPlayer?.id ?? 808967; // デフォルト山本由伸
-      final pitcherStats = _findPitcherStats(boxscore, targetPlayerId);
+        // ★ Live状態の試合を最優先。それが無ければ「現在時刻に一番近い試合」を選ぶ
+        matchedGames.sort((a, b) {
+          final aState = a['status']?['abstractGameState']?.toString();
+          final bState = b['status']?['abstractGameState']?.toString();
+          if (aState == 'Live' && bState != 'Live') return -1;
+          if (bState == 'Live' && aState != 'Live') return 1;
 
-      if (mounted) {
+          final aDate = parseToJst(a['gameDate'].toString());
+          final bDate = parseToJst(b['gameDate'].toString());
+          final aDiff = aDate.difference(now).abs();
+          final bDiff = bDate.difference(now).abs();
+          return aDiff.compareTo(bDiff);
+        });
+
+        gamePk = matchedGames.first['gamePk'] as int?;
+      }
+
+      if (gamePk != null) {
+        final feed = await api.getLiveGameFeed(gamePk);
+        if (mounted) {
+          setState(() {
+            _liveGameData = feed;
+            _isLoading = false;
+          });
+        }
+        if (targetPlayer.isPitcher) {
+          _fetchPitcherEraBaseline(targetPlayer, feed);
+        }
+      } else {
+        if (mounted) {
+          setState(() {
+            _liveGameData = null;
+            _isLoading = false;
+          });
+        }
+      }
+    } catch (e) {
+      if (mounted && !isAutoRefresh) {
         setState(() {
-          _currentPitches = parsedPitches;
-          _innings = parsedInnings.isNotEmpty ? parsedInnings : _innings;
-          if (pitcherStats != null) {
-            _liveEra = pitcherStats['era'] ?? '2.15';
-            _todaySummary = '本日: ${pitcherStats['ip']}回 ${pitcherStats['np']}球 被安打${pitcherStats['h']} 奪三振${pitcherStats['k']} 自責点${pitcherStats['er']}';
-          }
+          _errorMessage = 'データ取得エラー: $e';
           _isLoading = false;
         });
       }
-    } catch (e) {
-      if (mounted) {
-        setState(() => _isLoading = false);
-      }
     }
   }
 
-  Map<String, String>? _findPitcherStats(Map<String, dynamic>? boxscore, int playerId) {
-    if (boxscore == null) return null;
-    final teams = ['away', 'home'];
-    for (final t in teams) {
-      final pitchers = boxscore['teams']?[t]?['pitchers'] as List<dynamic>? ?? [];
-      if (pitchers.contains(playerId)) {
-        final pData = boxscore['teams']?[t]?['players']?['ID$playerId']?['stats']?['pitching'];
-        if (pData != null) {
-          return {
-            'ip': pData['inningsPitched']?.toString() ?? '0.0',
-            'np': pData['numberOfPitches']?.toString() ?? '0',
-            'h': pData['hits']?.toString() ?? '0',
-            'k': pData['strikeOuts']?.toString() ?? '0',
-            'er': pData['earnedRuns']?.toString() ?? '0',
-            'era': pData['era']?.toString() ?? '2.15',
-          };
+  // ★ 追跡中の投手について、防御率のリアルタイム計算に使う「試合開始前」の
+  //   ベースラインを取得する（シーズン成績は取得時点で今日の分を含んでいるため、
+  //   boxscoreの今日ここまでの成績を差し引いて真の試合開始前の値に補正する）
+  Future<void> _fetchPitcherEraBaseline(JapanesePlayer player, Map<String, dynamic> feed) async {
+    try {
+      final api = ref.read(apiServiceProvider);
+      final seasonData = await api.getBulkPlayerSeasonStats([player.id], 'pitching');
+      final people = seasonData['people'] as List<dynamic>? ?? [];
+      if (people.isEmpty) return;
+      final statsList = people[0]['stats'] as List<dynamic>? ?? [];
+      if (statsList.isEmpty) return;
+      final splits = statsList[0]['splits'] as List<dynamic>? ?? [];
+      if (splits.isEmpty) return;
+      final seasonStat = splits[0]['stat'] as Map<String, dynamic>?;
+      if (seasonStat == null) return;
+
+      Map<String, dynamic>? gameStat;
+      final teams = feed['liveData']?['boxscore']?['teams'] as Map<String, dynamic>?;
+      if (teams != null) {
+        for (final side in ['away', 'home']) {
+          final p = teams[side]?['players']?['ID${player.id}'] as Map<String, dynamic>?;
+          final stat = p?['stats']?['pitching'] as Map<String, dynamic>?;
+          if (stat != null) {
+            gameStat = stat;
+            break;
+          }
         }
       }
+
+      final baseline = subtractPitchingStat(seasonStat, gameStat);
+      if (mounted) {
+        setState(() {
+          _pitcherEraBaseline = baseline;
+          _pitcherEraBaselineForId = player.id;
+        });
+      }
+    } catch (_) {
+      // 取得に失敗しても致命的ではない（防御率表示を省略するだけ）
     }
-    return null;
   }
 
-  void _loadDemoData() {
-    setState(() {
-      _matchupHeader = 'パドレス 1 - 3 ドジャース';
-      _inningCountText = '6回表 2アウト (走者1塁)';
-      _currentBatter = '打者: 3番 タティスJr. (右打)';
-      _countText = 'B:2 S:2 (5球目)';
-      _liveEra = '2.15';
-      _eraDiff = '(-0.15)';
-      _todaySummary = '本日: 5.2回 84球 被安打3 奪三振8 自責点1';
-      _currentPitches = const [
-        PitchData(pitchNumber: 1, pitchName: '4-Seam Fastball', speedKmh: 157.8, x: -0.4, y: 3.2, callResult: 'ボール'),
-        PitchData(pitchNumber: 2, pitchName: 'Curveball', speedKmh: 125.4, x: 0.3, y: 1.8, callResult: '見逃しストライク'),
-        PitchData(pitchNumber: 3, pitchName: 'Splitter', speedKmh: 146.2, x: 0.1, y: 1.2, callResult: '空振りストライク'),
-        PitchData(pitchNumber: 4, pitchName: '4-Seam Fastball', speedKmh: 158.5, x: 0.6, y: 2.8, callResult: 'ファウル'),
-        PitchData(pitchNumber: 5, pitchName: 'Splitter', speedKmh: 147.0, x: -0.2, y: 0.9, callResult: '空振り三振！'),
-      ];
-      _innings = const [
-        InningPitchData(inning: 1, pitchCount: 12),
-        InningPitchData(inning: 2, pitchCount: 19),
-        InningPitchData(inning: 3, pitchCount: 11),
-        InningPitchData(inning: 4, pitchCount: 14),
-        InningPitchData(inning: 5, pitchCount: 13),
-        InningPitchData(inning: 6, pitchCount: 15, isCurrent: true),
-      ];
-      _isLoading = false;
-    });
+  // ★ 選手選択をボトムシートで開く（スマホでの操作性向上のため横スクロールチップから変更）
+  Future<void> _openPlayerPicker() async {
+    final currentId = japanesePlayers[_selectedPlayerIndex].id;
+    final selected = await showPlayerPickerSheet(
+      context,
+      candidates: japanesePlayers,
+      currentPlayerId: currentId,
+    );
+
+    if (selected != null && selected.id != currentId) {
+      setState(() {
+        _selectedPlayerIndex = japanesePlayers.indexWhere((p) => p.id == selected.id);
+        _liveGameData = null;
+        _selectedInning = null;
+      });
+      _fetchLiveGame();
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    final playerName = widget.initialPlayer?.nameJa ?? '山本 由伸';
-    final teamName = widget.initialPlayer?.teamName ?? 'LAD';
+    final player = japanesePlayers[_selectedPlayerIndex];
 
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          children: [
-            const CircleAvatar(radius: 4, backgroundColor: Colors.redAccent),
-            const SizedBox(width: 8),
-            Text('$playerName ライブ観戦', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-          ],
-        ),
+        title: const Text('リアルタイム速報 & Statcast', style: TextStyle(fontWeight: FontWeight.bold)),
         actions: [
-          // デモ/本番切り替えスイッチ（試合がない時間用）
-          Row(
-            children: [
-              Text(_useDemoMode ? 'デモ' : 'API連動', style: const TextStyle(fontSize: 11, color: Colors.white70)),
-              Switch(
-                value: _useDemoMode,
-                onChanged: (val) {
-                  setState(() => _useDemoMode = val);
-                  _fetchLiveData();
-                },
-              ),
-            ],
-          ),
+          const LanguageToggleButton(),
           IconButton(
-            icon: _isLoading
-                ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2))
-                : const Icon(Icons.refresh),
-            onPressed: _fetchLiveData,
+            icon: const Icon(Icons.refresh),
+            onPressed: () => _fetchLiveGame(),
           ),
         ],
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(12),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // 1. ヘッダー：対戦カード & リアルタイム防御率
-            Card(
-              color: const Color(0xFF1E1E2C),
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: InkWell(
+              borderRadius: BorderRadius.circular(10),
+              onTap: _openPlayerPicker,
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF1E1E2C),
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: Colors.blueAccent.withAlpha(80)),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(Icons.person, size: 18, color: Colors.blueAccent),
+                        const SizedBox(width: 8),
+                        Text(
+                          '${japanesePlayers[_selectedPlayerIndex].nameJa} (${japanesePlayers[_selectedPlayerIndex].teamName})',
+                          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14, color: Colors.blueAccent),
+                        ),
+                        if (ref.watch(pinnedPlayersProvider).contains(japanesePlayers[_selectedPlayerIndex].id)) ...[
+                          const SizedBox(width: 6),
+                          const Icon(Icons.push_pin, size: 14, color: Colors.amberAccent),
+                        ],
+                      ],
+                    ),
+                    const Icon(Icons.unfold_more, size: 20, color: Colors.white54),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Expanded(
+            child: _isLoading
+                ? const Center(child: CircularProgressIndicator())
+                : _errorMessage != null
+                    ? Center(child: Text(_errorMessage!, style: const TextStyle(color: Colors.redAccent)))
+                    : _liveGameData == null
+                        ? _buildNoGameView(player)
+                        : _buildLiveContent(player, ref.watch(appLanguageProvider)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildNoGameView(JapanesePlayer player) {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(player.isPitcher ? Icons.sports_baseball : Icons.sports_cricket, size: 64, color: Colors.white24),
+          const SizedBox(height: 16),
+          Text('${player.nameJa} の本日開催試合はありません', style: const TextStyle(fontSize: 16, color: Colors.white70)),
+          const SizedBox(height: 8),
+          const Text('試合日程タブで次回登板・出場予定をご確認ください', style: TextStyle(fontSize: 12, color: Colors.white38)),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildLiveContent(JapanesePlayer player, AppLanguage lang) {
+    final gameData = _liveGameData?['gameData'];
+    final liveData = _liveGameData?['liveData'];
+
+    final status = gameData?['status']?['detailedState'] ?? '不明';
+    final linescore = liveData?['linescore'] as Map<String, dynamic>? ?? {};
+
+    // ★ イニング情報が実際に存在する場合のみ「currentInning + 表/裏」を組み立てる
+    final rawInning = linescore['currentInningOrdinal'];
+    final String inningStatusText;
+    if (rawInning != null) {
+      final inningHalf = translateHalf(linescore['isTopInning'] == true, lang);
+      inningStatusText = '$rawInning $inningHalf - $status';
+    } else {
+      inningStatusText = status; // 試合前・試合終了直後などはステータスのみ表示
+    }
+
+    final plays = liveData?['plays']?['allPlays'] as List<dynamic>? ?? [];
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Card(
+            color: const Color(0xFF1E1E2C),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            child: Padding(
+              padding: const EdgeInsets.all(14),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(inningStatusText, style: const TextStyle(color: Colors.amberAccent, fontWeight: FontWeight.bold, fontSize: 13)),
+                      const SizedBox(height: 4),
+                      Text(
+                        '${gameData?['teams']?['away']?['name']} vs ${gameData?['teams']?['home']?['name']}',
+                        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                      ),
+                    ],
+                  ),
+                  if (status == 'In Progress' || status == 'Manager challenge' || status == 'Warmup')
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                      decoration: BoxDecoration(color: Colors.redAccent.withAlpha(50), borderRadius: BorderRadius.circular(8)),
+                      child: Row(
+                        children: const [
+                          Icon(Icons.fiber_manual_record, color: Colors.redAccent, size: 12),
+                          SizedBox(width: 4),
+                          Text('LIVE', style: TextStyle(color: Colors.redAccent, fontWeight: FontWeight.bold, fontSize: 11)),
+                        ],
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ),
+          if (_liveGameData?['gamePk'] != null) ...[
+            const SizedBox(height: 8),
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => GameDetailView(
+                        gamePk: _liveGameData!['gamePk'] as int,
+                        awayTeam: gameData?['teams']?['away']?['name']?.toString() ?? '',
+                        homeTeam: gameData?['teams']?['home']?['name']?.toString() ?? '',
+                      ),
+                    ),
+                  );
+                },
+                icon: const Icon(Icons.list_alt, size: 18),
+                label: const Text('試合全体のリアルタイム結果・スタメンを見る'),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.blueAccent,
+                  side: const BorderSide(color: Colors.blueAccent),
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                ),
+              ),
+            ),
+          ],
+          const SizedBox(height: 16),
+          if (player.isPitcher) ...[
+            _buildPitcherLiveSection(player, plays, lang),
+          ] else ...[
+            _buildBatterLiveSection(player, plays, lang),
+          ],
+        ],
+      ),
+    );
+  }
+
+  // 投手向けセクション
+  Widget _buildPitcherLiveSection(JapanesePlayer player, List<dynamic> plays, AppLanguage lang) {
+    int pitchCount = 0;
+    Map<int, int> inningPitches = {};
+    List<Map<String, dynamic>> matchups = [];
+
+    // ★ この打者との対戦が終わった直後の防御率をその場で再現するため、
+    //   時系列順に投球回・自責点を積み上げる（試合開始前ベースラインと合算）
+    final pitcherState = RunningPitcherState();
+    int outsInHalfInning = 0;
+    int? trackedInning;
+    bool? trackedIsTop;
+    final hasEraBaseline = _pitcherEraBaseline != null && _pitcherEraBaselineForId == player.id;
+    final baseOutStates = computeBaseOutStates(plays);
+    int hitsAllowed = 0;
+    int strikeoutsRecorded = 0;
+    int runsAllowed = 0;
+
+    for (final play in plays) {
+      final pitcherId = play['matchup']?['pitcher']?['id'];
+      if (pitcherId == player.id) {
+        final inning = play['about']?['inning'] as int? ?? 1;
+        final isTop = play['about']?['isTopInning'] == true;
+        if (inning != trackedInning || isTop != trackedIsTop) {
+          outsInHalfInning = 0;
+          trackedInning = inning;
+          trackedIsTop = isTop;
+        }
+        final outsAfter = (play['count']?['outs'] as num?)?.toInt() ?? outsInHalfInning;
+        final outsGained = (outsAfter - outsInHalfInning).clamp(0, 3);
+        outsInHalfInning = outsAfter;
+        pitcherState.outs += outsGained;
+        pitcherState.earnedRuns += countEarnedRunsInPlay(play);
+        runsAllowed += countRunsInPlay(play);
+
+        final rawEvent = play['result']?['event']?.toString() ?? '';
+        if (rawEvent == 'Single' || rawEvent == 'Double' || rawEvent == 'Triple' || rawEvent == 'Home Run') {
+          hitsAllowed++;
+        }
+        if (rawEvent.startsWith('Strikeout')) {
+          strikeoutsRecorded++;
+        }
+
+        final half = translateHalf(isTop, lang);
+        final opponentName = play['matchup']?['batter']?['fullName']?.toString() ?? '相手打者';
+        final opponentId = play['matchup']?['batter']?['id'] as int?;
+        final resultDesc = translateAtBatResult(
+          play['result']?['description']?.toString(),
+          play['result']?['event']?.toString(),
+          lang,
+        );
+        final playEvents = play['playEvents'] as List<dynamic>? ?? [];
+        final pitches = extractPitchDetails(playEvents, lang);
+        final liveEra = hasEraBaseline ? computeLiveEra(_pitcherEraBaseline, pitcherState.toStatMap()) : null;
+        final atBatIndex = play['about']?['atBatIndex'] as int?;
+
+        for (final _ in pitches) {
+          pitchCount++;
+          inningPitches[inning] = (inningPitches[inning] ?? 0) + 1;
+        }
+
+        matchups.add({
+          'seq': matchups.length + 1,
+          'inning': inning,
+          'half': half,
+          'opponent': opponentName,
+          'opponentId': opponentId,
+          'result': resultDesc,
+          'pitches': pitches,
+          'liveEra': liveEra,
+          'baseOutState': atBatIndex != null ? baseOutStates[atBatIndex] : null,
+        });
+      }
+    }
+
+    // ★ 最新の打者との対戦が一番上に来るよう表示用に逆順にする（絞り込み中はそのイニングのみ）
+    final filteredMatchups = _selectedInning != null ? matchups.where((m) => m['inning'] == _selectedInning).toList() : matchups;
+    final orderedMatchups = filteredMatchups.reversed.toList();
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text('イニング別 球数・疲労度メーター', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.blueAccent)),
+        const SizedBox(height: 8),
+        Card(
+          color: const Color(0xFF1E1E2C),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Text('総投球数', style: TextStyle(color: Colors.white70)),
+                    Text('$pitchCount 球', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.amberAccent)),
+                  ],
+                ),
+                if (matchups.isNotEmpty) ...[
+                  const Divider(height: 20, color: Colors.white12),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      _StatcastMiniCell(label: '対戦打者数', val: '${matchups.length}'),
+                      _StatcastMiniCell(label: '被安打数', val: '$hitsAllowed'),
+                      _StatcastMiniCell(label: '奪三振数', val: '$strikeoutsRecorded'),
+                      _StatcastMiniCell(
+                        label: '失点数',
+                        val: '$runsAllowed',
+                        sub: runsAllowed != pitcherState.earnedRuns ? '(自責 ${pitcherState.earnedRuns})' : null,
+                        highlight: runsAllowed > 0,
+                      ),
+                    ],
+                  ),
+                ],
+                const SizedBox(height: 8),
+                if (inningPitches.isNotEmpty) ...[
+                  const SizedBox(height: 2),
+                  const Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text('タップしてそのイニングだけ絞り込み表示', style: TextStyle(fontSize: 10, color: Colors.white38)),
+                  ),
+                  const SizedBox(height: 6),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 6,
+                    children: [
+                      ChoiceChip(
+                        label: const Text('全イニング', style: TextStyle(fontSize: 12)),
+                        selected: _selectedInning == null,
+                        onSelected: (_) => setState(() => _selectedInning = null),
+                        backgroundColor: const Color(0xFF2A2A3A),
+                        selectedColor: Colors.blueAccent,
+                        labelStyle: TextStyle(color: _selectedInning == null ? Colors.white : Colors.white70),
+                      ),
+                      ...inningPitches.entries.map((e) {
+                        final isHigh = e.value >= 20;
+                        final selected = _selectedInning == e.key;
+                        return ChoiceChip(
+                          label: Text(
+                            '${e.key}回: ${e.value}球',
+                            style: TextStyle(fontSize: 12, color: selected ? Colors.white : (isHigh ? Colors.redAccent : Colors.white70)),
+                          ),
+                          selected: selected,
+                          onSelected: (_) => setState(() => _selectedInning = selected ? null : e.key),
+                          backgroundColor: isHigh ? Colors.redAccent.withAlpha(50) : Colors.blueAccent.withAlpha(40),
+                          selectedColor: Colors.blueAccent,
+                        );
+                      }),
+                    ],
+                  ),
+                ] else
+                  const Text('投球データなし', style: TextStyle(color: Colors.white38, fontSize: 12)),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(height: 20),
+
+        if (matchups.isEmpty)
+          const Card(
+            color: Color(0xFF1E1E2C),
+            child: Padding(padding: EdgeInsets.all(24), child: Center(child: Text('本日の対戦データはまだありません'))),
+          )
+        else ...[
+          Text(
+            _selectedInning != null ? '打者ごとの配球・ゾーン詳細 ($_selectedInning回のみ・新しい順)' : '打者ごとの配球・ゾーン詳細 (新しい順)',
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.blueAccent),
+          ),
+          const SizedBox(height: 10),
+          if (orderedMatchups.isEmpty)
+            const Card(
+              color: Color(0xFF1E1E2C),
+              child: Padding(padding: EdgeInsets.all(24), child: Center(child: Text('このイニングの対戦データはありません'))),
+            )
+          else
+          ListView.separated(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            itemCount: orderedMatchups.length,
+            separatorBuilder: (_, _) => const SizedBox(height: 12),
+            itemBuilder: (context, idx) {
+              // ★ 最新の打者との対戦が一番上に来る順（seqは元の対戦順の通し番号）
+              final m = orderedMatchups[idx];
+              return Card(
+                color: const Color(0xFF1E1E2C),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                child: Padding(
+                  padding: const EdgeInsets.all(14),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Expanded(
+                            child: Text(
+                              '第${m['seq']}打者（${m['inning']}回${m['half']}） vs ${m['opponent']}',
+                              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14, color: Colors.blueAccent),
+                            ),
+                          ),
+                          if (m['liveEra'] != null)
+                            Text(
+                              '防御率 ${formatEra(m['liveEra'] as double)}',
+                              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13, color: Colors.amberAccent),
+                            ),
+                        ],
+                      ),
+                      if (m['baseOutState'] != null) ...[
+                        const SizedBox(height: 2),
+                        Text(m['baseOutState'] as String, style: const TextStyle(fontSize: 11, color: Colors.white54, fontWeight: FontWeight.bold)),
+                      ],
+                      const SizedBox(height: 4),
+                      Text('${m['result']}', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13, color: Colors.white)),
+                      const SizedBox(height: 4),
+                      if (m['opponentId'] != null)
+                        HeadToHeadBadge(batterId: m['opponentId'] as int, pitcherId: player.id),
+                      const Divider(height: 16, color: Colors.white12),
+                      PitchLogWithZone(pitches: m['pitches'] as List<Map<String, dynamic>>),
+                    ],
+                  ),
+                ),
+              );
+            },
+          ),
+        ],
+      ],
+    );
+  }
+
+  // 打者向けセクション
+  Widget _buildBatterLiveSection(JapanesePlayer player, List<dynamic> plays, AppLanguage lang) {
+    List<Map<String, dynamic>> atBats = [];
+    final baseOutStates = computeBaseOutStates(plays);
+
+    for (final play in plays) {
+      final batterId = play['matchup']?['batter']?['id'];
+      if (batterId == player.id) {
+        final result = translateAtBatResult(
+          play['result']?['description']?.toString(),
+          play['result']?['event']?.toString(),
+          lang,
+        );
+        final opponentPitcherId = play['matchup']?['pitcher']?['id'] as int?;
+        final opponentPitcherName = play['matchup']?['pitcher']?['fullName']?.toString() ?? '相手投手';
+        final playEvents = play['playEvents'] as List<dynamic>? ?? [];
+        final pitches = extractPitchDetails(playEvents, lang);
+
+        Map<String, dynamic>? hitData;
+        for (final event in playEvents) {
+          if (event['hitData'] != null) {
+            hitData = event['hitData'] as Map<String, dynamic>;
+            break;
+          }
+        }
+
+        final atBatIndex = play['about']?['atBatIndex'] as int?;
+
+        atBats.add({
+          'seq': atBats.length + 1,
+          'inning': play['about']?['inning'] ?? 0,
+          'half': translateHalf(play['about']?['isTopInning'] == true, lang),
+          'result': result,
+          'opponentPitcherId': opponentPitcherId,
+          'opponentPitcherName': opponentPitcherName,
+          'hitData': hitData,
+          'pitches': pitches,
+          'baseOutState': atBatIndex != null ? baseOutStates[atBatIndex] : null,
+        });
+      }
+    }
+
+    if (atBats.isEmpty) {
+      return const Card(
+        color: Color(0xFF1E1E2C),
+        child: Padding(padding: EdgeInsets.all(24), child: Center(child: Text('本日の打席データはまだありません'))),
+      );
+    }
+
+    // ★ 最新の打席が一番上に来るよう表示用に逆順にする（第○打席の番号は元の時系列順のまま）
+    final orderedAtBats = atBats.reversed.toList();
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text('本日の全打席 & Statcast 打球解析 (新しい順)', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.blueAccent)),
+        const SizedBox(height: 10),
+        ListView.separated(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          itemCount: orderedAtBats.length,
+          separatorBuilder: (_, _) => const SizedBox(height: 10),
+          itemBuilder: (context, index) {
+            final ab = orderedAtBats[index];
+            final hit = ab['hitData'] as Map<String, dynamic>?;
+            final pitches = ab['pitches'] as List<Map<String, dynamic>>;
+
+            final double? launchSpeed = (hit?['launchSpeed'] as num?)?.toDouble();
+            final double? launchAngle = (hit?['launchAngle'] as num?)?.toDouble();
+            final double? totalDistance = (hit?['totalDistance'] as num?)?.toDouble();
+
+            final bool isBarrel = launchSpeed != null &&
+                launchAngle != null &&
+                launchSpeed >= 98.0 &&
+                launchAngle >= 24.0 &&
+                launchAngle <= 34.0;
+
+            final double? speedKmh = launchSpeed != null ? launchSpeed * 1.60934 : null;
+            final double? distMeters = totalDistance != null ? totalDistance * 0.3048 : null;
+
+            return Card(
+              color: isBarrel ? const Color(0xFF2C1E26) : const Color(0xFF1E1E2C),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+                side: BorderSide(color: isBarrel ? Colors.redAccent : Colors.transparent, width: 1.5),
+              ),
               child: Padding(
                 padding: const EdgeInsets.all(14),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text('$playerName ($teamName)', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                            Text('$_matchupHeader ($_inningCountText)', style: const TextStyle(color: Colors.white70, fontSize: 13)),
-                          ],
-                        ),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                          decoration: BoxDecoration(
-                            color: Colors.green.withAlpha(40),
-                            borderRadius: BorderRadius.circular(8),
-                            border: Border.all(color: Colors.greenAccent),
-                          ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.end,
-                            children: [
-                              const Text('リアルタイム防御率', style: TextStyle(fontSize: 10, color: Colors.greenAccent)),
-                              Row(
-                                children: [
-                                  Text(_liveEra, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.greenAccent)),
-                                  if (_eraDiff.isNotEmpty) ...[
-                                    const Icon(Icons.arrow_downward, color: Colors.greenAccent, size: 16),
-                                    Text(_eraDiff, style: const TextStyle(fontSize: 11, color: Colors.greenAccent)),
-                                  ],
-                                ],
-                              ),
-                            ],
+                        Expanded(
+                          child: Text(
+                            '第${ab['seq']}打席（${ab['inning']}回${ab['half']}） vs ${ab['opponentPitcherName']}',
+                            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14, color: Colors.blueAccent),
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
+                        if (isBarrel)
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                            decoration: BoxDecoration(color: Colors.redAccent, borderRadius: BorderRadius.circular(6)),
+                            child: const Text('🔥 BARREL', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 11, color: Colors.white)),
+                          ),
                       ],
                     ),
-                    const Divider(height: 20, color: Colors.white12),
-                    Text(_todaySummary, style: const TextStyle(fontSize: 13, color: Colors.white)),
+                    if (ab['baseOutState'] != null) ...[
+                      const SizedBox(height: 4),
+                      Text(ab['baseOutState'] as String, style: const TextStyle(fontSize: 11, color: Colors.white54, fontWeight: FontWeight.bold)),
+                    ],
+                    const SizedBox(height: 6),
+                    Text(ab['result'] as String, style: const TextStyle(fontSize: 13, color: Colors.white)),
+                    if (ab['opponentPitcherId'] != null) ...[
+                      const SizedBox(height: 6),
+                      HeadToHeadBadge(batterId: player.id, pitcherId: ab['opponentPitcherId'] as int),
+                    ],
+
+                    if (hit != null) ...[
+                      const Divider(height: 16, color: Colors.white12),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          _StatcastMiniCell(
+                            label: '打球初速',
+                            val: launchSpeed != null ? '${launchSpeed.toStringAsFixed(1)} mph' : '-',
+                            sub: speedKmh != null ? '(${speedKmh.toStringAsFixed(1)} km/h)' : null,
+                            highlight: (launchSpeed ?? 0) >= 100,
+                          ),
+                          _StatcastMiniCell(
+                            label: '打球角度',
+                            val: launchAngle != null ? '${launchAngle.toStringAsFixed(0)}°' : '-',
+                            sub: null,
+                          ),
+                          _StatcastMiniCell(
+                            label: '推定飛距離',
+                            val: totalDistance != null ? '${totalDistance.toStringAsFixed(0)} ft' : '-',
+                            sub: distMeters != null ? '(${distMeters.toStringAsFixed(1)} m)' : null,
+                            highlight: (totalDistance ?? 0) >= 400,
+                          ),
+                        ],
+                      ),
+                    ],
+
+                    // ★ 配球ログ + ミニストライクゾーン
+                    const Divider(height: 16, color: Colors.white12),
+                    PitchLogWithZone(pitches: pitches),
                   ],
                 ),
               ),
-            ),
-            const SizedBox(height: 12),
-
-            // 2. 対戦打者・カウント
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-              decoration: BoxDecoration(
-                color: Colors.white10,
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(_currentBatter, style: const TextStyle(fontWeight: FontWeight.bold)),
-                  Text(_countText, style: const TextStyle(color: Colors.amberAccent, fontWeight: FontWeight.bold)),
-                ],
-              ),
-            ),
-            const SizedBox(height: 12),
-
-            // 3. 配球ゾーン & イニング球数メーター
-            SizedBox(
-              height: 280,
-              child: Row(
-                children: [
-                  StrikeZoneWidget(pitches: _currentPitches),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: InningPitchMeterWidget(innings: _innings),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 12),
-
-            // 4. 今の打席の全球ログ
-            Card(
-              color: const Color(0xFF1E1E2C),
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-              child: Padding(
-                padding: const EdgeInsets.all(12),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text('現在の打席 配球ログ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
-                    const SizedBox(height: 8),
-                    if (_currentPitches.isEmpty)
-                      const Text('投球待機中...', style: TextStyle(color: Colors.white54, fontSize: 12))
-                    else
-                      ..._currentPitches.map((p) => Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 2),
-                        child: Row(
-                          children: [
-                            CircleAvatar(
-                              radius: 9,
-                              backgroundColor: Colors.blueAccent,
-                              child: Text('${p.pitchNumber}', style: const TextStyle(fontSize: 10, color: Colors.white)),
-                            ),
-                            const SizedBox(width: 8),
-                            Expanded(child: Text(p.pitchName, style: const TextStyle(fontSize: 12))),
-                            Text('${p.speedKmh.toStringAsFixed(1)} km/h', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
-                            const SizedBox(width: 8),
-                            Text(
-                              p.callResult,
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: p.callResult.contains('三振')
-                                    ? Colors.cyanAccent
-                                    : (p.callResult.contains('ストライク')
-                                        ? Colors.amberAccent
-                                        : Colors.white70),
-                              ),
-                            ),
-                          ],
-                        ),
-                      )),
-                  ],
-                ),
-              ),
-            ),
-          ],
+            );
+          },
         ),
-      ),
+      ],
+    );
+  }
+}
+
+class _StatcastMiniCell extends StatelessWidget {
+  final String label;
+  final String val;
+  final String? sub;
+  final bool highlight;
+
+  const _StatcastMiniCell({required this.label, required this.val, this.sub, this.highlight = false});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text(label, style: const TextStyle(fontSize: 10, color: Colors.white54)),
+        const SizedBox(height: 2),
+        Text(
+          val,
+          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: highlight ? Colors.orangeAccent : Colors.white),
+        ),
+        if (sub != null)
+          Text(sub!, style: const TextStyle(fontSize: 9, color: Colors.white38)),
+      ],
     );
   }
 }
