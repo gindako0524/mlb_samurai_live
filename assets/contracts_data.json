@@ -611,6 +611,136 @@
       "startYear": 2024,
       "endYear": 2029,
       "notes": "2023年12月締結。4年終了後にオプトアウト可能。韓国出身選手。"
+    },
+    "673548": {
+      "playerName": "Seiya Suzuki",
+      "team": "CHC",
+      "years": 5,
+      "totalValueUsd": 85000000,
+      "aavUsd": 17000000,
+      "startYear": 2022,
+      "endYear": 2026,
+      "notes": "2022年3月締結。$100M未満だが日本人選手として特別掲載。契約金とは別に、広島東洋カープへのポスティング移籍金を含めた球団の総投資額は約$99.6M。"
+    },
+    "807799": {
+      "playerName": "Masataka Yoshida",
+      "team": "BOS",
+      "years": 5,
+      "totalValueUsd": 90000000,
+      "aavUsd": 18000000,
+      "startYear": 2023,
+      "endYear": 2027,
+      "notes": "2022年12月締結。$100M未満だが日本人選手として特別掲載。オプション・オプトアウト条項なし。"
+    },
+    "808959": {
+      "playerName": "Munetaka Murakami",
+      "team": "CWS",
+      "years": 2,
+      "totalValueUsd": 34000000,
+      "aavUsd": 17000000,
+      "startYear": 2026,
+      "endYear": 2027,
+      "notes": "2025年12月締結。$100M未満だが日本人選手として特別掲載。東京ヤクルトへのポスティング移籍金(約$6.6M)を含めた球団の総投資額は約$40.6M。2027年の年俸は2026年のMVP・新人王投票順位により増額の可能性あり。"
+    },
+    "672960": {
+      "playerName": "Kazuma Okamoto",
+      "team": "TOR",
+      "years": 4,
+      "totalValueUsd": 60000000,
+      "aavUsd": 15000000,
+      "startYear": 2026,
+      "endYear": 2029,
+      "notes": "2026年1月締結。$100M未満だが日本人選手として特別掲載。読売ジャイアンツからポスティングで移籍。"
+    },
+    "663457": {
+      "playerName": "Lars Nootbaar",
+      "team": "ARI",
+      "years": 1,
+      "totalValueUsd": 5250000,
+      "aavUsd": 5250000,
+      "startYear": 2026,
+      "endYear": 2026,
+      "notes": "複数年契約ではなく、年俸調停(arbitration)による2026年単年の年俸。$100M未満だが日本人選手として特別掲載。2026年8月にカージナルスからダイヤモンドバックスへトレード。2027年に最後の調停権を残す。"
+    },
+    "807747": {
+      "playerName": "Rikuu Nishida",
+      "team": "CWS",
+      "years": 0,
+      "totalValueUsd": 0,
+      "aavUsd": 0,
+      "startYear": 2026,
+      "endYear": 2026,
+      "notes": "2023年MLBドラフト11巡目でホワイトソックスに指名(NPB経由ではなくオレゴン大からの直接渡米)。現在はプレアービトレーション(年俸調停前)のため、契約はMLB最低年俸に準ずる標準的な選手契約。特筆すべき契約金・複数年契約は無し。"
+    },
+    "808963": {
+      "playerName": "Roki Sasaki",
+      "team": "LAD",
+      "years": 0,
+      "totalValueUsd": 6500000,
+      "aavUsd": 6500000,
+      "startYear": 2025,
+      "endYear": 2025,
+      "notes": "国際アマチュア選手契約のため、国際ボーナスプールの制約により契約金は$6.5Mに限定(2025年1月締結)。年俸は複数年契約ではなくMLB最低年俸に準ずる。6年間のクラブコントロール(FA権取得まで)。"
+    },
+    "684007": {
+      "playerName": "Shota Imanaga",
+      "team": "CHC",
+      "years": 4,
+      "totalValueUsd": 53000000,
+      "aavUsd": 13250000,
+      "startYear": 2024,
+      "endYear": 2027,
+      "notes": "2024年1月締結。$100M未満だが日本人選手として特別掲載。保証分は4年$53M。2・3年目終了後にオプトアウト可能で、球団が契約延長(5年総額$80M)を選択しない場合に発動。"
+    },
+    "673513": {
+      "playerName": "Yuki Matsui",
+      "team": "SD",
+      "years": 5,
+      "totalValueUsd": 28000000,
+      "aavUsd": 5600000,
+      "startYear": 2024,
+      "endYear": 2028,
+      "notes": "2023年12月締結。$100M未満だが日本人選手として特別掲載。3・4年目終了後にオプトアウト可能。成績条件を満たせば最大$33.6Mまで増額。"
+    },
+    "579328": {
+      "playerName": "Yusei Kikuchi",
+      "team": "LAA",
+      "years": 3,
+      "totalValueUsd": 63675000,
+      "aavUsd": 21225000,
+      "startYear": 2025,
+      "endYear": 2027,
+      "notes": "2024年11月締結。$100M未満だが日本人選手として特別掲載。"
+    },
+    "673540": {
+      "playerName": "Kodai Senga",
+      "team": "NYM",
+      "years": 5,
+      "totalValueUsd": 75000000,
+      "aavUsd": 15000000,
+      "startYear": 2023,
+      "endYear": 2027,
+      "notes": "2022年12月締結。$100M未満だが日本人選手として特別掲載。2025年シーズン終了後に選手側オプトアウト権あり。"
+    },
+    "608372": {
+      "playerName": "Tomoyuki Sugano",
+      "team": "COL",
+      "years": 1,
+      "totalValueUsd": 5100000,
+      "aavUsd": 5100000,
+      "startYear": 2026,
+      "endYear": 2026,
+      "notes": "2026年2月締結の1年契約。$100M未満だが日本人選手として特別掲載。"
+    },
+    "837227": {
+      "playerName": "Tatsuya Imai",
+      "team": "HOU",
+      "years": 3,
+      "totalValueUsd": 54000000,
+      "aavUsd": 18000000,
+      "startYear": 2026,
+      "endYear": 2028,
+      "notes": "2026年1月締結。$100M未満だが日本人選手として特別掲載。保証分は3年$54M、条件達成で最大$63Mまで増額。1・2年目終了後にオプトアウト可能。埼玉西武ライオンズからポスティングで移籍。"
     }
   }
 }

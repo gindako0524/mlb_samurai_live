@@ -23,6 +23,11 @@ class ContractInfoCard extends ConsumerWidget {
         final c = map[playerId];
         if (c == null) return const SizedBox.shrink();
 
+        // ★ 複数年契約ではない選手(ルーキー契約・年俸調停・国際アマチュア契約金のみ等)は
+        //   totalValueUsd/years が実質的な「契約総額」を意味しないため、金額バッジや
+        //   契約年数・契約期間の表示を省き、注記のみを見せる簡易表示にする。
+        final bool isStandardMultiYearDeal = c.years > 0;
+
         return Card(
           color: const Color(0xFF1E2A1E),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12), side: const BorderSide(color: Colors.greenAccent, width: 1)),
@@ -37,23 +42,28 @@ class ContractInfoCard extends ConsumerWidget {
                     const Icon(Icons.request_quote, color: Colors.greenAccent, size: 18),
                     const SizedBox(width: 6),
                     const Text('契約情報', style: TextStyle(fontSize: 12, color: Colors.greenAccent, fontWeight: FontWeight.bold)),
-                    const Spacer(),
-                    Text(
-                      formatUsd(c.totalValueUsd),
-                      style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.greenAccent),
-                    ),
+                    if (isStandardMultiYearDeal) ...[
+                      const Spacer(),
+                      Text(
+                        formatUsd(c.totalValueUsd),
+                        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.greenAccent),
+                      ),
+                    ],
                   ],
                 ),
                 const Divider(height: 20, color: Colors.white12),
-                Wrap(
-                  spacing: 20,
-                  runSpacing: 10,
-                  children: [
-                    _MiniField(label: '契約年数', val: '${c.years}年'),
-                    _MiniField(label: '平均年俸(AAV)', val: formatUsd(c.aavUsd)),
-                    _MiniField(label: '契約期間', val: '${c.startYear}〜${c.endYear}'),
-                  ],
-                ),
+                if (isStandardMultiYearDeal)
+                  Wrap(
+                    spacing: 20,
+                    runSpacing: 10,
+                    children: [
+                      _MiniField(label: '契約年数', val: '${c.years}年'),
+                      _MiniField(label: '平均年俸(AAV)', val: formatUsd(c.aavUsd)),
+                      _MiniField(label: '契約期間', val: '${c.startYear}〜${c.endYear}'),
+                    ],
+                  )
+                else if (c.totalValueUsd > 0)
+                  _MiniField(label: '契約金(署名ボーナス等)', val: formatUsd(c.totalValueUsd)),
                 if (c.notes != null && c.notes!.isNotEmpty) ...[
                   const SizedBox(height: 10),
                   Text(c.notes!, style: const TextStyle(fontSize: 11, color: Colors.white54)),

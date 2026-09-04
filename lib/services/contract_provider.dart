@@ -70,11 +70,15 @@ final contractDataProvider = FutureProvider<Map<int, PlayerContract>>((ref) asyn
   return result;
 });
 
-/// 契約総額の上位ランキング（登録されている選手の中から。まだ手動データが少ないため
-/// 「登録済み全選手」を返す＝上限を設けても実質は登録件数がそのまま表示される）。
+/// 契約総額の上位ランキング（$100M以上の契約のみ）。
+/// ★ assets/contracts_data.json には日本人選手を例外的に全員(金額を問わず)
+///   収録しているため、ランキング側では$100M未満を除外して「大型契約のみ」の
+///   一覧を維持する。個人成績ページのContractInfoCardは金額を問わず全件表示。
+const int _rankingMinValueUsd = 100000000;
+
 final contractRankingProvider = FutureProvider<List<PlayerContract>>((ref) async {
   final map = await ref.watch(contractDataProvider.future);
-  final list = map.values.toList();
+  final list = map.values.where((c) => c.totalValueUsd >= _rankingMinValueUsd).toList();
   list.sort((a, b) => b.totalValueUsd.compareTo(a.totalValueUsd));
   return list;
 });
