@@ -13,6 +13,8 @@ import '../utils/mlb_translations.dart';
 import '../widgets/pitch_log_widget.dart';
 import '../utils/live_stat_calc.dart';
 import '../utils/base_out_state.dart';
+import '../utils/would_be_homerun.dart';
+import '../utils/ballpark_dimensions.dart';
 import 'game_detail_view.dart';
 
 class LiveView extends ConsumerStatefulWidget {
@@ -607,13 +609,15 @@ class _LiveViewState extends ConsumerState<LiveView> {
   Widget _buildBatterLiveSection(JapanesePlayer player, List<dynamic> plays, AppLanguage lang) {
     List<Map<String, dynamic>> atBats = [];
     final baseOutStates = computeBaseOutStates(plays);
+    final currentParkAbbr = _liveGameData?['gameData']?['teams']?['home']?['abbreviation']?.toString();
 
     for (final play in plays) {
       final batterId = play['matchup']?['batter']?['id'];
       if (batterId == player.id) {
+        final rawEvent = play['result']?['event']?.toString();
         final result = translateAtBatResult(
           play['result']?['description']?.toString(),
-          play['result']?['event']?.toString(),
+          rawEvent,
           lang,
         );
         final opponentPitcherId = play['matchup']?['pitcher']?['id'] as int?;
@@ -636,6 +640,7 @@ class _LiveViewState extends ConsumerState<LiveView> {
           'inning': play['about']?['inning'] ?? 0,
           'half': translateHalf(play['about']?['isTopInning'] == true, lang),
           'result': result,
+          'rawEvent': rawEvent,
           'opponentPitcherId': opponentPitcherId,
           'opponentPitcherName': opponentPitcherName,
           'hitData': hitData,
@@ -682,6 +687,23 @@ class _LiveViewState extends ConsumerState<LiveView> {
 
             final double? speedKmh = launchSpeed != null ? launchSpeed * 1.60934 : null;
             final double? distMeters = totalDistance != null ? totalDistance * 0.3048 : null;
+
+            // ★ 他球場だったらホームランになっていたか(実際にHRだった打球は対象外)
+            List<BallparkProfile> wouldBeParks = [];
+            final rawEvent = ab['rawEvent'] as String?;
+            final trajectory = hit?['trajectory']?.toString();
+            if (rawEvent != 'Home Run' &&
+                isEligibleForWouldBeHomer(trajectory: trajectory, launchAngle: launchAngle, totalDistance: totalDistance)) {
+              final coords = hit?['coordinates'] as Map<String, dynamic>?;
+              final coordX = (coords?['coordX'] as num?)?.toDouble();
+              final coordY = (coords?['coordY'] as num?)?.toDouble();
+              if (coordX != null && coordY != null && totalDistance != null) {
+                final angle = sprayAngleFromCoords(coordX, coordY);
+                wouldBeParks = wouldBeHomeRunParks(totalDistance: totalDistance, angleDeg: angle)
+                    .where((p) => p.teamAbbr != currentParkAbbr)
+                    .toList();
+              }
+            }
 
             return Card(
               color: isBarrel ? const Color(0xFF2C1E26) : const Color(0xFF1E1E2C),
@@ -747,6 +769,10 @@ class _LiveViewState extends ConsumerState<LiveView> {
                           ),
                         ],
                       ),
+                      if (wouldBeParks.isNotEmpty) ...[
+                        const SizedBox(height: 8),
+                        _WouldBeHomerBadge(parks: wouldBeParks),
+                      ],
                     ],
 
                     // ★ 配球ログ + ミニストライクゾーン
@@ -784,6 +810,70 @@ class _StatcastMiniCell extends StatelessWidget {
         if (sub != null)
           Text(sub!, style: const TextStyle(fontSize: 9, color: Colors.white38)),
       ],
+    );
+  }
+}
+
+// ★ 「他球場ならホームランだった」打球の球場数バッジ。タップすると球場名の一覧を表示。
+class _WouldBeHomerBadge extends StatelessWidget {
+  final List<BallparkProfile> parks;
+
+  const _WouldBeHomerBadge({required this.parks});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(6),
+      onTap: () {
+        showDialog(
+          context: context,
+          builder: (dialogContext) => AlertDialog(
+            backgroundColor: const Color(0xFF1E1E2C),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            title: const Text('この打球がホームランになる球場', style: TextStyle(fontSize: 15, color: Colors.white)),
+            content: SizedBox(
+              width: double.maxFinite,
+              child: ListView(
+                shrinkWrap: true,
+                children: [
+                  for (final p in parks)
+                    ListTile(
+                      dense: true,
+                      leading: const Icon(Icons.stadium, color: Colors.orangeAccent, size: 18),
+                      title: Text('${p.teamName}(${p.parkName})', style: const TextStyle(fontSize: 13, color: Colors.white)),
+                    ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    '飛距離とspray角度から算出した簡易的な目安です(壁の高さは考慮していません)。',
+                    style: TextStyle(fontSize: 10, color: Colors.white38),
+                  ),
+                ],
+              ),
+            ),
+            actions: [
+              TextButton(onPressed: () => Navigator.pop(dialogContext), child: const Text('閉じる')),
+            ],
+          ),
+        );
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+        decoration: BoxDecoration(
+          color: Colors.orangeAccent.withValues(alpha: 0.15),
+          borderRadius: BorderRadius.circular(6),
+          border: Border.all(color: Colors.orangeAccent, width: 1),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.stadium, color: Colors.orangeAccent, size: 14),
+            const SizedBox(width: 4),
+            Text('🏟️ ${parks.length}球場でHRの当たり', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.orangeAccent)),
+            const SizedBox(width: 2),
+            const Icon(Icons.chevron_right, color: Colors.orangeAccent, size: 14),
+          ],
+        ),
+      ),
     );
   }
 }
