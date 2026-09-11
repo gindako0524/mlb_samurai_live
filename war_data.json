@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T23:45:31.000014+00:00",
+  "updated_at": "2026-09-11T23:54:20.759445+00:00",
   "players": {
     "665871": {
       "name": "Javier Assad",
@@ -7,7 +7,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 1.1,
       "war_by_year": {
         "2026": 0.0
       },
@@ -16,10 +16,10 @@
         "2023": 2.1,
         "2024": 1.7,
         "2025": 0.4,
-        "2026": 1.2
+        "2026": 1.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 6.4
+      "career_rwar_pitch": 6.3
     },
     "694192": {
       "name": "Jackson Chourio",
@@ -59,7 +59,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 1.3,
       "war_by_year": {
         "2026": 0.0
       },
@@ -68,10 +68,10 @@
         "2023": 4.8,
         "2024": 1.1,
         "2025": 1.2,
-        "2026": 1.2
+        "2026": 1.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 8.5
+      "career_rwar_pitch": 8.6
     },
     "665828": {
       "name": "Oswaldo Cabrera",
@@ -268,7 +268,7 @@
       "name": "Oneil Cruz",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.1,
+      "rwar": 2.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -277,17 +277,17 @@
         "2023": 0.1,
         "2024": 2.6,
         "2025": 0.2,
-        "2026": 2.1
+        "2026": 2.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 7.4,
+      "career_rwar": 7.6,
       "career_rwar_pitch": 0.0
     },
     "650333": {
       "name": "Luis Arraez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.9,
+      "rwar": 3.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -298,10 +298,10 @@
         "2023": 4.5,
         "2024": 1.1,
         "2025": 1.4,
-        "2026": 2.9
+        "2026": 3.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 19.6,
+      "career_rwar": 19.8,
       "career_rwar_pitch": 0.0
     },
     "682769": {
@@ -510,7 +510,7 @@
       "name": "Willson Contreras",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.4,
+      "rwar": 4.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -524,10 +524,10 @@
         "2023": 3.3,
         "2024": 3.0,
         "2025": 2.5,
-        "2026": 4.4
+        "2026": 4.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 33.6,
+      "career_rwar": 33.5,
       "career_rwar_pitch": 0.0
     },
     "471911": {
@@ -573,16 +573,16 @@
       "name": "Blaze Alexander",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 0.0,
         "2025": 1.7,
-        "2026": 1.6
+        "2026": 1.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.3,
+      "career_rwar": 3.4,
       "career_rwar_pitch": 0.0
     },
     "621237": {
@@ -591,7 +591,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.1,
+      "rwar_pitch": 0.0,
       "war_by_year": {
         "2018": -0.0,
         "2019": 0.0,
@@ -608,10 +608,10 @@
         "2023": 1.1,
         "2024": 0.4,
         "2025": 0.4,
-        "2026": -0.1
+        "2026": 0.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 4.5
+      "career_rwar_pitch": 4.6
     },
     "672016": {
       "name": "Denzel Clarke",
@@ -725,7 +725,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.0,
+      "rwar_pitch": 1.1,
       "war_by_year": {
         "2021": 0.0,
         "2025": 0.0
@@ -738,16 +738,16 @@
         "2023": 2.5,
         "2024": 1.8,
         "2025": 2.5,
-        "2026": 1.0
+        "2026": 1.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 8.5
+      "career_rwar_pitch": 8.6
     },
     "630105": {
       "name": "Jake Cronenworth",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.8,
+      "rwar": -0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -757,26 +757,26 @@
         "2023": 0.8,
         "2024": 1.9,
         "2025": 2.5,
-        "2026": -0.8
+        "2026": -0.6
       },
       "war_by_year_pitch": {
         "2021": 0.0
       },
-      "career_rwar": 14.7,
+      "career_rwar": 14.9,
       "career_rwar_pitch": 0.0
     },
     "703607": {
       "name": "Henry Bolte",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.0,
+      "rwar": 3.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 3.0
+        "2026": 3.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.0,
+      "career_rwar": 3.2,
       "career_rwar_pitch": 0.0
     },
     "678368": {
@@ -816,28 +816,28 @@
       "name": "Cam Cauley",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.5,
+      "rwar": -0.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.5
+        "2026": -0.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.5,
+      "career_rwar": -0.4,
       "career_rwar_pitch": 0.0
     },
     "703520": {
       "name": "Brett Bateman",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.2,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 1.2
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.2,
+      "career_rwar": 1.4,
       "career_rwar_pitch": 0.0
     },
     "676130": {
@@ -972,24 +972,24 @@
       "name": "Miguel Amaya",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.3,
+      "rwar": 1.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.3,
         "2024": 1.9,
         "2025": 1.1,
-        "2026": 1.3
+        "2026": 1.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.6,
+      "career_rwar": 4.5,
       "career_rwar_pitch": 0.0
     },
     "643217": {
       "name": "Andrew Benintendi",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -1003,10 +1003,10 @@
         "2023": 0.4,
         "2024": -0.8,
         "2025": 0.9,
-        "2026": 0.3
+        "2026": 0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 16.7,
+      "career_rwar": 16.6,
       "career_rwar_pitch": 0.0
     },
     "696131": {
@@ -1122,7 +1122,7 @@
       "name": "Cody Bellinger",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.2,
+      "rwar": 4.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -1135,10 +1135,10 @@
         "2023": 4.8,
         "2024": 2.2,
         "2025": 5.0,
-        "2026": 4.2
+        "2026": 4.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 34.6,
+      "career_rwar": 34.8,
       "career_rwar_pitch": 0.0
     },
     "672613": {
@@ -1468,14 +1468,14 @@
       "name": "Sam Antonacci",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.0,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 2.0
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.0,
+      "career_rwar": 1.9,
       "career_rwar_pitch": 0.0
     },
     "688642": {
@@ -1484,16 +1484,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.1,
+      "rwar_pitch": -0.1,
       "war_by_year": {
         "2025": 0.0
       },
       "war_by_year_pitch": {
         "2025": -0.4,
-        "2026": 0.1
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -0.3
+      "career_rwar_pitch": -0.5
     },
     "681297": {
       "name": "Colton Cowser",
@@ -1578,19 +1578,19 @@
       "name": "José Caballero",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.2,
+      "rwar": 2.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 2.5,
         "2024": 1.6,
         "2025": 2.8,
-        "2026": 2.2
+        "2026": 2.3
       },
       "war_by_year_pitch": {
         "2025": -0.2
       },
-      "career_rwar": 9.1,
+      "career_rwar": 9.2,
       "career_rwar_pitch": -0.2
     },
     "701852": {
@@ -1721,17 +1721,17 @@
       "name": "Patrick Bailey",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.8,
         "2024": 1.7,
         "2025": 1.1,
-        "2026": 1.0
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.6,
+      "career_rwar": 4.4,
       "career_rwar_pitch": 0.0
     },
     "671737": {
@@ -1825,14 +1825,14 @@
       "name": "Brett Callahan",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.1
+        "2026": 0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.1,
+      "career_rwar": 0.1,
       "career_rwar_pitch": 0.0
     },
     "671106": {
@@ -1989,7 +1989,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.5,
+      "rwar_pitch": 2.4,
       "war_by_year": {
         "2023": 0.0,
         "2025": 0.0,
@@ -2001,10 +2001,10 @@
         "2023": 0.5,
         "2024": -0.1,
         "2025": 0.4,
-        "2026": 2.5
+        "2026": 2.4
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 4.3
+      "career_rwar_pitch": 4.2
     },
     "695490": {
       "name": "Edwin Arroyo",
@@ -2026,7 +2026,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 1.1,
       "war_by_year": {
         "2019": -0.0,
         "2021": 0.0,
@@ -2040,10 +2040,10 @@
         "2023": 2.6,
         "2024": 1.1,
         "2025": 0.2,
-        "2026": 1.2
+        "2026": 1.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 8.0
+      "career_rwar_pitch": 7.9
     },
     "674841": {
       "name": "Andrew Alvarez",
@@ -2082,7 +2082,7 @@
       "name": "CJ Abrams",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.4,
+      "rwar": 4.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -2090,10 +2090,10 @@
         "2023": 3.5,
         "2024": 3.3,
         "2025": 3.3,
-        "2026": 4.4
+        "2026": 4.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 14.6,
+      "career_rwar": 14.5,
       "career_rwar_pitch": 0.0
     },
     "669208": {
@@ -2149,7 +2149,7 @@
       "name": "Yordan Alvarez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 5.9,
+      "rwar": 5.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -2160,10 +2160,10 @@
         "2023": 4.5,
         "2024": 5.2,
         "2025": 0.7,
-        "2026": 5.9
+        "2026": 5.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 30.0,
+      "career_rwar": 29.9,
       "career_rwar_pitch": 0.0
     },
     "692030": {
@@ -2203,17 +2203,17 @@
       "name": "Evan Carter",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.8,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 1.6,
         "2024": 0.7,
         "2025": 1.9,
-        "2026": 1.8
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.0,
+      "career_rwar": 6.1,
       "career_rwar_pitch": 0.0
     },
     "676282": {
@@ -2236,7 +2236,7 @@
       "name": "Francisco Alvarez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -2244,10 +2244,10 @@
         "2023": 0.9,
         "2024": 0.8,
         "2025": 1.8,
-        "2026": 0.3
+        "2026": 0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.8,
+      "career_rwar": 4.0,
       "career_rwar_pitch": 0.0
     },
     "676879": {
@@ -2303,14 +2303,14 @@
       "name": "Justin Crawford",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": -0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.1
+        "2026": -0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.1,
+      "career_rwar": -0.2,
       "career_rwar_pitch": 0.0
     },
     "664141": {
@@ -2767,14 +2767,14 @@
       "name": "Jase Bowen",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.4,
+      "rwar": -0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.4
+        "2026": -0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.4,
+      "career_rwar": -0.5,
       "career_rwar_pitch": 0.0
     },
     "650559": {
@@ -2802,7 +2802,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -1.1,
+      "rwar_pitch": -1.2,
       "war_by_year": {
         "2021": 0.0
       },
@@ -2812,10 +2812,10 @@
         "2023": 2.0,
         "2024": 0.3,
         "2025": 2.6,
-        "2026": -1.1
+        "2026": -1.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.5
+      "career_rwar_pitch": 5.4
     },
     "665645": {
       "name": "Kervin Castro",
@@ -2839,16 +2839,16 @@
       "name": "Isaac Collins",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.7,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.3,
         "2025": 2.0,
-        "2026": 0.7
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.4,
+      "career_rwar": 2.5,
       "career_rwar_pitch": 0.0
     },
     "670103": {
@@ -2900,29 +2900,29 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -1.1,
+      "rwar_pitch": -1.0,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 1.5,
         "2024": -0.9,
         "2025": 0.1,
-        "2026": -1.1
+        "2026": -1.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -0.4
+      "career_rwar_pitch": -0.3
     },
     "703601": {
       "name": "Max Clark",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.5,
+      "career_rwar": 0.6,
       "career_rwar_pitch": 0.0
     },
     "622088": {
@@ -3025,16 +3025,16 @@
       "name": "Adael Amador",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.4,
         "2025": -1.2,
-        "2026": 0.4
+        "2026": 0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": -1.2,
+      "career_rwar": -1.3,
       "career_rwar_pitch": 0.0
     },
     "680916": {
@@ -3070,7 +3070,7 @@
       "name": "Jo Adell",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.0,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -3080,10 +3080,10 @@
         "2023": 0.3,
         "2024": 0.8,
         "2025": 1.4,
-        "2026": 0.0
+        "2026": 0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.6,
+      "career_rwar": 0.7,
       "career_rwar_pitch": 0.0
     },
     "664056": {
@@ -3170,7 +3170,7 @@
       "name": "Alec Bohm",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.2,
+      "rwar": -0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -3180,10 +3180,10 @@
         "2023": 0.5,
         "2024": 2.8,
         "2025": 1.4,
-        "2026": -0.2
+        "2026": -0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.9,
+      "career_rwar": 4.8,
       "career_rwar_pitch": 0.0
     },
     "669622": {
@@ -3238,7 +3238,7 @@
       "name": "Jake Bauers",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.9,
+      "rwar": 3.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -3248,13 +3248,13 @@
         "2023": -0.9,
         "2024": -0.3,
         "2025": 0.6,
-        "2026": 2.9
+        "2026": 3.0
       },
       "war_by_year_pitch": {
         "2024": 0.0,
         "2025": -0.1
       },
-      "career_rwar": 1.8,
+      "career_rwar": 1.9,
       "career_rwar_pitch": -0.1
     },
     "683000": {
@@ -3312,16 +3312,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.6,
+      "rwar_pitch": 1.7,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 3.9,
         "2024": 2.6,
         "2025": 1.0,
-        "2026": 1.6
+        "2026": 1.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 9.1
+      "career_rwar_pitch": 9.2
     },
     "641302": {
       "name": "Tyler Alexander",
@@ -3444,17 +3444,17 @@
       "name": "Junior Caminero",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 5.2,
+      "rwar": 5.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.0,
         "2024": 0.7,
         "2025": 4.3,
-        "2026": 5.2
+        "2026": 5.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 10.2,
+      "career_rwar": 10.3,
       "career_rwar_pitch": 0.0
     },
     "672629": {
@@ -3497,17 +3497,17 @@
       "name": "Pete Crow-Armstrong",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 9.0,
+      "rwar": 9.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": -0.1,
         "2024": 2.3,
         "2025": 5.9,
-        "2026": 9.0
+        "2026": 9.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 17.1,
+      "career_rwar": 17.3,
       "career_rwar_pitch": 0.0
     },
     "682668": {
@@ -3552,7 +3552,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.0,
+      "rwar_pitch": 2.4,
       "war_by_year": {
         "2014": 0.4,
         "2015": 0.2,
@@ -3575,10 +3575,10 @@
         "2023": 0.7,
         "2024": 0.4,
         "2025": 3.0,
-        "2026": 2.0
+        "2026": 2.4
       },
       "career_rwar": 2.7,
-      "career_rwar_pitch": 47.3
+      "career_rwar_pitch": 47.7
     },
     "674444": {
       "name": "Steven Cruz",
@@ -3632,7 +3632,7 @@
       "name": "Alec Burleson",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.2,
+      "rwar": 3.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -3640,13 +3640,13 @@
         "2023": -0.7,
         "2024": 1.4,
         "2025": 1.9,
-        "2026": 3.2
+        "2026": 3.1
       },
       "war_by_year_pitch": {
         "2023": -0.1,
         "2025": 0.0
       },
-      "career_rwar": 5.8,
+      "career_rwar": 5.7,
       "career_rwar_pitch": -0.1
     },
     "686930": {
@@ -3702,13 +3702,13 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.2,
+      "rwar_pitch": 0.1,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": 0.2
+        "2026": 0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.2
+      "career_rwar_pitch": 0.1
     },
     "669920": {
       "name": "Jason Alexander",
@@ -3980,14 +3980,14 @@
       "name": "Jonah Cox",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 1.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 1.0
+        "2026": 1.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.0,
+      "career_rwar": 1.1,
       "career_rwar_pitch": 0.0
     },
     "694350": {
@@ -4033,7 +4033,7 @@
       "name": "Jake Burger",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.4,
+      "rwar": 2.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -4042,10 +4042,10 @@
         "2023": 2.4,
         "2024": 0.8,
         "2025": 0.8,
-        "2026": 2.4
+        "2026": 2.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.8,
+      "career_rwar": 6.7,
       "career_rwar_pitch": 0.0
     },
     "621383": {
@@ -4148,7 +4148,7 @@
       "name": "Jonathan Aranda",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.8,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -4156,10 +4156,10 @@
         "2023": 0.2,
         "2024": 0.7,
         "2025": 3.5,
-        "2026": 1.8
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.0,
+      "career_rwar": 6.1,
       "career_rwar_pitch": 0.0
     },
     "696147": {
@@ -4168,15 +4168,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.2,
+      "rwar_pitch": 0.1,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 0.4,
         "2025": -0.3,
-        "2026": 0.2
+        "2026": 0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.3
+      "career_rwar_pitch": 0.2
     },
     "679883": {
       "name": "Luinder Avila",
@@ -4276,14 +4276,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.9,
+      "rwar_pitch": 2.0,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": 3.8,
-        "2026": 1.9
+        "2026": 2.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.7
+      "career_rwar_pitch": 5.8
     },
     "543056": {
       "name": "Danny Coulombe",
@@ -4431,7 +4431,7 @@
       "name": "Ronald Acuña Jr.",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -4443,10 +4443,10 @@
         "2023": 8.4,
         "2024": 0.0,
         "2025": 3.0,
-        "2026": 1.6
+        "2026": 1.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 30.3,
+      "career_rwar": 30.0,
       "career_rwar_pitch": 0.0
     },
     "681347": {
@@ -4455,15 +4455,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -1.0,
+      "rwar_pitch": -0.9,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": -0.0,
         "2025": 1.5,
-        "2026": -1.0
+        "2026": -0.9
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.5
+      "career_rwar_pitch": 0.6
     },
     "682997": {
       "name": "Tyler Callihan",
@@ -4505,7 +4505,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.6,
+      "rwar_pitch": 2.5,
       "war_by_year": {
         "2013": 0.1,
         "2014": 0.2,
@@ -4528,16 +4528,16 @@
         "2022": 2.6,
         "2023": 7.4,
         "2024": 1.9,
-        "2026": 2.6
+        "2026": 2.5
       },
       "career_rwar": 0.5,
-      "career_rwar_pitch": 45.3
+      "career_rwar_pitch": 45.2
     },
     "668227": {
       "name": "Randy Arozarena",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.6,
+      "rwar": 4.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -4548,10 +4548,10 @@
         "2023": 3.4,
         "2024": 1.7,
         "2025": 3.9,
-        "2026": 4.6
+        "2026": 4.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 21.5,
+      "career_rwar": 21.4,
       "career_rwar_pitch": 0.0
     },
     "675989": {
@@ -4560,13 +4560,13 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.0,
+      "rwar_pitch": 0.0,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": -0.2,
         "2024": -0.1,
         "2025": -0.1,
-        "2026": -0.0
+        "2026": 0.0
       },
       "career_rwar": 0.0,
       "career_rwar_pitch": -0.4
@@ -4624,7 +4624,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.1,
+      "rwar_pitch": 1.0,
       "war_by_year": {
         "2017": 0.0,
         "2018": -0.1,
@@ -4636,10 +4636,10 @@
         "2019": -0.1,
         "2020": -0.3,
         "2021": 0.3,
-        "2026": 1.1
+        "2026": 1.0
       },
       "career_rwar": -0.1,
-      "career_rwar_pitch": 0.9
+      "career_rwar_pitch": 0.8
     },
     "681084": {
       "name": "Tanner Andrews",
@@ -4673,7 +4673,7 @@
       "name": "Xander Bogaerts",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.2,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -4690,10 +4690,10 @@
         "2023": 4.2,
         "2024": 1.2,
         "2025": 2.1,
-        "2026": 1.2
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 43.3,
+      "career_rwar": 43.5,
       "career_rwar_pitch": 0.0
     },
     "676962": {
@@ -4780,7 +4780,7 @@
       "name": "Brett Baty",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -4788,10 +4788,10 @@
         "2023": -0.7,
         "2024": 0.3,
         "2025": 3.0,
-        "2026": 1.0
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.3,
+      "career_rwar": 3.2,
       "career_rwar_pitch": 0.0
     },
     "663609": {
@@ -5073,7 +5073,7 @@
       "name": "Alex Bregman",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.8,
+      "rwar": 4.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -5087,10 +5087,10 @@
         "2023": 4.9,
         "2024": 4.0,
         "2025": 3.7,
-        "2026": 4.8
+        "2026": 4.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 47.9,
+      "career_rwar": 48.0,
       "career_rwar_pitch": 0.0
     },
     "686228": {
@@ -5173,15 +5173,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.7,
+      "rwar_pitch": 0.8,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 0.7,
         "2025": -0.5,
-        "2026": 0.7
+        "2026": 0.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.9
+      "career_rwar_pitch": 1.0
     },
     "669743": {
       "name": "Alex Call",
@@ -5260,14 +5260,14 @@
       "name": "Kaelen Culpepper",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.5,
+      "career_rwar": 0.6,
       "career_rwar_pitch": 0.0
     },
     "514888": {
@@ -5352,7 +5352,7 @@
       "name": "Mookie Betts",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.9,
+      "rwar": 3.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -5368,24 +5368,24 @@
         "2023": 8.6,
         "2024": 4.6,
         "2025": 4.9,
-        "2026": 2.9
+        "2026": 3.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 78.0,
+      "career_rwar": 78.1,
       "career_rwar_pitch": 0.0
     },
     "695491": {
       "name": "Joshua Báez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.3
+        "2026": 0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.3,
+      "career_rwar": 0.5,
       "career_rwar_pitch": 0.0
     },
     "656305": {
@@ -5473,7 +5473,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.4,
+      "rwar_pitch": -0.3,
       "war_by_year": {
         "2021": -0.0,
         "2025": 0.0
@@ -5485,10 +5485,10 @@
         "2023": -0.8,
         "2024": 1.2,
         "2025": 0.9,
-        "2026": -0.4
+        "2026": -0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.5
+      "career_rwar_pitch": 1.6
     },
     "687597": {
       "name": "Jordan Beck",
@@ -5544,15 +5544,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.7,
+      "rwar_pitch": 3.9,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 0.9,
         "2025": 0.9,
-        "2026": 3.7
+        "2026": 3.9
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.5
+      "career_rwar_pitch": 5.7
     },
     "684049": {
       "name": "Brandan Bidois",
@@ -5673,17 +5673,17 @@
       "name": "Hunter Goodman",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.5,
+      "rwar": 2.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": -0.5,
         "2024": -0.9,
         "2025": 3.7,
-        "2026": 2.5
+        "2026": 2.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.8,
+      "career_rwar": 4.7,
       "career_rwar_pitch": 0.0
     },
     "608337": {
@@ -5733,15 +5733,15 @@
       "name": "Harry Ford",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.0,
-        "2026": 0.4
+        "2026": 0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.4,
+      "career_rwar": 0.3,
       "career_rwar_pitch": 0.0
     },
     "669093": {
@@ -5869,7 +5869,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.9,
+      "rwar_pitch": 3.0,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2021": 0.9,
@@ -5877,10 +5877,10 @@
         "2023": 2.8,
         "2024": 3.0,
         "2025": 2.0,
-        "2026": 2.9
+        "2026": 3.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 14.8
+      "career_rwar_pitch": 14.9
     },
     "668674": {
       "name": "Lucas Erceg",
@@ -5961,15 +5961,15 @@
       "name": "Heriberto Hernández",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.4,
+      "rwar": 2.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.0,
-        "2026": 2.4
+        "2026": 2.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.4,
+      "career_rwar": 3.3,
       "career_rwar_pitch": 0.0
     },
     "656529": {
@@ -6104,14 +6104,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.0,
+      "rwar_pitch": -0.1,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": -0.3,
-        "2026": -0.0
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -0.3
+      "career_rwar_pitch": -0.4
     },
     "605288": {
       "name": "Adrian Houser",
@@ -6119,7 +6119,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.7,
+      "rwar_pitch": 0.6,
       "war_by_year": {
         "2015": 0.0,
         "2018": 0.0,
@@ -6136,10 +6136,10 @@
         "2023": 0.9,
         "2024": -0.9,
         "2025": 3.1,
-        "2026": 0.7
+        "2026": 0.6
       },
       "career_rwar": -0.1,
-      "career_rwar_pitch": 6.6
+      "career_rwar_pitch": 6.5
     },
     "694876": {
       "name": "Cooper Ingle",
@@ -6175,7 +6175,7 @@
       "name": "Danny Jansen",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -6187,10 +6187,10 @@
         "2023": 1.6,
         "2024": 0.7,
         "2025": 2.8,
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 12.0,
+      "career_rwar": 12.1,
       "career_rwar_pitch": 0.0
     },
     "606996": {
@@ -6355,7 +6355,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.0,
+      "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.0
       },
@@ -6363,7 +6363,7 @@
         "2023": 0.4,
         "2024": -0.1,
         "2025": 0.5,
-        "2026": -0.0
+        "2026": 0.0
       },
       "career_rwar": 0.0,
       "career_rwar_pitch": 0.8
@@ -6372,14 +6372,14 @@
       "name": "Walker Jenkins",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": -0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.1
+        "2026": -0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.1,
+      "career_rwar": -0.2,
       "career_rwar_pitch": 0.0
     },
     "672578": {
@@ -6635,7 +6635,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.1,
+      "rwar_pitch": 0.0,
       "war_by_year": {
         "2016": 0.0,
         "2018": 0.0,
@@ -6645,10 +6645,10 @@
         "2016": 0.0,
         "2018": -0.9,
         "2019": -0.7,
-        "2026": 0.1
+        "2026": 0.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -1.5
+      "career_rwar_pitch": -1.6
     },
     "675448": {
       "name": "Blake Hunt",
@@ -6835,16 +6835,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.8,
+      "rwar_pitch": 1.9,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": -0.1,
         "2024": 2.4,
         "2025": -0.2,
-        "2026": 1.8
+        "2026": 1.9
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.9
+      "career_rwar_pitch": 4.0
     },
     "676510": {
       "name": "Nolan Hoffman",
@@ -6936,14 +6936,14 @@
       "name": "Angel Genao",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.6,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.6
+        "2026": 0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.6,
+      "career_rwar": 0.5,
       "career_rwar_pitch": 0.0
     },
     "656546": {
@@ -7075,15 +7075,15 @@
       "name": "Brady House",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.6,
-        "2026": 0.4
+        "2026": 0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.2,
+      "career_rwar": -0.1,
       "career_rwar_pitch": 0.0
     },
     "594835": {
@@ -7172,7 +7172,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.7,
+      "rwar_pitch": 2.0,
       "war_by_year": {
         "2017": -0.1,
         "2018": -0.1,
@@ -7188,10 +7188,10 @@
         "2022": -0.6,
         "2024": 5.6,
         "2025": -0.7,
-        "2026": 1.7
+        "2026": 2.0
       },
       "career_rwar": -0.7,
-      "career_rwar_pitch": 6.8
+      "career_rwar_pitch": 7.1
     },
     "804668": {
       "name": "Rafael Flores",
@@ -7231,7 +7231,7 @@
       "name": "Luis García Jr.",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.1,
+      "rwar": 3.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -7241,10 +7241,10 @@
         "2023": 0.7,
         "2024": 2.1,
         "2025": 0.3,
-        "2026": 3.1
+        "2026": 3.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.3,
+      "career_rwar": 6.5,
       "career_rwar_pitch": 0.0
     },
     "543238": {
@@ -7349,15 +7349,15 @@
       "name": "Bryce Eldridge",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.8,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.2,
-        "2026": 1.8
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.6,
+      "career_rwar": 1.7,
       "career_rwar_pitch": 0.0
     },
     "813349": {
@@ -7379,24 +7379,24 @@
       "name": "Jonny DeLuca",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.3,
+      "rwar": 1.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.3,
         "2024": 0.6,
         "2025": 0.6,
-        "2026": 1.3
+        "2026": 1.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.8,
+      "career_rwar": 3.0,
       "career_rwar_pitch": 0.0
     },
     "664034": {
       "name": "Ty France",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.3,
+      "rwar": 4.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -7407,12 +7407,12 @@
         "2023": 0.8,
         "2024": -0.6,
         "2025": 1.0,
-        "2026": 4.3
+        "2026": 4.2
       },
       "war_by_year_pitch": {
         "2019": 0.0
       },
-      "career_rwar": 13.5,
+      "career_rwar": 13.4,
       "career_rwar_pitch": 0.0
     },
     "640448": {
@@ -7444,13 +7444,13 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.6,
+      "rwar_pitch": 0.5,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": 0.6
+        "2026": 0.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.6
+      "career_rwar_pitch": 0.5
     },
     "680702": {
       "name": "Joey Gerber",
@@ -7474,7 +7474,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 1.1,
       "war_by_year": {
         "2015": -0.2,
         "2016": -0.1,
@@ -7497,10 +7497,10 @@
         "2023": 1.1,
         "2024": 2.9,
         "2025": 1.2,
-        "2026": 1.2
+        "2026": 1.1
       },
       "career_rwar": -0.2,
-      "career_rwar_pitch": 19.9
+      "career_rwar_pitch": 19.8
     },
     "669236": {
       "name": "Jeremiah Jackson",
@@ -7521,7 +7521,7 @@
       "name": "Randal Grichuk",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.8,
+      "rwar": 1.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -7537,12 +7537,12 @@
         "2023": 1.3,
         "2024": 2.2,
         "2025": -0.8,
-        "2026": 0.8
+        "2026": 1.1
       },
       "war_by_year_pitch": {
         "2022": 0.0
       },
-      "career_rwar": 14.7,
+      "career_rwar": 15.0,
       "career_rwar_pitch": 0.0
     },
     "666023": {
@@ -7581,16 +7581,16 @@
       "name": "Mickey Gasper",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.2,
+      "rwar": 1.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.2,
         "2025": -0.3,
-        "2026": 1.2
+        "2026": 1.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.7,
+      "career_rwar": 0.8,
       "career_rwar_pitch": 0.0
     },
     "669371": {
@@ -7745,15 +7745,15 @@
       "name": "Denzer Guzman",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": -0.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.3,
-        "2026": -0.1
+        "2026": -0.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.4,
+      "career_rwar": -0.3,
       "career_rwar_pitch": 0.0
     },
     "805347": {
@@ -7774,7 +7774,7 @@
       "name": "Nolan Gorman",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.2,
+      "rwar": -0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -7782,10 +7782,10 @@
         "2023": 2.4,
         "2024": 0.5,
         "2025": 0.1,
-        "2026": -0.2
+        "2026": -0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.5,
+      "career_rwar": 3.6,
       "career_rwar_pitch": 0.0
     },
     "571771": {
@@ -7890,7 +7890,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.2,
+      "rwar_pitch": -0.3,
       "war_by_year": {
         "2019": 0.0,
         "2021": 0.0,
@@ -7904,10 +7904,10 @@
         "2023": 0.2,
         "2024": 0.1,
         "2025": 3.0,
-        "2026": -0.2
+        "2026": -0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.7
+      "career_rwar_pitch": 5.6
     },
     "650490": {
       "name": "Yandy Díaz",
@@ -7938,17 +7938,17 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.9,
+      "rwar_pitch": 0.8,
       "war_by_year": {
         "2026": 0.0
       },
       "war_by_year_pitch": {
         "2024": 0.1,
         "2025": 0.5,
-        "2026": 0.9
+        "2026": 0.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.5
+      "career_rwar_pitch": 1.4
     },
     "693821": {
       "name": "Bryce Elder",
@@ -8064,21 +8064,21 @@
       "name": "Konnor Griffin",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.5,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 1.5
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.5,
+      "career_rwar": 1.4,
       "career_rwar_pitch": 0.0
     },
     "673237": {
       "name": "Yainer Diaz",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 1.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -8086,10 +8086,10 @@
         "2023": 3.2,
         "2024": 3.1,
         "2025": 2.7,
-        "2026": 1.0
+        "2026": 1.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 9.9,
+      "career_rwar": 10.0,
       "career_rwar_pitch": 0.0
     },
     "676534": {
@@ -8237,7 +8237,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.4,
+      "rwar_pitch": 1.5,
       "war_by_year": {
         "2019": -0.0,
         "2022": 0.0,
@@ -8249,10 +8249,10 @@
         "2022": 0.0,
         "2023": -0.3,
         "2025": 0.8,
-        "2026": 1.4
+        "2026": 1.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.7
+      "career_rwar_pitch": 1.8
     },
     "678606": {
       "name": "Jose A. Ferrer",
@@ -8301,7 +8301,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.9,
+      "rwar_pitch": 3.8,
       "war_by_year": {
         "2021": 0.0
       },
@@ -8311,10 +8311,10 @@
         "2023": 2.1,
         "2024": -1.1,
         "2025": 1.1,
-        "2026": 3.9
+        "2026": 3.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 8.2
+      "career_rwar_pitch": 8.1
     },
     "664126": {
       "name": "Pete Fairbanks",
@@ -8445,7 +8445,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.4,
+      "rwar_pitch": -0.1,
       "war_by_year": {
         "2021": 0.0
       },
@@ -8456,10 +8456,10 @@
         "2023": 1.2,
         "2024": 0.5,
         "2025": 0.1,
-        "2026": -0.4
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 7.6
+      "career_rwar_pitch": 7.9
     },
     "669724": {
       "name": "Brenan Hanifee",
@@ -8467,16 +8467,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.0,
+      "rwar_pitch": -0.1,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": -0.0,
         "2024": 0.9,
         "2025": -0.0,
-        "2026": -0.0
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.9
+      "career_rwar_pitch": 0.8
     },
     "664731": {
       "name": "P.J. Higgins",
@@ -8517,7 +8517,7 @@
       "name": "Andrés Giménez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 1.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -8527,10 +8527,10 @@
         "2023": 5.0,
         "2024": 4.0,
         "2025": 1.1,
-        "2026": 0.9
+        "2026": 1.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 20.3,
+      "career_rwar": 20.4,
       "career_rwar_pitch": 0.0
     },
     "607536": {
@@ -8568,7 +8568,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.0,
+      "rwar_pitch": 0.0,
       "war_by_year": {
         "2021": 0.0
       },
@@ -8576,7 +8576,7 @@
         "2020": 0.8,
         "2021": 0.6,
         "2025": -0.0,
-        "2026": -0.0
+        "2026": 0.0
       },
       "career_rwar": 0.0,
       "career_rwar_pitch": 1.4
@@ -8834,17 +8834,17 @@
       "name": "Spencer Horwitz",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.0,
+      "rwar": -0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.3,
         "2024": 1.1,
         "2025": 1.4,
-        "2026": -0.0
+        "2026": -0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.8,
+      "career_rwar": 2.7,
       "career_rwar_pitch": 0.0
     },
     "680777": {
@@ -9022,15 +9022,15 @@
       "name": "Petey Halpin",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.0,
+      "rwar": -0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.1,
-        "2026": 0.0
+        "2026": -0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.1,
+      "career_rwar": 0.0,
       "career_rwar_pitch": 0.0
     },
     "699912": {
@@ -9234,7 +9234,7 @@
       "name": "Mitch Garver",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -9247,19 +9247,19 @@
         "2023": 2.3,
         "2024": -0.2,
         "2025": -0.2,
-        "2026": 0.3
+        "2026": 0.5
       },
       "war_by_year_pitch": {
         "2018": 0.0
       },
-      "career_rwar": 9.8,
+      "career_rwar": 10.0,
       "career_rwar_pitch": 0.0
     },
     "665489": {
       "name": "Vladimir Guerrero Jr.",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 1.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -9270,10 +9270,10 @@
         "2023": 1.8,
         "2024": 6.0,
         "2025": 4.6,
-        "2026": 0.9
+        "2026": 1.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 26.6,
+      "career_rwar": 26.7,
       "career_rwar_pitch": 0.0
     },
     "694224": {
@@ -9296,17 +9296,17 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 1.1,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2022": 0.3,
         "2023": 1.9,
         "2024": 0.8,
         "2025": 3.1,
-        "2026": 1.2
+        "2026": 1.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 7.3
+      "career_rwar_pitch": 7.2
     },
     "682982": {
       "name": "Daniel Espino",
@@ -9649,7 +9649,7 @@
       "name": "Elias Díaz",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.8,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -9664,10 +9664,10 @@
         "2023": 1.5,
         "2024": 1.2,
         "2025": -0.1,
-        "2026": 0.8
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.3,
+      "career_rwar": 6.4,
       "career_rwar_pitch": 0.0
     },
     "694346": {
@@ -9764,7 +9764,7 @@
       "name": "Kyle Isbel",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.2,
+      "rwar": -0.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -9773,10 +9773,10 @@
         "2023": 2.0,
         "2024": 2.0,
         "2025": 1.6,
-        "2026": 0.2
+        "2026": -0.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.9,
+      "career_rwar": 6.7,
       "career_rwar_pitch": 0.0
     },
     "571657": {
@@ -9834,15 +9834,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.9,
+      "rwar_pitch": 3.0,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2020": 0.1,
         "2022": -0.1,
-        "2026": 2.9
+        "2026": 3.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.9
+      "career_rwar_pitch": 3.0
     },
     "663853": {
       "name": "Romy Gonzalez",
@@ -9869,14 +9869,14 @@
       "name": "Jacob Gonzalez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.4,
+      "rwar": -0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.4
+        "2026": -0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.4,
+      "career_rwar": -0.3,
       "career_rwar_pitch": 0.0
     },
     "656464": {
@@ -9960,7 +9960,7 @@
       "name": "Bryce Harper",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.5,
+      "rwar": 3.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -9978,10 +9978,10 @@
         "2023": 3.6,
         "2024": 4.6,
         "2025": 3.1,
-        "2026": 3.5
+        "2026": 3.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 57.1,
+      "career_rwar": 57.0,
       "career_rwar_pitch": 0.0
     },
     "445276": {
@@ -10055,7 +10055,7 @@
       "name": "Michael Harris II",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.3,
+      "rwar": 4.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -10063,10 +10063,10 @@
         "2023": 3.5,
         "2024": 3.2,
         "2025": 2.3,
-        "2026": 4.3
+        "2026": 4.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 18.4,
+      "career_rwar": 18.5,
       "career_rwar_pitch": 0.0
     },
     "664023": {
@@ -10134,20 +10134,20 @@
       "name": "Nate Eaton",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.2,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2022": 0.9,
         "2023": -0.6,
         "2025": 0.2,
-        "2026": 0.2
+        "2026": 0.3
       },
       "war_by_year_pitch": {
         "2023": 0.0,
         "2025": 0.0
       },
-      "career_rwar": 0.7,
+      "career_rwar": 0.8,
       "career_rwar_pitch": 0.0
     },
     "640451": {
@@ -10198,7 +10198,7 @@
       "name": "Tyler Heineman",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.3,
+      "rwar": -0.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.1,
       "war_by_year": {
@@ -10208,7 +10208,7 @@
         "2023": 0.1,
         "2024": 0.2,
         "2025": 1.9,
-        "2026": -0.3
+        "2026": -0.4
       },
       "war_by_year_pitch": {
         "2020": 0.0,
@@ -10216,7 +10216,7 @@
         "2025": -0.4,
         "2026": -0.1
       },
-      "career_rwar": 2.3,
+      "career_rwar": 2.2,
       "career_rwar_pitch": -0.5
     },
     "669084": {
@@ -10351,16 +10351,16 @@
       "name": "Rece Hinds",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.3,
+      "rwar": -0.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 0.7,
         "2025": -0.4,
-        "2026": -0.3
+        "2026": -0.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.0,
+      "career_rwar": -0.1,
       "career_rwar_pitch": 0.0
     },
     "656537": {
@@ -10442,22 +10442,22 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.3,
+      "rwar_pitch": 2.4,
       "war_by_year": {
         "2026": 0.0
       },
       "war_by_year_pitch": {
         "2025": -0.9,
-        "2026": 2.3
+        "2026": 2.4
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.4
+      "career_rwar_pitch": 1.5
     },
     "606192": {
       "name": "Teoscar Hernández",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.7,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -10471,10 +10471,10 @@
         "2023": 2.3,
         "2024": 4.1,
         "2025": 1.4,
-        "2026": 0.7
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 19.4,
+      "career_rwar": 19.5,
       "career_rwar_pitch": 0.0
     },
     "690986": {
@@ -10483,16 +10483,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.3,
+      "rwar_pitch": 1.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 0.2,
         "2024": 0.7,
         "2025": 0.5,
-        "2026": 1.3
+        "2026": 1.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.7
+      "career_rwar_pitch": 2.6
     },
     "682608": {
       "name": "Peyton Gray",
@@ -10528,7 +10528,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.5,
+      "rwar_pitch": 0.6,
       "war_by_year": {
         "2018": -0.0,
         "2019": 0.0,
@@ -10542,10 +10542,10 @@
         "2023": 0.8,
         "2024": 1.0,
         "2025": -1.8,
-        "2026": 0.5
+        "2026": 0.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.3
+      "career_rwar_pitch": 1.4
     },
     "664059": {
       "name": "Sam Haggerty",
@@ -10574,7 +10574,7 @@
       "name": "Mauricio Dubón",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.1,
+      "rwar": 2.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -10585,10 +10585,10 @@
         "2023": 2.7,
         "2024": 1.0,
         "2025": 1.7,
-        "2026": 2.1
+        "2026": 2.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 9.3,
+      "career_rwar": 9.2,
       "career_rwar_pitch": 0.0
     },
     "608331": {
@@ -10625,7 +10625,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.2,
+      "rwar_pitch": 0.1,
       "war_by_year": {
         "2019": 0.0,
         "2021": 0.0
@@ -10637,10 +10637,10 @@
         "2023": 0.1,
         "2024": -0.4,
         "2025": -0.2,
-        "2026": 0.2
+        "2026": 0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -1.6
+      "career_rwar_pitch": -1.7
     },
     "669165": {
       "name": "Kyle Hurt",
@@ -10862,15 +10862,15 @@
       "name": "Liam Hicks",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.2,
+      "rwar": 3.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.3,
-        "2026": 3.2
+        "2026": 3.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.5,
+      "career_rwar": 4.6,
       "career_rwar_pitch": 0.0
     },
     "606965": {
@@ -11034,7 +11034,7 @@
       "name": "Ezequiel Duran",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.7,
+      "rwar": 4.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11042,12 +11042,12 @@
         "2023": 1.1,
         "2024": 0.2,
         "2025": 0.2,
-        "2026": 4.7
+        "2026": 4.6
       },
       "war_by_year_pitch": {
         "2025": 0.1
       },
-      "career_rwar": 6.4,
+      "career_rwar": 6.3,
       "career_rwar_pitch": 0.1
     },
     "666129": {
@@ -11216,7 +11216,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.6,
+      "rwar_pitch": 2.7,
       "war_by_year": {
         "2017": -0.1,
         "2018": 0.1,
@@ -11238,16 +11238,16 @@
         "2023": 2.5,
         "2024": 0.7,
         "2025": 2.2,
-        "2026": 2.6
+        "2026": 2.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 17.5
+      "career_rwar_pitch": 17.6
     },
     "656555": {
       "name": "Rhys Hoskins",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.7,
+      "rwar": -0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11259,10 +11259,10 @@
         "2022": 3.0,
         "2024": -0.1,
         "2025": 0.8,
-        "2026": -0.7
+        "2026": -0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 11.3,
+      "career_rwar": 11.2,
       "career_rwar_pitch": 0.0
     },
     "690924": {
@@ -11319,7 +11319,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.0,
+      "rwar_pitch": -0.1,
       "war_by_year": {
         "2021": -0.0,
         "2025": 0.0
@@ -11330,10 +11330,10 @@
         "2023": 0.7,
         "2024": 2.8,
         "2025": 0.5,
-        "2026": 0.0
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.8
+      "career_rwar_pitch": 3.7
     },
     "685126": {
       "name": "Brandon Eisert",
@@ -11341,17 +11341,17 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.1,
+      "rwar_pitch": -0.2,
       "war_by_year": {
         "2026": 0.0
       },
       "war_by_year_pitch": {
         "2024": 0.0,
         "2025": 0.4,
-        "2026": -0.1
+        "2026": -0.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.3
+      "career_rwar_pitch": 0.2
     },
     "680911": {
       "name": "Owen Miller",
@@ -11378,7 +11378,7 @@
       "name": "Nicky Lopez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.0,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.0,
       "war_by_year": {
@@ -11389,7 +11389,7 @@
         "2023": 1.8,
         "2024": 0.1,
         "2025": -0.4,
-        "2026": 0.0
+        "2026": 0.1
       },
       "war_by_year_pitch": {
         "2022": -0.1,
@@ -11397,7 +11397,7 @@
         "2025": 0.0,
         "2026": -0.0
       },
-      "career_rwar": 5.7,
+      "career_rwar": 5.8,
       "career_rwar_pitch": -0.1
     },
     "664040": {
@@ -11428,7 +11428,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 0.7,
       "war_by_year": {
         "2017": -0.0,
         "2018": -0.0,
@@ -11446,10 +11446,10 @@
         "2023": 0.7,
         "2024": 1.8,
         "2025": 0.8,
-        "2026": 1.2
+        "2026": 0.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 10.8
+      "career_rwar_pitch": 10.3
     },
     "694680": {
       "name": "Trevor Martin",
@@ -11469,7 +11469,7 @@
       "name": "Ryan Kreidler",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11477,10 +11477,10 @@
         "2023": -0.4,
         "2024": -0.5,
         "2025": -0.2,
-        "2026": 0.4
+        "2026": 0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.3,
+      "career_rwar": -0.4,
       "career_rwar_pitch": 0.0
     },
     "695034": {
@@ -11587,7 +11587,7 @@
       "name": "Alejandro Kirk",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11597,10 +11597,10 @@
         "2023": 1.9,
         "2024": 1.9,
         "2025": 2.3,
-        "2026": 1.6
+        "2026": 1.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 12.8,
+      "career_rwar": 12.7,
       "career_rwar_pitch": 0.0
     },
     "670224": {
@@ -11623,14 +11623,14 @@
       "name": "Ben Malgeri",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.5,
+      "career_rwar": 0.6,
       "career_rwar_pitch": 0.0
     },
     "684665": {
@@ -11706,7 +11706,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.5,
+      "rwar_pitch": 3.8,
       "war_by_year": {
         "2014": -0.1,
         "2015": 0.1,
@@ -11722,10 +11722,10 @@
         "2023": 1.6,
         "2024": 4.0,
         "2025": 2.2,
-        "2026": 3.5
+        "2026": 3.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 14.5
+      "career_rwar_pitch": 14.8
     },
     "662144": {
       "name": "Brian Keller",
@@ -11745,15 +11745,15 @@
       "name": "Daylen Lile",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.1,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.7,
-        "2026": 2.1
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.8,
+      "career_rwar": 2.6,
       "career_rwar_pitch": 0.0
     },
     "625643": {
@@ -11827,7 +11827,7 @@
       "name": "Vimael Machín",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": 0.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11835,10 +11835,10 @@
         "2021": -0.3,
         "2022": -0.5,
         "2025": 0.1,
-        "2026": -0.1
+        "2026": 0.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": -1.2,
+      "career_rwar": -1.1,
       "career_rwar_pitch": 0.0
     },
     "656730": {
@@ -11868,7 +11868,7 @@
       "name": "Michael Massey",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.2,
+      "rwar": 2.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11876,10 +11876,10 @@
         "2023": -0.1,
         "2024": 1.7,
         "2025": -0.1,
-        "2026": 2.2
+        "2026": 2.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.5,
+      "career_rwar": 4.6,
       "career_rwar_pitch": 0.0
     },
     "516782": {
@@ -11930,7 +11930,7 @@
       "name": "Nathaniel Lowe",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.7,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -11941,10 +11941,10 @@
         "2023": 2.9,
         "2024": 3.0,
         "2025": 0.1,
-        "2026": 0.7
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 13.0,
+      "career_rwar": 13.1,
       "career_rwar_pitch": 0.0
     },
     "694388": {
@@ -11967,14 +11967,14 @@
       "name": "Munetaka Murakami",
       "name_ja": "村上 宗隆",
       "fwar": 0.0,
-      "rwar": 2.1,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 2.1
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.1,
+      "career_rwar": 1.9,
       "career_rwar_pitch": 0.0
     },
     "607625": {
@@ -12061,7 +12061,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -1.9,
+      "rwar_pitch": -1.8,
       "war_by_year": {
         "2015": 0.3,
         "2016": 0.1,
@@ -12083,10 +12083,10 @@
         "2023": 1.8,
         "2024": 2.5,
         "2025": 0.4,
-        "2026": -1.9
+        "2026": -1.8
       },
       "career_rwar": 1.6,
-      "career_rwar_pitch": 8.4
+      "career_rwar_pitch": 8.5
     },
     "664770": {
       "name": "Nathan Lukes",
@@ -12280,7 +12280,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -1.1,
+      "rwar_pitch": -1.0,
       "war_by_year": {
         "2021": 0.0,
         "2023": 0.0,
@@ -12292,10 +12292,10 @@
         "2023": 1.0,
         "2024": -0.6,
         "2025": 0.0,
-        "2026": -1.1
+        "2026": -1.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.1
+      "career_rwar_pitch": 0.2
     },
     "685112": {
       "name": "Zach McCambley",
@@ -12331,14 +12331,14 @@
       "name": "Hao-Yu Lee",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.5
+        "2026": 0.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.5,
+      "career_rwar": 0.4,
       "career_rwar_pitch": 0.0
     },
     "682254": {
@@ -12347,15 +12347,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.1,
+      "rwar_pitch": 2.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 0.3,
         "2025": -0.9,
-        "2026": 2.1
+        "2026": 2.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.5
+      "career_rwar_pitch": 1.6
     },
     "805673": {
       "name": "Zebby Matthews",
@@ -12377,7 +12377,7 @@
       "name": "Cedric Mullins",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -12389,26 +12389,26 @@
         "2023": 2.8,
         "2024": 2.4,
         "2025": 0.5,
-        "2026": 0.9
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 16.5,
+      "career_rwar": 16.4,
       "career_rwar_pitch": 0.0
     },
     "690993": {
       "name": "Colt Keith",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.8,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 1.0,
         "2025": 1.6,
-        "2026": 0.8
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.4,
+      "career_rwar": 3.5,
       "career_rwar_pitch": 0.0
     },
     "663738": {
@@ -12437,7 +12437,7 @@
       "name": "Shea Langeliers",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.7,
+      "rwar": 3.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -12445,10 +12445,10 @@
         "2023": 0.8,
         "2024": 2.9,
         "2025": 3.5,
-        "2026": 3.7
+        "2026": 3.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 11.1,
+      "career_rwar": 11.0,
       "career_rwar_pitch": 0.0
     },
     "807727": {
@@ -12469,15 +12469,15 @@
       "name": "Hyeseong Kim",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.7,
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.2,
+      "career_rwar": 2.3,
       "career_rwar_pitch": 0.0
     },
     "641778": {
@@ -12486,7 +12486,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.2,
+      "rwar_pitch": -0.3,
       "war_by_year": {
         "2018": -0.1,
         "2019": -0.2,
@@ -12500,10 +12500,10 @@
         "2022": 1.7,
         "2023": -0.9,
         "2025": 2.2,
-        "2026": -0.2
+        "2026": -0.3
       },
       "career_rwar": -0.1,
-      "career_rwar_pitch": 5.8
+      "career_rwar_pitch": 5.7
     },
     "676272": {
       "name": "Bobby Miller",
@@ -12559,7 +12559,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.6,
+      "rwar_pitch": -0.5,
       "war_by_year": {
         "2018": -0.0,
         "2019": 0.0,
@@ -12577,10 +12577,10 @@
         "2023": 0.3,
         "2024": 1.5,
         "2025": 0.6,
-        "2026": -0.6
+        "2026": -0.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 4.3
+      "career_rwar_pitch": 4.4
     },
     "664208": {
       "name": "Phil Maton",
@@ -12666,16 +12666,16 @@
       "name": "Jackson Merrill",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.8,
+      "rwar": 2.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 4.5,
         "2025": 2.8,
-        "2026": 2.8
+        "2026": 2.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 10.1,
+      "career_rwar": 10.2,
       "career_rwar_pitch": 0.0
     },
     "656686": {
@@ -12704,14 +12704,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.2,
+      "rwar_pitch": 3.1,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": 1.0,
-        "2026": 3.2
+        "2026": 3.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 4.2
+      "career_rwar_pitch": 4.1
     },
     "668834": {
       "name": "Easton McGee",
@@ -12734,7 +12734,7 @@
       "name": "Andrew Knizner",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.4,
+      "rwar": -0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -12745,13 +12745,13 @@
         "2023": 1.0,
         "2024": -0.8,
         "2025": 0.3,
-        "2026": -0.4
+        "2026": -0.5
       },
       "war_by_year_pitch": {
         "2022": 0.0,
         "2024": 0.1
       },
-      "career_rwar": 0.6,
+      "career_rwar": 0.5,
       "career_rwar_pitch": 0.1
     },
     "669004": {
@@ -12821,7 +12821,7 @@
       "name": "Carson Kelly",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.7,
+      "rwar": 1.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.0,
       "war_by_year": {
@@ -12835,7 +12835,7 @@
         "2023": 0.1,
         "2024": 0.5,
         "2025": 3.5,
-        "2026": 1.7
+        "2026": 1.6
       },
       "war_by_year_pitch": {
         "2020": 0.0,
@@ -12843,7 +12843,7 @@
         "2023": -0.0,
         "2026": -0.0
       },
-      "career_rwar": 9.3,
+      "career_rwar": 9.2,
       "career_rwar_pitch": -0.1
     },
     "800600": {
@@ -12852,13 +12852,13 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.4,
+      "rwar_pitch": -0.3,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": -0.4
+        "2026": -0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -0.4
+      "career_rwar_pitch": -0.3
     },
     "687531": {
       "name": "William Kempner",
@@ -12950,7 +12950,7 @@
       "name": "Nick Madrigal",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.7,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -12959,17 +12959,17 @@
         "2022": 0.6,
         "2023": 1.3,
         "2024": -0.4,
-        "2026": 0.7
+        "2026": 0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.9,
+      "career_rwar": 3.7,
       "career_rwar_pitch": 0.0
     },
     "669016": {
       "name": "Brandon Marsh",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -12978,10 +12978,10 @@
         "2023": 3.4,
         "2024": 3.0,
         "2025": 1.6,
-        "2026": 0.9
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 10.9,
+      "career_rwar": 10.6,
       "career_rwar_pitch": 0.0
     },
     "806146": {
@@ -13017,7 +13017,7 @@
       "name": "Manny Machado",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.5,
+      "rwar": 1.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -13035,25 +13035,25 @@
         "2023": 2.7,
         "2024": 3.1,
         "2025": 4.2,
-        "2026": 1.5
+        "2026": 1.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 63.5,
+      "career_rwar": 63.6,
       "career_rwar_pitch": 0.0
     },
     "695681": {
       "name": "Christian Moore",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.9,
+      "rwar": -0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.1,
-        "2026": -0.9
+        "2026": -0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.8,
+      "career_rwar": -0.7,
       "career_rwar_pitch": 0.0
     },
     "669369": {
@@ -13095,35 +13095,35 @@
       "name": "Curtis Mead",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.0,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.5,
         "2024": -0.5,
         "2025": -0.2,
-        "2026": 2.0
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.8,
+      "career_rwar": 1.7,
       "career_rwar_pitch": 0.0
     },
     "683766": {
       "name": "Christian Koss",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.1,
       "war_by_year": {
         "2025": 1.8,
-        "2026": 0.3
+        "2026": 0.5
       },
       "war_by_year_pitch": {
         "2025": 0.1,
         "2026": -0.1
       },
-      "career_rwar": 2.1,
+      "career_rwar": 2.3,
       "career_rwar_pitch": 0.0
     },
     "681151": {
@@ -13145,16 +13145,16 @@
       "name": "Matt McLain",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": -0.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 3.6,
         "2025": 0.1,
-        "2026": -0.1
+        "2026": -0.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.6,
+      "career_rwar": 3.7,
       "career_rwar_pitch": 0.0
     },
     "669923": {
@@ -13225,7 +13225,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.1,
+      "rwar_pitch": 1.6,
       "war_by_year": {
         "2025": 0.0
       },
@@ -13233,24 +13233,24 @@
         "2023": 0.7,
         "2024": 1.7,
         "2025": -0.9,
-        "2026": 2.1
+        "2026": 1.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.6
+      "career_rwar_pitch": 3.1
     },
     "805367": {
       "name": "Chase Meidroth",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.3,
+      "rwar": 3.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.2,
-        "2026": 3.3
+        "2026": 3.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.5,
+      "career_rwar": 4.6,
       "career_rwar_pitch": 0.0
     },
     "621121": {
@@ -13285,15 +13285,15 @@
       "name": "Nick Kurtz",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.7,
+      "rwar": 3.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 5.0,
-        "2026": 3.7
+        "2026": 3.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 8.7,
+      "career_rwar": 8.8,
       "career_rwar_pitch": 0.0
     },
     "664068": {
@@ -13372,14 +13372,14 @@
       "name": "Luis Lara",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.2,
+      "rwar": 1.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 1.2
+        "2026": 1.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.2,
+      "career_rwar": 1.1,
       "career_rwar_pitch": 0.0
     },
     "671083": {
@@ -13507,15 +13507,15 @@
       "name": "Jakob Marsee",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.1,
+      "rwar": 1.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.9,
-        "2026": 1.1
+        "2026": 1.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.0,
+      "career_rwar": 3.1,
       "career_rwar_pitch": 0.0
     },
     "815873": {
@@ -13538,7 +13538,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.5,
+      "rwar_pitch": 1.6,
       "war_by_year": {
         "2023": 0.0
       },
@@ -13548,10 +13548,10 @@
         "2021": -0.1,
         "2022": 0.0,
         "2023": -0.2,
-        "2026": 1.5
+        "2026": 1.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.3
+      "career_rwar_pitch": 1.4
     },
     "682825": {
       "name": "Luis Mey",
@@ -13598,19 +13598,19 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.4,
+      "rwar_pitch": 0.3,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": 0.4
+        "2026": 0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.4
+      "career_rwar_pitch": 0.3
     },
     "571970": {
       "name": "Max Muncy",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.4,
+      "rwar": 4.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -13624,10 +13624,10 @@
         "2023": 2.9,
         "2024": 3.0,
         "2025": 3.5,
-        "2026": 4.4
+        "2026": 4.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 31.2,
+      "career_rwar": 31.0,
       "career_rwar_pitch": 0.0
     },
     "663992": {
@@ -13679,14 +13679,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 5.3,
+      "rwar_pitch": 5.4,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": 1.2,
-        "2026": 5.3
+        "2026": 5.4
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 6.5
+      "career_rwar_pitch": 6.6
     },
     "641857": {
       "name": "Ryan McMahon",
@@ -13885,16 +13885,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.0,
+      "rwar_pitch": 0.1,
       "war_by_year": {
         "2025": 0.0
       },
       "war_by_year_pitch": {
         "2025": 0.6,
-        "2026": 0.0
+        "2026": 0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.6
+      "career_rwar_pitch": 0.7
     },
     "676694": {
       "name": "Jake Meyers",
@@ -13921,14 +13921,14 @@
       "name": "Joshua Kuroda-Grauer",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.8,
+      "rwar": 0.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.8
+        "2026": 0.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.8,
+      "career_rwar": 0.7,
       "career_rwar_pitch": 0.0
     },
     "682988": {
@@ -14213,7 +14213,7 @@
       "name": "Jorge Mateo",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -14223,13 +14223,13 @@
         "2023": 0.8,
         "2024": 0.8,
         "2025": -0.6,
-        "2026": 0.3
+        "2026": 0.2
       },
       "war_by_year_pitch": {
         "2025": -0.1,
         "2026": 0.0
       },
-      "career_rwar": 5.1,
+      "career_rwar": 5.0,
       "career_rwar_pitch": -0.1
     },
     "667463": {
@@ -14357,15 +14357,15 @@
       "name": "Víctor Mesa Jr.",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.7,
+      "rwar": 2.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.1,
-        "2026": 1.7
+        "2026": 2.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.8,
+      "career_rwar": 2.2,
       "career_rwar_pitch": 0.0
     },
     "663604": {
@@ -14472,21 +14472,21 @@
       "name": "Braden Montgomery",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 0.3
+        "2026": 0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.3,
+      "career_rwar": 0.1,
       "career_rwar_pitch": 0.0
     },
     "666624": {
       "name": "Christopher Morel",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.3,
+      "rwar": -0.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -14494,10 +14494,10 @@
         "2023": 1.5,
         "2024": -0.6,
         "2025": -0.3,
-        "2026": -0.3
+        "2026": -0.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.3,
+      "career_rwar": 1.2,
       "career_rwar_pitch": 0.0
     },
     "667452": {
@@ -14521,7 +14521,7 @@
       "name": "James McCann",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.2,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.2,
       "war_by_year": {
@@ -14537,14 +14537,14 @@
         "2023": 0.5,
         "2024": 0.7,
         "2025": 1.0,
-        "2026": 0.2
+        "2026": 0.3
       },
       "war_by_year_pitch": {
         "2023": 0.0,
         "2024": -0.1,
         "2026": -0.2
       },
-      "career_rwar": 8.9,
+      "career_rwar": 9.0,
       "career_rwar_pitch": -0.3
     },
     "666397": {
@@ -14854,15 +14854,15 @@
       "name": "Kyle Karros",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.2,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.0,
-        "2026": 1.2
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.2,
+      "career_rwar": 1.4,
       "career_rwar_pitch": 0.0
     },
     "675920": {
@@ -14917,7 +14917,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 6.3,
+      "rwar_pitch": 6.4,
       "war_by_year": {
         "2021": 0.1
       },
@@ -14929,23 +14929,23 @@
         "2023": 4.7,
         "2024": 0.6,
         "2025": 3.8,
-        "2026": 6.3
+        "2026": 6.4
       },
       "career_rwar": 0.1,
-      "career_rwar_pitch": 17.3
+      "career_rwar_pitch": 17.4
     },
     "682987": {
       "name": "Spencer Jones",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.1,
+      "rwar": 1.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 1.1
+        "2026": 1.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.1,
+      "career_rwar": 1.3,
       "career_rwar_pitch": 0.0
     },
     "815081": {
@@ -15007,15 +15007,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.1,
+      "rwar_pitch": -0.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": -0.4,
         "2025": 0.2,
-        "2026": -0.1
+        "2026": -0.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -0.3
+      "career_rwar_pitch": -0.4
     },
     "660162": {
       "name": "Yoán Moncada",
@@ -15045,15 +15045,15 @@
       "name": "Luke Keaschall",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 2.0,
-        "2026": 1.6
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.6,
+      "career_rwar": 3.4,
       "career_rwar_pitch": 0.0
     },
     "669062": {
@@ -15095,7 +15095,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.5,
+      "rwar_pitch": 1.4,
       "war_by_year": {
         "2017": 0.0,
         "2018": 0.0,
@@ -15112,10 +15112,10 @@
         "2023": 0.5,
         "2024": 0.0,
         "2025": 2.2,
-        "2026": 1.5
+        "2026": 1.4
       },
       "career_rwar": -0.5,
-      "career_rwar_pitch": 13.1
+      "career_rwar_pitch": 13.0
     },
     "572955": {
       "name": "Pierce Johnson",
@@ -15219,7 +15219,7 @@
       "name": "Francisco Lindor",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.5,
+      "rwar": 1.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -15234,10 +15234,10 @@
         "2023": 6.1,
         "2024": 6.8,
         "2025": 5.8,
-        "2026": 1.5
+        "2026": 1.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 57.0,
+      "career_rwar": 57.1,
       "career_rwar_pitch": 0.0
     },
     "668820": {
@@ -15303,16 +15303,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.4,
+      "rwar_pitch": 2.5,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2022": 0.0,
         "2024": 0.9,
         "2025": 1.6,
-        "2026": 2.4
+        "2026": 2.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 4.9
+      "career_rwar_pitch": 5.0
     },
     "662253": {
       "name": "Andrés Muñoz",
@@ -15320,7 +15320,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.2,
+      "rwar_pitch": 0.3,
       "war_by_year": {
         "2019": 0.0,
         "2023": 0.0
@@ -15332,10 +15332,10 @@
         "2023": 0.6,
         "2024": 2.0,
         "2025": 2.5,
-        "2026": 0.2
+        "2026": 0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 6.9
+      "career_rwar_pitch": 7.0
     },
     "668873": {
       "name": "Caleb Kilian",
@@ -15343,16 +15343,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.2,
+      "rwar_pitch": -0.3,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2022": -0.6,
         "2023": -0.5,
         "2024": -0.0,
-        "2026": -0.2
+        "2026": -0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": -1.3
+      "career_rwar_pitch": -1.4
     },
     "687287": {
       "name": "Patrick Monteverde",
@@ -15442,15 +15442,15 @@
       "name": "Colson Montgomery",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.9,
+      "rwar": 2.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 3.3,
-        "2026": 1.9
+        "2026": 2.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 5.2,
+      "career_rwar": 5.3,
       "career_rwar_pitch": 0.0
     },
     "669221": {
@@ -15478,14 +15478,14 @@
       "name": "Kevin McGonigle",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 6.1,
+      "rwar": 6.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 6.1
+        "2026": 6.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.1,
+      "career_rwar": 6.2,
       "career_rwar_pitch": 0.0
     },
     "686797": {
@@ -15654,7 +15654,7 @@
       "name": "Garrett Mitchell",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.8,
+      "rwar": 3.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -15662,17 +15662,17 @@
         "2023": 0.6,
         "2024": 2.1,
         "2025": -0.0,
-        "2026": 2.8
+        "2026": 3.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.5,
+      "career_rwar": 6.7,
       "career_rwar_pitch": 0.0
     },
     "672640": {
       "name": "Otto Lopez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 5.7,
+      "rwar": 5.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -15680,10 +15680,10 @@
         "2022": 0.2,
         "2024": 2.8,
         "2025": 3.6,
-        "2026": 5.7
+        "2026": 5.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 12.3,
+      "career_rwar": 12.2,
       "career_rwar_pitch": 0.0
     },
     "641745": {
@@ -15905,16 +15905,16 @@
       "name": "Coby Mayo",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.8,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.7,
         "2025": 0.2,
-        "2026": 0.8
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.3,
+      "career_rwar": 0.4,
       "career_rwar_pitch": 0.0
     },
     "691788": {
@@ -16257,7 +16257,7 @@
       "name": "Rafael Marchán",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.6,
+      "rwar": -0.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -16265,10 +16265,10 @@
         "2021": 0.2,
         "2024": 0.7,
         "2025": 0.2,
-        "2026": -0.6
+        "2026": -0.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.7,
+      "career_rwar": 0.6,
       "career_rwar_pitch": 0.0
     },
     "669160": {
@@ -16401,15 +16401,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.0,
+      "rwar_pitch": 2.8,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 0.2,
         "2025": 0.6,
-        "2026": 3.0
+        "2026": 2.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.8
+      "career_rwar_pitch": 3.6
     },
     "687273": {
       "name": "Quinn Mathews",
@@ -16446,7 +16446,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.9,
+      "rwar_pitch": 1.8,
       "war_by_year": {
         "2021": 0.0
       },
@@ -16456,10 +16456,10 @@
         "2022": -0.0,
         "2024": 0.3,
         "2025": 1.7,
-        "2026": 1.9
+        "2026": 1.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 6.8
+      "career_rwar_pitch": 6.7
     },
     "676083": {
       "name": "Janson Junk",
@@ -16484,23 +16484,23 @@
       "name": "Austin Martin",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -1.0,
         "2025": 0.7,
-        "2026": 0.9
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.6,
+      "career_rwar": 0.5,
       "career_rwar_pitch": 0.0
     },
     "673490": {
       "name": "Ha-Seong Kim",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.7,
+      "rwar": -0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -16509,10 +16509,10 @@
         "2023": 5.4,
         "2024": 2.6,
         "2025": 0.2,
-        "2026": -0.7
+        "2026": -0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 14.6,
+      "career_rwar": 14.7,
       "career_rwar_pitch": 0.0
     },
     "640455": {
@@ -16632,7 +16632,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.5,
+      "rwar_pitch": 1.4,
       "war_by_year": {
         "2018": -0.0,
         "2021": 0.0,
@@ -16648,24 +16648,24 @@
         "2023": 0.3,
         "2024": 0.3,
         "2025": 0.2,
-        "2026": 1.5
+        "2026": 1.4
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.6
+      "career_rwar_pitch": 5.5
     },
     "663968": {
       "name": "Jake Mangum",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.7,
+      "rwar": 1.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.6,
-        "2026": 1.7
+        "2026": 1.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.3,
+      "career_rwar": 3.2,
       "career_rwar_pitch": 0.0
     },
     "457705": {
@@ -16802,7 +16802,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.1,
+      "rwar_pitch": 0.0,
       "war_by_year": {
         "2019": -0.6,
         "2021": -0.2,
@@ -16816,10 +16816,10 @@
         "2023": 4.0,
         "2024": 1.1,
         "2025": 2.7,
-        "2026": 0.1
+        "2026": 0.0
       },
       "career_rwar": -0.8,
-      "career_rwar_pitch": 16.7
+      "career_rwar_pitch": 16.6
     },
     "682622": {
       "name": "Noelvi Marte",
@@ -16858,14 +16858,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.2,
+      "rwar_pitch": 1.6,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 1.6,
-        "2026": 1.2
+        "2026": 1.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.8
+      "career_rwar_pitch": 3.2
     },
     "676661": {
       "name": "Max Lazar",
@@ -17005,7 +17005,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 5.4,
+      "rwar_pitch": 5.3,
       "war_by_year": {
         "2015": -0.0,
         "2016": -0.0,
@@ -17025,10 +17025,10 @@
         "2023": 3.2,
         "2024": 0.2,
         "2025": 0.2,
-        "2026": 5.4
+        "2026": 5.3
       },
       "career_rwar": -0.2,
-      "career_rwar_pitch": 23.7
+      "career_rwar_pitch": 23.6
     },
     "668939": {
       "name": "Adley Rutschman",
@@ -17287,7 +17287,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 7.5,
+      "rwar_pitch": 7.6,
       "war_by_year": {
         "2021": 0.0
       },
@@ -17297,10 +17297,10 @@
         "2023": 2.1,
         "2024": 3.8,
         "2025": 8.1,
-        "2026": 7.5
+        "2026": 7.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 21.3
+      "career_rwar_pitch": 21.4
     },
     "663878": {
       "name": "Nate Pearson",
@@ -17420,17 +17420,17 @@
       "name": "Joey Ortiz",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.0,
+      "rwar": 2.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": -0.0,
         "2024": 2.8,
         "2025": 0.2,
-        "2026": 2.0
+        "2026": 2.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 5.0,
+      "career_rwar": 5.1,
       "career_rwar_pitch": 0.0
     },
     "542303": {
@@ -17612,7 +17612,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.9,
+      "rwar_pitch": 3.8,
       "war_by_year": {
         "2021": -0.0
       },
@@ -17623,16 +17623,16 @@
         "2023": 2.0,
         "2024": 6.7,
         "2025": 6.4,
-        "2026": 3.9
+        "2026": 3.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 22.1
+      "career_rwar_pitch": 22.0
     },
     "680700": {
       "name": "Richie Palacios",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.4,
+      "rwar": 1.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -17640,10 +17640,10 @@
         "2023": 0.6,
         "2024": 1.8,
         "2025": 0.0,
-        "2026": 1.4
+        "2026": 1.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.6,
+      "career_rwar": 3.7,
       "career_rwar_pitch": 0.0
     },
     "691008": {
@@ -17707,19 +17707,19 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.0,
+      "rwar_pitch": 1.1,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": 1.0
+        "2026": 1.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.0
+      "career_rwar_pitch": 1.1
     },
     "642350": {
       "name": "Jose Siri",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -17728,10 +17728,10 @@
         "2023": 1.6,
         "2024": 1.8,
         "2025": -0.5,
-        "2026": 0.4
+        "2026": 0.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 5.1,
+      "career_rwar": 5.2,
       "career_rwar_pitch": 0.0
     },
     "676566": {
@@ -17766,15 +17766,15 @@
       "name": "Tristan Peters",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.4,
+      "rwar": 4.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.4,
-        "2026": 4.4
+        "2026": 4.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.0,
+      "career_rwar": 3.6,
       "career_rwar_pitch": 0.0
     },
     "671131": {
@@ -17800,15 +17800,15 @@
       "name": "Dalton Rushing",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.3,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.2,
-        "2026": 1.3
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.5,
+      "career_rwar": 1.6,
       "career_rwar_pitch": 0.0
     },
     "695534": {
@@ -18167,7 +18167,7 @@
       "name": "Miguel Rojas",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.7,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.2,
       "war_by_year": {
@@ -18183,7 +18183,7 @@
         "2023": 1.4,
         "2024": 3.4,
         "2025": 2.1,
-        "2026": 0.7
+        "2026": 0.8
       },
       "war_by_year_pitch": {
         "2023": -0.0,
@@ -18191,7 +18191,7 @@
         "2025": -0.2,
         "2026": -0.2
       },
-      "career_rwar": 20.0,
+      "career_rwar": 20.1,
       "career_rwar_pitch": -0.4
     },
     "681916": {
@@ -18215,7 +18215,7 @@
       "name": "Amed Rosario",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": -0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -18228,12 +18228,12 @@
         "2023": 0.5,
         "2024": -0.1,
         "2025": 0.2,
-        "2026": -0.1
+        "2026": -0.2
       },
       "war_by_year_pitch": {
         "2025": -0.1
       },
-      "career_rwar": 10.0,
+      "career_rwar": 9.9,
       "career_rwar_pitch": -0.1
     },
     "675919": {
@@ -18500,7 +18500,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.7,
+      "rwar_pitch": 3.5,
       "war_by_year": {
         "2021": 0.0
       },
@@ -18511,10 +18511,10 @@
         "2023": 1.3,
         "2024": 0.6,
         "2025": 4.4,
-        "2026": 3.7
+        "2026": 3.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 14.7
+      "career_rwar_pitch": 14.5
     },
     "687570": {
       "name": "Connor Prielipp",
@@ -18649,16 +18649,16 @@
       "name": "Connor Norby",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 0.4,
         "2025": 0.8,
-        "2026": 0.3
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.5,
+      "career_rwar": 1.8,
       "career_rwar_pitch": 0.0
     },
     "699393": {
@@ -18681,7 +18681,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.2,
+      "rwar_pitch": 2.1,
       "war_by_year": {
         "2014": 0.1,
         "2015": -0.2,
@@ -18704,10 +18704,10 @@
         "2023": -0.2,
         "2024": 0.0,
         "2025": 3.0,
-        "2026": 2.2
+        "2026": 2.1
       },
       "career_rwar": -0.3,
-      "career_rwar_pitch": 23.0
+      "career_rwar_pitch": 22.9
     },
     "691384": {
       "name": "Luis Perales",
@@ -18816,16 +18816,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.8,
+      "rwar_pitch": 1.7,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": -0.4,
         "2024": 0.4,
         "2025": 0.5,
-        "2026": 1.8
+        "2026": 1.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.3
+      "career_rwar_pitch": 2.2
     },
     "677587": {
       "name": "Brayan Rocchio",
@@ -18987,7 +18987,7 @@
       "name": "Dominic Smith",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.1,
+      "rwar": 0.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -19000,12 +19000,12 @@
         "2023": 0.9,
         "2024": 0.1,
         "2025": 0.4,
-        "2026": 0.1
+        "2026": 0.0
       },
       "war_by_year_pitch": {
         "2024": 0.1
       },
-      "career_rwar": 1.5,
+      "career_rwar": 1.4,
       "career_rwar_pitch": 0.1
     },
     "670042": {
@@ -19158,14 +19158,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 6.7,
+      "rwar_pitch": 6.6,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": 2.0,
-        "2026": 6.7
+        "2026": 6.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 8.7
+      "career_rwar_pitch": 8.6
     },
     "605400": {
       "name": "Aaron Nola",
@@ -19234,15 +19234,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.5,
+      "rwar_pitch": -0.6,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 0.8,
         "2025": -0.2,
-        "2026": -0.5
+        "2026": -0.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.1
+      "career_rwar_pitch": 0.0
     },
     "453286": {
       "name": "Max Scherzer",
@@ -19346,16 +19346,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.1,
+      "rwar_pitch": 1.2,
       "war_by_year": {
         "2025": 0.0
       },
       "war_by_year_pitch": {
         "2025": 0.4,
-        "2026": 1.1
+        "2026": 1.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.5
+      "career_rwar_pitch": 1.6
     },
     "467793": {
       "name": "Carlos Santana",
@@ -19457,7 +19457,7 @@
       "name": "Bryan Reynolds",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.5,
+      "rwar": 3.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -19468,34 +19468,34 @@
         "2023": 2.4,
         "2024": 3.6,
         "2025": 1.3,
-        "2026": 3.5
+        "2026": 3.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 24.5,
+      "career_rwar": 24.4,
       "career_rwar_pitch": 0.0
     },
     "694384": {
       "name": "Nolan Schanuel",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.0,
+      "rwar": 2.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.1,
         "2024": 1.2,
         "2025": 1.6,
-        "2026": 2.0
+        "2026": 2.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.9,
+      "career_rwar": 5.0,
       "career_rwar_pitch": 0.0
     },
     "665161": {
       "name": "Jeremy Peña",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.0,
+      "rwar": 2.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -19503,10 +19503,10 @@
         "2023": 3.9,
         "2024": 3.9,
         "2025": 5.7,
-        "2026": 3.0
+        "2026": 2.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 21.5,
+      "career_rwar": 21.4,
       "career_rwar_pitch": 0.0
     },
     "663432": {
@@ -19662,7 +19662,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.7,
+      "rwar_pitch": -0.8,
       "war_by_year": {
         "2017": -0.0,
         "2018": -0.1,
@@ -19682,16 +19682,16 @@
         "2023": 1.2,
         "2024": 0.2,
         "2025": -0.2,
-        "2026": -0.7
+        "2026": -0.8
       },
       "career_rwar": -0.1,
-      "career_rwar_pitch": 2.6
+      "career_rwar_pitch": 2.5
     },
     "608369": {
       "name": "Corey Seager",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.8,
+      "rwar": 2.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -19706,10 +19706,10 @@
         "2023": 7.2,
         "2024": 5.2,
         "2025": 6.1,
-        "2026": 2.8
+        "2026": 2.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 46.0,
+      "career_rwar": 45.9,
       "career_rwar_pitch": 0.0
     },
     "641933": {
@@ -19896,19 +19896,19 @@
       "name": "Javier Sanoja",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.2,
+      "rwar": 2.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.2,
       "war_by_year": {
         "2024": -0.0,
         "2025": 1.6,
-        "2026": 2.2
+        "2026": 2.1
       },
       "war_by_year_pitch": {
         "2025": -0.5,
         "2026": -0.2
       },
-      "career_rwar": 3.8,
+      "career_rwar": 3.7,
       "career_rwar_pitch": -0.7
     },
     "681799": {
@@ -19946,47 +19946,47 @@
       "name": "Ben Rice",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.9,
+      "rwar": 2.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.4,
         "2025": 2.2,
-        "2026": 2.9
+        "2026": 2.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.7,
+      "career_rwar": 4.6,
       "career_rwar_pitch": 0.0
     },
     "681624": {
       "name": "Andy Pages",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 5.5,
+      "rwar": 5.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 1.2,
         "2025": 3.7,
-        "2026": 5.5
+        "2026": 5.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 10.4,
+      "career_rwar": 10.6,
       "career_rwar_pitch": 0.0
     },
     "701358": {
       "name": "Cam Smith",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 1.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.9,
-        "2026": 1.0
+        "2026": 1.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.9,
+      "career_rwar": 3.1,
       "career_rwar_pitch": 0.0
     },
     "693312": {
@@ -20098,15 +20098,15 @@
       "name": "John Rave",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.8,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.1,
-        "2026": 0.8
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.9,
+      "career_rwar": 1.0,
       "career_rwar_pitch": 0.0
     },
     "592663": {
@@ -20230,7 +20230,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.8,
+      "rwar_pitch": -0.9,
       "war_by_year": {
         "2021": -0.0
       },
@@ -20241,16 +20241,16 @@
         "2023": 0.5,
         "2024": 2.9,
         "2025": 1.6,
-        "2026": -0.8
+        "2026": -0.9
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 6.2
+      "career_rwar_pitch": 6.1
     },
     "677594": {
       "name": "Julio Rodríguez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.5,
+      "rwar": 2.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -20258,10 +20258,10 @@
         "2023": 5.5,
         "2024": 4.2,
         "2025": 6.6,
-        "2026": 2.5
+        "2026": 2.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 25.0,
+      "career_rwar": 25.1,
       "career_rwar_pitch": 0.0
     },
     "656848": {
@@ -20270,15 +20270,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.8,
+      "rwar_pitch": 0.9,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": -0.2,
         "2025": 0.1,
-        "2026": 0.8
+        "2026": 0.9
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.7
+      "career_rwar_pitch": 0.8
     },
     "687263": {
       "name": "Zach Neto",
@@ -20323,7 +20323,7 @@
       "name": "Austin Riley",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -20334,10 +20334,10 @@
         "2023": 6.0,
         "2024": 2.9,
         "2025": 1.4,
-        "2026": 0.9
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 23.4,
+      "career_rwar": 23.3,
       "career_rwar_pitch": 0.0
     },
     "695684": {
@@ -20807,7 +20807,7 @@
       "name": "Josh Rojas",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -20818,14 +20818,14 @@
         "2023": 0.5,
         "2024": 2.1,
         "2025": -1.5,
-        "2026": 0.9
+        "2026": 0.8
       },
       "war_by_year_pitch": {
         "2023": -0.1,
         "2024": -0.0,
         "2026": 0.0
       },
-      "career_rwar": 5.6,
+      "career_rwar": 5.5,
       "career_rwar_pitch": -0.1
     },
     "527048": {
@@ -20834,7 +20834,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.4,
+      "rwar_pitch": 2.8,
       "war_by_year": {
         "2013": 0.0,
         "2014": -0.0,
@@ -20860,10 +20860,10 @@
         "2023": 0.5,
         "2024": 0.9,
         "2025": 1.3,
-        "2026": 2.4
+        "2026": 2.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 18.1
+      "career_rwar_pitch": 18.5
     },
     "669477": {
       "name": "Casey Schmitt",
@@ -20903,7 +20903,7 @@
       "name": "Marcus Semien",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -20920,10 +20920,10 @@
         "2023": 7.7,
         "2024": 4.5,
         "2025": 3.2,
-        "2026": 0.5
+        "2026": 0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 50.1,
+      "career_rwar": 49.9,
       "career_rwar_pitch": 0.0
     },
     "699134": {
@@ -20974,7 +20974,7 @@
       "name": "Salvador Perez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.2,
+      "rwar": -0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -20992,10 +20992,10 @@
         "2023": 0.4,
         "2024": 2.8,
         "2025": 0.5,
-        "2026": -0.2
+        "2026": -0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 35.7,
+      "career_rwar": 35.6,
       "career_rwar_pitch": 0.0
     },
     "702474": {
@@ -21038,7 +21038,7 @@
       "name": "Geraldo Perdomo",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.2,
+      "rwar": 4.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -21047,10 +21047,10 @@
         "2023": 2.0,
         "2024": 3.5,
         "2025": 7.1,
-        "2026": 4.2
+        "2026": 4.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 17.7,
+      "career_rwar": 17.9,
       "career_rwar_pitch": 0.0
     },
     "805326": {
@@ -21132,15 +21132,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -1.1,
+      "rwar_pitch": -1.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 0.9,
         "2024": 1.6,
-        "2026": -1.1
+        "2026": -1.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.4
+      "career_rwar_pitch": 1.3
     },
     "671286": {
       "name": "Johnathan Rodríguez",
@@ -21182,7 +21182,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.4,
+      "rwar_pitch": 2.5,
       "war_by_year": {
         "2017": -0.3,
         "2018": -0.4,
@@ -21199,10 +21199,10 @@
         "2023": 0.4,
         "2024": -0.1,
         "2025": 1.8,
-        "2026": 2.4
+        "2026": 2.5
       },
       "career_rwar": -0.8,
-      "career_rwar_pitch": 7.4
+      "career_rwar_pitch": 7.5
     },
     "519242": {
       "name": "Chris Sale",
@@ -21433,14 +21433,14 @@
       "name": "TJ Rumfield",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.7,
+      "rwar": 3.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": 3.7
+        "2026": 3.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.7,
+      "career_rwar": 3.6,
       "career_rwar_pitch": 0.0
     },
     "671218": {
@@ -21509,7 +21509,7 @@
       "name": "Josh Naylor",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -21520,10 +21520,10 @@
         "2023": 2.2,
         "2024": 1.5,
         "2025": 3.1,
-        "2026": 0.3
+        "2026": 0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 8.7,
+      "career_rwar": 8.6,
       "career_rwar_pitch": 0.0
     },
     "665665": {
@@ -21584,7 +21584,7 @@
       "name": "Joc Pederson",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -21600,27 +21600,27 @@
         "2023": 0.7,
         "2024": 2.8,
         "2025": -0.3,
-        "2026": 1.6
+        "2026": 1.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 16.0,
+      "career_rwar": 16.1,
       "career_rwar_pitch": 0.0
     },
     "677347": {
       "name": "Kyren Paris",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.3,
+      "rwar": -0.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 0.0,
         "2024": -0.3,
         "2025": 0.8,
-        "2026": -0.3
+        "2026": -0.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.2,
+      "career_rwar": 0.1,
       "career_rwar_pitch": 0.0
     },
     "596103": {
@@ -21655,13 +21655,13 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.6,
+      "rwar_pitch": 0.7,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": 0.6
+        "2026": 0.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.6
+      "career_rwar_pitch": 0.7
     },
     "548384": {
       "name": "Brooks Raley",
@@ -21725,7 +21725,7 @@
       "name": "Matt Olson",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.6,
+      "rwar": 3.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -21739,10 +21739,10 @@
         "2023": 7.5,
         "2024": 3.9,
         "2025": 6.2,
-        "2026": 3.6
+        "2026": 3.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 43.5,
+      "career_rwar": 43.6,
       "career_rwar_pitch": 0.0
     },
     "687377": {
@@ -21803,15 +21803,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.3,
+      "rwar_pitch": 0.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 0.2,
         "2025": -0.2,
-        "2026": 0.3
+        "2026": 0.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.3
+      "career_rwar_pitch": 0.2
     },
     "664074": {
       "name": "Cody Ponce",
@@ -22018,19 +22018,19 @@
       "name": "Brian Serven",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.1,
+      "rwar": 0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2022": -0.0,
         "2023": -0.4,
         "2024": 0.1,
-        "2026": 0.1
+        "2026": 0.2
       },
       "war_by_year_pitch": {
         "2022": 0.1
       },
-      "career_rwar": -0.2,
+      "career_rwar": -0.1,
       "career_rwar_pitch": 0.1
     },
     "615698": {
@@ -22077,18 +22077,18 @@
       "name": "Pedro Pagés",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.0,
+      "rwar": -0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 0.8,
         "2025": 1.4,
-        "2026": -0.0
+        "2026": -0.1
       },
       "war_by_year_pitch": {
         "2026": 0.0
       },
-      "career_rwar": 2.2,
+      "career_rwar": 2.1,
       "career_rwar_pitch": 0.0
     },
     "663967": {
@@ -22115,7 +22115,7 @@
       "name": "José Ramírez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.2,
+      "rwar": 2.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -22132,10 +22132,10 @@
         "2023": 4.9,
         "2024": 6.8,
         "2025": 5.9,
-        "2026": 2.2
+        "2026": 2.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 59.9,
+      "career_rwar": 59.7,
       "career_rwar_pitch": 0.0
     },
     "622663": {
@@ -22186,16 +22186,16 @@
       "name": "Nasim Nuñez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 0.7,
         "2025": 0.7,
-        "2026": 1.6
+        "2026": 1.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.0,
+      "career_rwar": 2.9,
       "career_rwar_pitch": 0.0
     },
     "694477": {
@@ -22204,16 +22204,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.8,
+      "rwar_pitch": 1.7,
       "war_by_year": {
         "2026": 0.0
       },
       "war_by_year_pitch": {
         "2025": 2.0,
-        "2026": 1.8
+        "2026": 1.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.8
+      "career_rwar_pitch": 3.7
     },
     "665923": {
       "name": "Esteury Ruiz",
@@ -22317,16 +22317,16 @@
       "name": "Victor Scott II",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.4,
+      "rwar": -0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.5,
         "2025": 2.2,
-        "2026": -0.4
+        "2026": -0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.3,
+      "career_rwar": 1.4,
       "career_rwar_pitch": 0.0
     },
     "700249": {
@@ -22411,7 +22411,7 @@
       "name": "Brandon Nimmo",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -22425,17 +22425,17 @@
         "2023": 4.0,
         "2024": 2.2,
         "2025": 2.8,
-        "2026": 1.6
+        "2026": 1.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 27.7,
+      "career_rwar": 27.5,
       "career_rwar_pitch": 0.0
     },
     "686469": {
       "name": "Vinnie Pasquantino",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -22443,10 +22443,10 @@
         "2023": -0.0,
         "2024": 1.3,
         "2025": 2.4,
-        "2026": 1.6
+        "2026": 1.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 6.7,
+      "career_rwar": 6.8,
       "career_rwar_pitch": 0.0
     },
     "663903": {
@@ -22493,16 +22493,16 @@
       "name": "Daniel Schneemann",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.1,
+      "rwar": 1.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": 0.7,
         "2025": 1.9,
-        "2026": 1.1
+        "2026": 1.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.7,
+      "career_rwar": 3.6,
       "career_rwar_pitch": 0.0
     },
     "687223": {
@@ -22568,7 +22568,7 @@
       "name": "Bobby Witt Jr.",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 6.6,
+      "rwar": 6.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -22576,10 +22576,10 @@
         "2023": 4.3,
         "2024": 9.6,
         "2025": 7.1,
-        "2026": 6.6
+        "2026": 6.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 28.5,
+      "career_rwar": 28.4,
       "career_rwar_pitch": 0.0
     },
     "621550": {
@@ -22691,7 +22691,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.4,
+      "rwar_pitch": -0.5,
       "war_by_year": {
         "2020": 0.0,
         "2021": -0.1
@@ -22703,10 +22703,10 @@
         "2023": -0.4,
         "2024": -1.2,
         "2025": -0.8,
-        "2026": -0.4
+        "2026": -0.5
       },
       "career_rwar": -0.1,
-      "career_rwar_pitch": -1.8
+      "career_rwar_pitch": -1.9
     },
     "680802": {
       "name": "Ryan Weiss",
@@ -22791,15 +22791,15 @@
       "name": "Cole Young",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 4.3,
+      "rwar": 4.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.4,
-        "2026": 4.3
+        "2026": 4.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 4.7,
+      "career_rwar": 4.6,
       "career_rwar_pitch": 0.0
     },
     "669310": {
@@ -22877,7 +22877,7 @@
       "name": "Luis Torrens",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.2,
+      "rwar": 2.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.0,
       "war_by_year": {
@@ -22889,7 +22889,7 @@
         "2023": -0.1,
         "2024": 0.7,
         "2025": 1.3,
-        "2026": 2.2
+        "2026": 2.1
       },
       "war_by_year_pitch": {
         "2022": -0.1,
@@ -22897,7 +22897,7 @@
         "2025": -0.2,
         "2026": -0.0
       },
-      "career_rwar": 3.9,
+      "career_rwar": 3.8,
       "career_rwar_pitch": -0.3
     },
     "624585": {
@@ -23081,15 +23081,15 @@
       "name": "Zac Veen",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.0,
+      "rwar": -0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": -0.3,
-        "2026": 0.0
+        "2026": -0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.3,
+      "career_rwar": -0.4,
       "career_rwar_pitch": 0.0
     },
     "694377": {
@@ -23320,7 +23320,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.4,
+      "rwar_pitch": 1.2,
       "war_by_year": {
         "2021": -0.1
       },
@@ -23333,25 +23333,25 @@
         "2023": 3.2,
         "2024": 4.6,
         "2025": 3.5,
-        "2026": 1.4
+        "2026": 1.2
       },
       "career_rwar": -0.1,
-      "career_rwar_pitch": 20.1
+      "career_rwar_pitch": 19.9
     },
     "694376": {
       "name": "Shay Whitcomb",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.4,
+      "rwar": -0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.4,
         "2025": -0.3,
-        "2026": -0.4
+        "2026": -0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": -1.1,
+      "career_rwar": -0.9,
       "career_rwar_pitch": 0.0
     },
     "693713": {
@@ -23457,51 +23457,51 @@
       "name": "Masyn Winn",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.6,
+      "rwar": 2.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": -0.6,
         "2024": 5.1,
         "2025": 2.2,
-        "2026": 2.6
+        "2026": 2.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 9.3,
+      "career_rwar": 9.4,
       "career_rwar_pitch": 0.0
     },
     "683011": {
       "name": "Anthony Volpe",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.1,
+      "rwar": 1.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 3.2,
         "2024": 3.5,
         "2025": 1.6,
-        "2026": 1.1
+        "2026": 1.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 9.4,
+      "career_rwar": 9.5,
       "career_rwar_pitch": 0.0
     },
     "668723": {
       "name": "Ryan Vilade",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2021": -0.1,
         "2024": -0.7,
         "2025": -0.1,
-        "2026": 1.0
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 0.1,
+      "career_rwar": 0.0,
       "career_rwar_pitch": 0.0
     },
     "669256": {
@@ -23673,7 +23673,7 @@
       "name": "Fernando Tatis Jr.",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.5,
+      "rwar": 3.4,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -23683,10 +23683,10 @@
         "2023": 5.2,
         "2024": 2.6,
         "2025": 6.1,
-        "2026": 3.5
+        "2026": 3.4
       },
       "war_by_year_pitch": {},
-      "career_rwar": 30.8,
+      "career_rwar": 30.7,
       "career_rwar_pitch": 0.0
     },
     "642100": {
@@ -23695,7 +23695,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.0,
+      "rwar_pitch": 1.1,
       "war_by_year": {
         "2019": 0.0,
         "2026": 0.0
@@ -23708,10 +23708,10 @@
         "2023": 0.5,
         "2024": -0.5,
         "2025": 1.4,
-        "2026": 1.0
+        "2026": 1.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.0
+      "career_rwar_pitch": 3.1
     },
     "642376": {
       "name": "Jefry Yan",
@@ -23731,17 +23731,17 @@
       "name": "Tyler Tolbert",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.3,
+      "rwar": 1.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": -0.4,
       "war_by_year": {
         "2025": 0.2,
-        "2026": 1.3
+        "2026": 1.2
       },
       "war_by_year_pitch": {
         "2026": -0.4
       },
-      "career_rwar": 1.5,
+      "career_rwar": 1.4,
       "career_rwar_pitch": -0.4
     },
     "544150": {
@@ -23850,7 +23850,7 @@
       "name": "Ildemaro Vargas",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 1.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -23863,7 +23863,7 @@
         "2023": 0.8,
         "2024": -0.5,
         "2025": 0.2,
-        "2026": 0.9
+        "2026": 1.1
       },
       "war_by_year_pitch": {
         "2022": 0.0,
@@ -23871,7 +23871,7 @@
         "2024": 0.0,
         "2026": 0.0
       },
-      "career_rwar": 2.8,
+      "career_rwar": 3.0,
       "career_rwar_pitch": 0.0
     },
     "669145": {
@@ -23899,7 +23899,7 @@
       "name": "Mike Yastrzemski",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.6,
+      "rwar": 0.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -23910,13 +23910,13 @@
         "2023": 2.4,
         "2024": 2.1,
         "2025": 2.9,
-        "2026": 0.6
+        "2026": 0.7
       },
       "war_by_year_pitch": {
         "2024": -0.1,
         "2025": -0.1
       },
-      "career_rwar": 17.8,
+      "career_rwar": 17.9,
       "career_rwar_pitch": -0.2
     },
     "650402": {
@@ -24151,7 +24151,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.9,
+      "rwar_pitch": -1.0,
       "war_by_year": {
         "2021": 0.0,
         "2023": 0.0,
@@ -24163,10 +24163,10 @@
         "2023": 1.0,
         "2024": 1.6,
         "2025": 1.6,
-        "2026": -0.9
+        "2026": -1.0
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.8
+      "career_rwar_pitch": 2.7
     },
     "682227": {
       "name": "Brandon Williamson",
@@ -24263,15 +24263,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.8,
+      "rwar_pitch": 1.7,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": -0.3,
         "2025": -0.1,
-        "2026": 1.8
+        "2026": 1.7
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.4
+      "career_rwar_pitch": 1.3
     },
     "696136": {
       "name": "Jordan Wicks",
@@ -24296,39 +24296,39 @@
       "name": "Kyle Teel",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 1.9,
-        "2026": 0.4
+        "2026": 0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.3,
+      "career_rwar": 2.0,
       "career_rwar_pitch": 0.0
     },
     "807799": {
       "name": "Masataka Yoshida",
       "name_ja": "吉田 正尚",
       "fwar": 0.0,
-      "rwar": 0.6,
+      "rwar": 0.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 1.4,
         "2024": 1.6,
         "2025": 0.3,
-        "2026": 0.6
+        "2026": 0.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 3.9,
+      "career_rwar": 4.0,
       "career_rwar_pitch": 0.0
     },
     "673548": {
       "name": "Seiya Suzuki",
       "name_ja": "鈴木 誠也",
       "fwar": 0.0,
-      "rwar": 4.6,
+      "rwar": 4.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -24336,10 +24336,10 @@
         "2023": 3.2,
         "2024": 3.5,
         "2025": 2.6,
-        "2026": 4.6
+        "2026": 4.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 15.7,
+      "career_rwar": 15.8,
       "career_rwar_pitch": 0.0
     },
     "608723": {
@@ -24447,16 +24447,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.5,
+      "rwar_pitch": 2.6,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 2.0,
         "2024": -0.1,
         "2025": 3.5,
-        "2026": 2.5
+        "2026": 2.6
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 7.9
+      "career_rwar_pitch": 8.0
     },
     "642851": {
       "name": "Austin Wynns",
@@ -24542,7 +24542,7 @@
       "name": "Tyler Stephenson",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.5,
+      "rwar": 2.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -24552,10 +24552,10 @@
         "2023": 0.6,
         "2024": 2.4,
         "2025": 1.3,
-        "2026": 2.5
+        "2026": 2.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 10.7,
+      "career_rwar": 10.9,
       "career_rwar_pitch": 0.0
     },
     "685464": {
@@ -24642,14 +24642,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 2.7,
+      "rwar_pitch": 2.8,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": 0.1,
-        "2026": 2.7
+        "2026": 2.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.8
+      "career_rwar_pitch": 2.9
     },
     "656986": {
       "name": "Bennett Sousa",
@@ -24657,7 +24657,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": -0.4,
+      "rwar_pitch": -0.3,
       "war_by_year": {
         "2025": 0.0
       },
@@ -24665,10 +24665,10 @@
         "2022": -1.0,
         "2023": 0.1,
         "2025": 1.3,
-        "2026": -0.4
+        "2026": -0.3
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 0.0
+      "career_rwar_pitch": 0.1
     },
     "801139": {
       "name": "Payton Tolle",
@@ -24774,7 +24774,7 @@
       "name": "Daulton Varsho",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 0.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -24784,10 +24784,10 @@
         "2023": 3.6,
         "2024": 4.8,
         "2025": 2.7,
-        "2026": 1.0
+        "2026": 0.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 18.7,
+      "career_rwar": 18.6,
       "career_rwar_pitch": 0.0
     },
     "676568": {
@@ -24908,7 +24908,7 @@
       "name": "Trea Turner",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.1,
+      "rwar": -0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -24923,17 +24923,17 @@
         "2023": 3.5,
         "2024": 2.8,
         "2025": 5.4,
-        "2026": 0.1
+        "2026": -0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 41.7,
+      "career_rwar": 41.4,
       "career_rwar_pitch": 0.0
     },
     "572233": {
       "name": "Christian Walker",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.0,
+      "rwar": 1.9,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -24948,10 +24948,10 @@
         "2023": 3.7,
         "2024": 2.5,
         "2025": 0.3,
-        "2026": 2.0
+        "2026": 1.9
       },
       "war_by_year_pitch": {},
-      "career_rwar": 17.1,
+      "career_rwar": 17.0,
       "career_rwar_pitch": 0.0
     },
     "700712": {
@@ -24960,13 +24960,13 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.5,
+      "rwar_pitch": 3.4,
       "war_by_year": {},
       "war_by_year_pitch": {
-        "2026": 3.5
+        "2026": 3.4
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 3.5
+      "career_rwar_pitch": 3.4
     },
     "642215": {
       "name": "Weston Wilson",
@@ -25042,16 +25042,16 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 3.2,
+      "rwar_pitch": 3.1,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2023": 0.4,
         "2024": 1.9,
         "2025": 1.9,
-        "2026": 3.2
+        "2026": 3.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 7.4
+      "career_rwar_pitch": 7.3
     },
     "596117": {
       "name": "Garrett Stubbs",
@@ -25082,17 +25082,17 @@
       "name": "Brice Turang",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 6.0,
+      "rwar": 6.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 1.5,
         "2024": 4.8,
         "2025": 5.5,
-        "2026": 6.0
+        "2026": 6.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 17.8,
+      "career_rwar": 18.0,
       "career_rwar_pitch": 0.0
     },
     "657136": {
@@ -25182,19 +25182,19 @@
       "name": "Jared Triolo",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.0,
+      "rwar": 1.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": 2.0,
         "2024": 1.4,
         "2025": 2.2,
-        "2026": 1.0
+        "2026": 1.2
       },
       "war_by_year_pitch": {
         "2025": -0.1
       },
-      "career_rwar": 6.6,
+      "career_rwar": 6.8,
       "career_rwar_pitch": -0.1
     },
     "663158": {
@@ -25313,7 +25313,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.0,
+      "rwar_pitch": -0.1,
       "war_by_year": {
         "2018": -0.0,
         "2019": 0.0,
@@ -25329,10 +25329,10 @@
         "2023": 0.7,
         "2024": 1.4,
         "2025": 0.7,
-        "2026": 0.0
+        "2026": -0.1
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 5.6
+      "career_rwar_pitch": 5.5
     },
     "680573": {
       "name": "Simeon Woods Richardson",
@@ -25459,14 +25459,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.4,
+      "rwar_pitch": 1.5,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": 1.1,
-        "2026": 1.4
+        "2026": 1.5
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 2.5
+      "career_rwar_pitch": 2.6
     },
     "647336": {
       "name": "Michael Soroka",
@@ -25553,17 +25553,17 @@
       "name": "Jordan Walker",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.8,
+      "rwar": 3.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2023": -0.1,
         "2024": -0.8,
         "2025": -1.7,
-        "2026": 3.8
+        "2026": 3.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 1.2,
+      "career_rwar": 1.1,
       "career_rwar_pitch": 0.0
     },
     "687765": {
@@ -25897,7 +25897,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.6,
+      "rwar_pitch": 1.5,
       "war_by_year": {
         "2019": -0.0,
         "2021": 0.2
@@ -25910,10 +25910,10 @@
         "2023": 5.6,
         "2024": 3.8,
         "2025": 4.2,
-        "2026": 1.6
+        "2026": 1.5
       },
       "career_rwar": 0.2,
-      "career_rwar_pitch": 23.4
+      "career_rwar_pitch": 23.3
     },
     "592866": {
       "name": "Trevor Williams",
@@ -26045,7 +26045,7 @@
       "name": "Lane Thomas",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26056,12 +26056,12 @@
         "2023": 3.3,
         "2024": 0.2,
         "2025": -0.6,
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {
         "2023": -0.1
       },
-      "career_rwar": 6.0,
+      "career_rwar": 6.1,
       "career_rwar_pitch": -0.1
     },
     "676724": {
@@ -26101,16 +26101,16 @@
       "name": "Jacob Wilson",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.5,
+      "rwar": 0.6,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2024": -0.2,
         "2025": 2.6,
-        "2026": 0.5
+        "2026": 0.6
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.9,
+      "career_rwar": 3.0,
       "career_rwar_pitch": 0.0
     },
     "683734": {
@@ -26158,14 +26158,14 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 1.7,
+      "rwar_pitch": 1.8,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2025": -0.7,
-        "2026": 1.7
+        "2026": 1.8
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.0
+      "career_rwar_pitch": 1.1
     },
     "671162": {
       "name": "Connor Thomas",
@@ -26188,21 +26188,21 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 5.3,
+      "rwar_pitch": 5.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 1.9,
         "2025": 4.9,
-        "2026": 5.3
+        "2026": 5.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 12.1
+      "career_rwar_pitch": 12.0
     },
     "553993": {
       "name": "Eugenio Suárez",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.1,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26218,10 +26218,10 @@
         "2023": 2.4,
         "2024": 3.0,
         "2025": 3.5,
-        "2026": -0.1
+        "2026": 0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 26.6,
+      "career_rwar": 26.8,
       "career_rwar_pitch": 0.0
     },
     "621020": {
@@ -26252,7 +26252,7 @@
       "name": "Bryson Stott",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 1.6,
+      "rwar": 1.5,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26260,10 +26260,10 @@
         "2023": 4.3,
         "2024": 2.3,
         "2025": 2.2,
-        "2026": 1.6
+        "2026": 1.5
       },
       "war_by_year_pitch": {},
-      "career_rwar": 11.6,
+      "career_rwar": 11.5,
       "career_rwar_pitch": 0.0
     },
     "663494": {
@@ -26300,7 +26300,7 @@
       "name": "Trevor Story",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.1,
+      "rwar": 0.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26314,10 +26314,10 @@
         "2023": 0.8,
         "2024": 0.8,
         "2025": 4.1,
-        "2026": 0.1
+        "2026": 0.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 35.2,
+      "career_rwar": 35.1,
       "career_rwar_pitch": 0.0
     },
     "683021": {
@@ -26447,7 +26447,7 @@
       "name": "Leody Taveras",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.3,
+      "rwar": 0.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26457,10 +26457,10 @@
         "2023": 2.9,
         "2024": 0.7,
         "2025": -0.5,
-        "2026": 0.3
+        "2026": 0.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 5.0,
+      "career_rwar": 4.8,
       "career_rwar_pitch": 0.0
     },
     "694335": {
@@ -26484,7 +26484,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 4.4,
+      "rwar_pitch": 5.0,
       "war_by_year": {
         "2013": -0.0,
         "2014": -0.3,
@@ -26505,10 +26505,10 @@
         "2023": 4.2,
         "2024": 6.5,
         "2025": 5.1,
-        "2026": 4.4
+        "2026": 5.0
       },
       "career_rwar": 0.6,
-      "career_rwar_pitch": 44.4
+      "career_rwar_pitch": 45.0
     },
     "699044": {
       "name": "Miguel Ullola",
@@ -26648,7 +26648,7 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 4.0,
+      "rwar_pitch": 4.1,
       "war_by_year": {
         "2013": -0.1,
         "2014": -0.3,
@@ -26673,10 +26673,10 @@
         "2023": 2.7,
         "2024": 3.1,
         "2025": 2.8,
-        "2026": 4.0
+        "2026": 4.1
       },
       "career_rwar": -0.7,
-      "career_rwar_pitch": 23.9
+      "career_rwar_pitch": 24.0
     },
     "669704": {
       "name": "Kade Strowd",
@@ -26746,7 +26746,7 @@
       "name": "Kyle Tucker",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.2,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26758,10 +26758,10 @@
         "2023": 5.5,
         "2024": 4.6,
         "2025": 4.5,
-        "2026": 0.2
+        "2026": 0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 27.4,
+      "career_rwar": 27.5,
       "career_rwar_pitch": 0.0
     },
     "476594": {
@@ -26826,14 +26826,14 @@
       "name": "Tommy White",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": -0.2,
+      "rwar": -0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
-        "2026": -0.2
+        "2026": -0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": -0.2,
+      "career_rwar": -0.3,
       "career_rwar_pitch": 0.0
     },
     "694918": {
@@ -26855,7 +26855,7 @@
       "name": "Will Smith",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.9,
+      "rwar": 0.8,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26866,10 +26866,10 @@
         "2023": 4.1,
         "2024": 3.4,
         "2025": 4.4,
-        "2026": 0.9
+        "2026": 0.8
       },
       "war_by_year_pitch": {},
-      "career_rwar": 23.7,
+      "career_rwar": 23.6,
       "career_rwar_pitch": 0.0
     },
     "605488": {
@@ -26925,7 +26925,7 @@
       "name": "Juan Soto",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.8,
+      "rwar": 3.0,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -26937,10 +26937,10 @@
         "2023": 5.3,
         "2024": 8.0,
         "2025": 6.1,
-        "2026": 2.8
+        "2026": 3.0
       },
       "war_by_year_pitch": {},
-      "career_rwar": 45.2,
+      "career_rwar": 45.4,
       "career_rwar_pitch": 0.0
     },
     "666171": {
@@ -26949,15 +26949,15 @@
       "fwar": 0.0,
       "rwar": 0.0,
       "fwar_pitch": 0.0,
-      "rwar_pitch": 0.3,
+      "rwar_pitch": 0.2,
       "war_by_year": {},
       "war_by_year_pitch": {
         "2024": 0.5,
         "2025": 0.5,
-        "2026": 0.3
+        "2026": 0.2
       },
       "career_rwar": 0.0,
-      "career_rwar_pitch": 1.3
+      "career_rwar_pitch": 1.2
     },
     "672841": {
       "name": "Carlos Vargas",
@@ -27043,7 +27043,7 @@
       "name": "Spencer Torkelson",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.1,
+      "rwar": 0.2,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -27051,17 +27051,17 @@
         "2023": 1.0,
         "2024": 0.2,
         "2025": 2.4,
-        "2026": 0.1
+        "2026": 0.2
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.3,
+      "career_rwar": 2.4,
       "career_rwar_pitch": 0.0
     },
     "602104": {
       "name": "Ramón Urías",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 0.4,
+      "rwar": 0.3,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -27071,10 +27071,10 @@
         "2023": 1.8,
         "2024": 1.4,
         "2025": 2.2,
-        "2026": 0.4
+        "2026": 0.3
       },
       "war_by_year_pitch": {},
-      "career_rwar": 11.7,
+      "career_rwar": 11.6,
       "career_rwar_pitch": 0.0
     },
     "669899": {
@@ -27201,7 +27201,7 @@
       "name": "Mike Trout",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 3.6,
+      "rwar": 3.7,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
@@ -27220,10 +27220,10 @@
         "2023": 2.9,
         "2024": 1.0,
         "2025": 1.7,
-        "2026": 3.6
+        "2026": 3.7
       },
       "war_by_year_pitch": {},
-      "career_rwar": 91.1,
+      "career_rwar": 91.2,
       "career_rwar_pitch": 0.0
     },
     "695238": {
@@ -27382,15 +27382,15 @@
       "name": "Sal Stewart",
       "name_ja": null,
       "fwar": 0.0,
-      "rwar": 2.2,
+      "rwar": 2.1,
       "fwar_pitch": 0.0,
       "rwar_pitch": 0.0,
       "war_by_year": {
         "2025": 0.5,
-        "2026": 2.2
+        "2026": 2.1
       },
       "war_by_year_pitch": {},
-      "career_rwar": 2.7,
+      "career_rwar": 2.6,
       "career_rwar_pitch": 0.0
     }
   },
@@ -27401,73 +27401,73 @@
           "name": "Pete Crow-Armstrong",
           "name_ja": null,
           "team": "CHC",
-          "war": 9.03
+          "war": 9.15
         },
         {
           "name": "Bobby Witt Jr.",
           "name_ja": null,
           "team": "KCR",
-          "war": 6.56
+          "war": 6.46
         },
         {
           "name": "Kevin McGonigle",
           "name_ja": null,
           "team": "DET",
-          "war": 6.09
+          "war": 6.21
         },
         {
           "name": "Brice Turang",
           "name_ja": null,
           "team": "MIL",
-          "war": 6.05
-        },
-        {
-          "name": "Yordan Alvarez",
-          "name_ja": null,
-          "team": "HOU",
-          "war": 5.9
+          "war": 6.16
         },
         {
           "name": "Wilyer Abreu",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.75
+          "war": 5.85
         },
         {
-          "name": "Otto Lopez",
+          "name": "Yordan Alvarez",
           "name_ja": null,
-          "team": "MIA",
-          "war": 5.72
+          "team": "HOU",
+          "war": 5.83
         },
         {
           "name": "Andy Pages",
           "name_ja": null,
           "team": "LAD",
-          "war": 5.53
+          "war": 5.65
+        },
+        {
+          "name": "Otto Lopez",
+          "name_ja": null,
+          "team": "MIA",
+          "war": 5.63
         },
         {
           "name": "Ceddanne Rafaela",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.42
+          "war": 5.43
         },
         {
           "name": "Junior Caminero",
           "name_ja": null,
           "team": "TBR",
-          "war": 5.24
+          "war": 5.33
         },
         {
           "name": "Gabriel Moreno",
           "name_ja": null,
           "team": "ARI",
-          "war": 5.1
+          "war": 5.11
         },
         {
           "name": "Elly De La Cruz",
           "name_ja": null,
           "team": "CIN",
-          "war": 5.05
+          "war": 4.95
         },
         {
           "name": "Corbin Carroll",
@@ -27479,7 +27479,13 @@
           "name": "Alex Bregman",
           "name_ja": null,
           "team": "CHC",
-          "war": 4.76
+          "war": 4.87
+        },
+        {
+          "name": "Seiya Suzuki",
+          "name_ja": null,
+          "team": "CHC",
+          "war": 4.72
         },
         {
           "name": "JJ Wetherholt",
@@ -27491,103 +27497,91 @@
           "name": "Ezequiel Duran",
           "name_ja": null,
           "team": "TEX",
-          "war": 4.65
-        },
-        {
-          "name": "Randy Arozarena",
-          "name_ja": null,
-          "team": "SEA",
-          "war": 4.61
-        },
-        {
-          "name": "Seiya Suzuki",
-          "name_ja": null,
-          "team": "CHC",
-          "war": 4.61
+          "war": 4.56
         },
         {
           "name": "Brandon Lowe",
           "name_ja": null,
           "team": "PIT",
+          "war": 4.55
+        },
+        {
+          "name": "Randy Arozarena",
+          "name_ja": null,
+          "team": "SEA",
           "war": 4.53
         },
         {
           "name": "Steven Kwan",
           "name_ja": null,
           "team": "CLE",
-          "war": 4.49
-        },
-        {
-          "name": "Max Muncy",
-          "name_ja": null,
-          "team": "LAD",
-          "war": 4.4
+          "war": 4.48
         },
         {
           "name": "Zach Neto",
           "name_ja": null,
           "team": "LAA",
-          "war": 4.4
-        },
-        {
-          "name": "CJ Abrams",
-          "name_ja": null,
-          "team": "WSN",
-          "war": 4.39
-        },
-        {
-          "name": "Tristan Peters",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 4.38
-        },
-        {
-          "name": "Willson Contreras",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 4.37
-        },
-        {
-          "name": "Michael Harris II",
-          "name_ja": null,
-          "team": "ATL",
-          "war": 4.33
-        },
-        {
-          "name": "Ty France",
-          "name_ja": null,
-          "team": "SDP",
-          "war": 4.27
-        },
-        {
-          "name": "Cole Young",
-          "name_ja": null,
-          "team": "SEA",
-          "war": 4.27
-        },
-        {
-          "name": "Miguel Vargas",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 4.27
+          "war": 4.42
         },
         {
           "name": "Geraldo Perdomo",
           "name_ja": null,
           "team": "ARI",
-          "war": 4.25
+          "war": 4.37
         },
         {
           "name": "Cody Bellinger",
           "name_ja": null,
           "team": "NYY",
-          "war": 4.23
+          "war": 4.36
+        },
+        {
+          "name": "Michael Harris II",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 4.36
+        },
+        {
+          "name": "Miguel Vargas",
+          "name_ja": null,
+          "team": "CHW",
+          "war": 4.29
+        },
+        {
+          "name": "CJ Abrams",
+          "name_ja": null,
+          "team": "WSN",
+          "war": 4.29
+        },
+        {
+          "name": "Willson Contreras",
+          "name_ja": null,
+          "team": "BOS",
+          "war": 4.28
+        },
+        {
+          "name": "Max Muncy",
+          "name_ja": null,
+          "team": "LAD",
+          "war": 4.19
         },
         {
           "name": "Jackson Chourio",
           "name_ja": null,
           "team": "MIL",
-          "war": 4.18
+          "war": 4.19
+        },
+        {
+          "name": "Cole Young",
+          "name_ja": null,
+          "team": "SEA",
+          "war": 4.19
+        },
+        {
+          "name": "Ty France",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 4.16
         },
         {
           "name": "Pete Alonso",
@@ -27596,40 +27590,52 @@
           "war": 4.02
         },
         {
+          "name": "Tristan Peters",
+          "name_ja": null,
+          "team": "CHW",
+          "war": 3.99
+        },
+        {
           "name": "Dillon Dingler",
           "name_ja": null,
           "team": "DET",
           "war": 3.94
         },
         {
+          "name": "Nick Kurtz",
+          "name_ja": null,
+          "team": "ATH",
+          "war": 3.84
+        },
+        {
           "name": "James Wood",
           "name_ja": null,
           "team": "WSN",
-          "war": 3.79
+          "war": 3.8
+        },
+        {
+          "name": "Matt Olson",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 3.71
+        },
+        {
+          "name": "Mike Trout",
+          "name_ja": null,
+          "team": "LAA",
+          "war": 3.7
         },
         {
           "name": "Jordan Walker",
           "name_ja": null,
           "team": "STL",
-          "war": 3.76
-        },
-        {
-          "name": "Nick Kurtz",
-          "name_ja": null,
-          "team": "ATH",
-          "war": 3.73
-        },
-        {
-          "name": "Shea Langeliers",
-          "name_ja": null,
-          "team": "ATH",
-          "war": 3.69
+          "war": 3.66
         },
         {
           "name": "TJ Rumfield",
           "name_ja": null,
           "team": "COL",
-          "war": 3.68
+          "war": 3.62
         },
         {
           "name": "Rafael Devers",
@@ -27644,40 +27650,16 @@
           "war": 3.61
         },
         {
-          "name": "Matt Olson",
+          "name": "Shea Langeliers",
           "name_ja": null,
-          "team": "ATL",
+          "team": "ATH",
           "war": 3.6
         },
         {
           "name": "Isaac Paredes",
           "name_ja": null,
           "team": "HOU",
-          "war": 3.58
-        },
-        {
-          "name": "Mike Trout",
-          "name_ja": null,
-          "team": "LAA",
-          "war": 3.58
-        },
-        {
-          "name": "Fernando Tatis Jr.",
-          "name_ja": null,
-          "team": "SDP",
-          "war": 3.54
-        },
-        {
-          "name": "Bryce Harper",
-          "name_ja": null,
-          "team": "PHI",
-          "war": 3.53
-        },
-        {
-          "name": "Bryan Reynolds",
-          "name_ja": null,
-          "team": "PIT",
-          "war": 3.49
+          "war": 3.56
         },
         {
           "name": "Shohei Ohtani",
@@ -27686,10 +27668,28 @@
           "war": 3.47
         },
         {
+          "name": "Fernando Tatis Jr.",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 3.44
+        },
+        {
+          "name": "Bryan Reynolds",
+          "name_ja": null,
+          "team": "PIT",
+          "war": 3.39
+        },
+        {
           "name": "Chase Meidroth",
           "name_ja": null,
           "team": "CHW",
-          "war": 3.29
+          "war": 3.37
+        },
+        {
+          "name": "Bryce Harper",
+          "name_ja": null,
+          "team": "PHI",
+          "war": 3.35
         },
         {
           "name": "Freddie Freeman",
@@ -27703,97 +27703,97 @@
           "name": "Bobby Witt Jr.",
           "name_ja": null,
           "team": "KCR",
-          "war": 6.56
+          "war": 6.46
         },
         {
           "name": "Kevin McGonigle",
           "name_ja": null,
           "team": "DET",
-          "war": 6.09
-        },
-        {
-          "name": "Yordan Alvarez",
-          "name_ja": null,
-          "team": "HOU",
-          "war": 5.9
+          "war": 6.21
         },
         {
           "name": "Wilyer Abreu",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.75
+          "war": 5.85
+        },
+        {
+          "name": "Yordan Alvarez",
+          "name_ja": null,
+          "team": "HOU",
+          "war": 5.83
         },
         {
           "name": "Ceddanne Rafaela",
           "name_ja": null,
           "team": "BOS",
-          "war": 5.42
+          "war": 5.43
         },
         {
           "name": "Junior Caminero",
           "name_ja": null,
           "team": "TBR",
-          "war": 5.24
+          "war": 5.33
         },
         {
           "name": "Ezequiel Duran",
           "name_ja": null,
           "team": "TEX",
-          "war": 4.65
+          "war": 4.56
         },
         {
           "name": "Randy Arozarena",
           "name_ja": null,
           "team": "SEA",
-          "war": 4.61
+          "war": 4.53
         },
         {
           "name": "Steven Kwan",
           "name_ja": null,
           "team": "CLE",
-          "war": 4.49
+          "war": 4.48
         },
         {
           "name": "Zach Neto",
           "name_ja": null,
           "team": "LAA",
-          "war": 4.4
-        },
-        {
-          "name": "Tristan Peters",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 4.38
-        },
-        {
-          "name": "Willson Contreras",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 4.37
-        },
-        {
-          "name": "Cole Young",
-          "name_ja": null,
-          "team": "SEA",
-          "war": 4.27
-        },
-        {
-          "name": "Miguel Vargas",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 4.27
+          "war": 4.42
         },
         {
           "name": "Cody Bellinger",
           "name_ja": null,
           "team": "NYY",
-          "war": 4.23
+          "war": 4.36
+        },
+        {
+          "name": "Miguel Vargas",
+          "name_ja": null,
+          "team": "CHW",
+          "war": 4.29
+        },
+        {
+          "name": "Willson Contreras",
+          "name_ja": null,
+          "team": "BOS",
+          "war": 4.28
+        },
+        {
+          "name": "Cole Young",
+          "name_ja": null,
+          "team": "SEA",
+          "war": 4.19
         },
         {
           "name": "Pete Alonso",
           "name_ja": null,
           "team": "BAL",
           "war": 4.02
+        },
+        {
+          "name": "Tristan Peters",
+          "name_ja": null,
+          "team": "CHW",
+          "war": 3.99
         },
         {
           "name": "Dillon Dingler",
@@ -27805,13 +27805,13 @@
           "name": "Nick Kurtz",
           "name_ja": null,
           "team": "ATH",
-          "war": 3.73
+          "war": 3.84
         },
         {
-          "name": "Shea Langeliers",
+          "name": "Mike Trout",
           "name_ja": null,
-          "team": "ATH",
-          "war": 3.69
+          "team": "LAA",
+          "war": 3.7
         },
         {
           "name": "Caleb Durbin",
@@ -27820,28 +27820,28 @@
           "war": 3.61
         },
         {
+          "name": "Shea Langeliers",
+          "name_ja": null,
+          "team": "ATH",
+          "war": 3.6
+        },
+        {
           "name": "Isaac Paredes",
           "name_ja": null,
           "team": "HOU",
-          "war": 3.58
-        },
-        {
-          "name": "Mike Trout",
-          "name_ja": null,
-          "team": "LAA",
-          "war": 3.58
+          "war": 3.56
         },
         {
           "name": "Chase Meidroth",
           "name_ja": null,
           "team": "CHW",
-          "war": 3.29
+          "war": 3.37
         },
         {
           "name": "Byron Buxton",
           "name_ja": null,
           "team": "MIN",
-          "war": 3.27
+          "war": 3.28
         },
         {
           "name": "Chase DeLauter",
@@ -27850,76 +27850,76 @@
           "war": 3.25
         },
         {
-          "name": "Yandy Díaz",
-          "name_ja": null,
-          "team": "TBR",
-          "war": 3.22
-        },
-        {
           "name": "Ryan Jeffers",
           "name_ja": null,
           "team": "MIN",
           "war": 3.2
         },
         {
-          "name": "Taylor Walls",
-          "name_ja": null,
-          "team": "TBR",
-          "war": 3.1
-        },
-        {
-          "name": "Jeremy Peña",
-          "name_ja": null,
-          "team": "HOU",
-          "war": 2.99
-        },
-        {
           "name": "Henry Bolte",
           "name_ja": null,
           "team": "ATH",
-          "war": 2.97
+          "war": 3.19
+        },
+        {
+          "name": "Yandy Díaz",
+          "name_ja": null,
+          "team": "TBR",
+          "war": 3.16
+        },
+        {
+          "name": "Taylor Walls",
+          "name_ja": null,
+          "team": "TBR",
+          "war": 3.11
         },
         {
           "name": "Jac Caglianone",
           "name_ja": null,
           "team": "KCR",
-          "war": 2.9
+          "war": 2.92
         },
         {
-          "name": "Ben Rice",
+          "name": "Jeremy Peña",
           "name_ja": null,
-          "team": "NYY",
-          "war": 2.85
-        },
-        {
-          "name": "Zack Gelof",
-          "name_ja": null,
-          "team": "ATH",
-          "war": 2.8
+          "team": "HOU",
+          "war": 2.87
         },
         {
           "name": "Wyatt Langford",
           "name_ja": null,
           "team": "TEX",
+          "war": 2.84
+        },
+        {
+          "name": "Zack Gelof",
+          "name_ja": null,
+          "team": "ATH",
           "war": 2.79
         },
         {
-          "name": "Corey Seager",
+          "name": "Ben Rice",
           "name_ja": null,
-          "team": "TEX",
-          "war": 2.77
+          "team": "NYY",
+          "war": 2.75
         },
         {
           "name": "Tyler Soderstrom",
           "name_ja": null,
           "team": "ATH",
-          "war": 2.7
+          "war": 2.71
+        },
+        {
+          "name": "Corey Seager",
+          "name_ja": null,
+          "team": "TEX",
+          "war": 2.68
         },
         {
           "name": "Carter Jensen",
           "name_ja": null,
           "team": "KCR",
-          "war": 2.67
+          "war": 2.68
         },
         {
           "name": "Taylor Ward",
@@ -27931,31 +27931,19 @@
           "name": "Julio Rodríguez",
           "name_ja": null,
           "team": "SEA",
-          "war": 2.53
+          "war": 2.64
         },
         {
           "name": "Kody Clemens",
           "name_ja": null,
           "team": "MIN",
-          "war": 2.49
+          "war": 2.5
         },
         {
           "name": "Gunnar Henderson",
           "name_ja": null,
           "team": "BAL",
-          "war": 2.43
-        },
-        {
-          "name": "Brooks Lee",
-          "name_ja": null,
-          "team": "MIN",
-          "war": 2.42
-        },
-        {
-          "name": "Gleyber Torres",
-          "name_ja": null,
-          "team": "DET",
-          "war": 2.41
+          "war": 2.44
         },
         {
           "name": "Riley Greene",
@@ -27964,10 +27952,22 @@
           "war": 2.41
         },
         {
+          "name": "Brooks Lee",
+          "name_ja": null,
+          "team": "MIN",
+          "war": 2.41
+        },
+        {
+          "name": "Gleyber Torres",
+          "name_ja": null,
+          "team": "DET",
+          "war": 2.4
+        },
+        {
           "name": "Jake Burger",
           "name_ja": null,
           "team": "TEX",
-          "war": 2.4
+          "war": 2.33
         },
         {
           "name": "Brayan Rocchio",
@@ -27976,28 +27976,28 @@
           "war": 2.31
         },
         {
-          "name": "Dominic Canzone",
-          "name_ja": null,
-          "team": "SEA",
-          "war": 2.24
-        },
-        {
-          "name": "José Ramírez",
-          "name_ja": null,
-          "team": "CLE",
-          "war": 2.21
-        },
-        {
           "name": "Michael Massey",
           "name_ja": null,
           "team": "KCR",
-          "war": 2.18
+          "war": 2.3
         },
         {
           "name": "José Caballero",
           "name_ja": null,
           "team": "NYY",
-          "war": 2.17
+          "war": 2.28
+        },
+        {
+          "name": "Dominic Canzone",
+          "name_ja": null,
+          "team": "SEA",
+          "war": 2.21
+        },
+        {
+          "name": "Víctor Mesa Jr.",
+          "name_ja": null,
+          "team": "TBR",
+          "war": 2.11
         }
       ],
       "nl_top": [
@@ -28005,37 +28005,37 @@
           "name": "Pete Crow-Armstrong",
           "name_ja": null,
           "team": "CHC",
-          "war": 9.03
+          "war": 9.15
         },
         {
           "name": "Brice Turang",
           "name_ja": null,
           "team": "MIL",
-          "war": 6.05
-        },
-        {
-          "name": "Otto Lopez",
-          "name_ja": null,
-          "team": "MIA",
-          "war": 5.72
+          "war": 6.16
         },
         {
           "name": "Andy Pages",
           "name_ja": null,
           "team": "LAD",
-          "war": 5.53
+          "war": 5.65
+        },
+        {
+          "name": "Otto Lopez",
+          "name_ja": null,
+          "team": "MIA",
+          "war": 5.63
         },
         {
           "name": "Gabriel Moreno",
           "name_ja": null,
           "team": "ARI",
-          "war": 5.1
+          "war": 5.11
         },
         {
           "name": "Elly De La Cruz",
           "name_ja": null,
           "team": "CIN",
-          "war": 5.05
+          "war": 4.95
         },
         {
           "name": "Corbin Carroll",
@@ -28047,7 +28047,13 @@
           "name": "Alex Bregman",
           "name_ja": null,
           "team": "CHC",
-          "war": 4.76
+          "war": 4.87
+        },
+        {
+          "name": "Seiya Suzuki",
+          "name_ja": null,
+          "team": "CHC",
+          "war": 4.72
         },
         {
           "name": "JJ Wetherholt",
@@ -28056,70 +28062,70 @@
           "war": 4.67
         },
         {
-          "name": "Seiya Suzuki",
-          "name_ja": null,
-          "team": "CHC",
-          "war": 4.61
-        },
-        {
           "name": "Brandon Lowe",
           "name_ja": null,
           "team": "PIT",
-          "war": 4.53
-        },
-        {
-          "name": "Max Muncy",
-          "name_ja": null,
-          "team": "LAD",
-          "war": 4.4
-        },
-        {
-          "name": "CJ Abrams",
-          "name_ja": null,
-          "team": "WSN",
-          "war": 4.39
-        },
-        {
-          "name": "Michael Harris II",
-          "name_ja": null,
-          "team": "ATL",
-          "war": 4.33
-        },
-        {
-          "name": "Ty France",
-          "name_ja": null,
-          "team": "SDP",
-          "war": 4.27
+          "war": 4.55
         },
         {
           "name": "Geraldo Perdomo",
           "name_ja": null,
           "team": "ARI",
-          "war": 4.25
+          "war": 4.37
+        },
+        {
+          "name": "Michael Harris II",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 4.36
+        },
+        {
+          "name": "CJ Abrams",
+          "name_ja": null,
+          "team": "WSN",
+          "war": 4.29
+        },
+        {
+          "name": "Max Muncy",
+          "name_ja": null,
+          "team": "LAD",
+          "war": 4.19
         },
         {
           "name": "Jackson Chourio",
           "name_ja": null,
           "team": "MIL",
-          "war": 4.18
+          "war": 4.19
+        },
+        {
+          "name": "Ty France",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 4.16
         },
         {
           "name": "James Wood",
           "name_ja": null,
           "team": "WSN",
-          "war": 3.79
+          "war": 3.8
+        },
+        {
+          "name": "Matt Olson",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 3.71
         },
         {
           "name": "Jordan Walker",
           "name_ja": null,
           "team": "STL",
-          "war": 3.76
+          "war": 3.66
         },
         {
           "name": "TJ Rumfield",
           "name_ja": null,
           "team": "COL",
-          "war": 3.68
+          "war": 3.62
         },
         {
           "name": "Rafael Devers",
@@ -28128,34 +28134,28 @@
           "war": 3.62
         },
         {
-          "name": "Matt Olson",
+          "name": "Shohei Ohtani",
           "name_ja": null,
-          "team": "ATL",
-          "war": 3.6
+          "team": "LAD",
+          "war": 3.47
         },
         {
           "name": "Fernando Tatis Jr.",
           "name_ja": null,
           "team": "SDP",
-          "war": 3.54
-        },
-        {
-          "name": "Bryce Harper",
-          "name_ja": null,
-          "team": "PHI",
-          "war": 3.53
+          "war": 3.44
         },
         {
           "name": "Bryan Reynolds",
           "name_ja": null,
           "team": "PIT",
-          "war": 3.49
+          "war": 3.39
         },
         {
-          "name": "Shohei Ohtani",
+          "name": "Bryce Harper",
           "name_ja": null,
-          "team": "LAD",
-          "war": 3.47
+          "team": "PHI",
+          "war": 3.35
         },
         {
           "name": "Freddie Freeman",
@@ -28164,52 +28164,70 @@
           "war": 3.29
         },
         {
-          "name": "Alec Burleson",
-          "name_ja": null,
-          "team": "STL",
-          "war": 3.17
-        },
-        {
           "name": "Drake Baldwin",
           "name_ja": null,
           "team": "ATL",
-          "war": 3.14
+          "war": 3.12
         },
         {
           "name": "Dansby Swanson",
           "name_ja": null,
           "team": "CHC",
-          "war": 3.07
+          "war": 3.08
         },
         {
-          "name": "Luis Arraez",
+          "name": "Alec Burleson",
           "name_ja": null,
-          "team": "SFG",
-          "war": 3.04
+          "team": "STL",
+          "war": 3.08
+        },
+        {
+          "name": "Juan Soto",
+          "name_ja": null,
+          "team": "NYM",
+          "war": 3.05
         },
         {
           "name": "Carson Benge",
           "name_ja": null,
           "team": "NYM",
-          "war": 3.04
+          "war": 3.05
         },
         {
-          "name": "Iván Herrera",
+          "name": "Luis Arraez",
           "name_ja": null,
-          "team": "STL",
-          "war": 2.93
+          "team": "SFG",
+          "war": 3.05
+        },
+        {
+          "name": "Garrett Mitchell",
+          "name_ja": null,
+          "team": "MIL",
+          "war": 3.02
         },
         {
           "name": "Jake Bauers",
           "name_ja": null,
           "team": "MIL",
-          "war": 2.9
+          "war": 3.01
         },
         {
-          "name": "Kyle Schwarber",
+          "name": "Mookie Betts",
           "name_ja": null,
-          "team": "PHI",
-          "war": 2.89
+          "team": "LAD",
+          "war": 2.98
+        },
+        {
+          "name": "Jackson Merrill",
+          "name_ja": null,
+          "team": "SDP",
+          "war": 2.94
+        },
+        {
+          "name": "Iván Herrera",
+          "name_ja": null,
+          "team": "STL",
+          "war": 2.88
         },
         {
           "name": "Xavier Edwards",
@@ -28218,52 +28236,40 @@
           "war": 2.87
         },
         {
-          "name": "Mookie Betts",
+          "name": "Kyle Schwarber",
           "name_ja": null,
-          "team": "LAD",
+          "team": "PHI",
           "war": 2.86
-        },
-        {
-          "name": "Juan Soto",
-          "name_ja": null,
-          "team": "NYM",
-          "war": 2.84
-        },
-        {
-          "name": "Jackson Merrill",
-          "name_ja": null,
-          "team": "SDP",
-          "war": 2.84
         },
         {
           "name": "A.J. Ewing",
           "name_ja": null,
           "team": "NYM",
-          "war": 2.83
-        },
-        {
-          "name": "Garrett Mitchell",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 2.81
+          "war": 2.84
         },
         {
           "name": "Matt Chapman",
           "name_ja": null,
           "team": "SFG",
-          "war": 2.81
+          "war": 2.82
         },
         {
-          "name": "Ian Happ",
+          "name": "Tyler Stephenson",
           "name_ja": null,
-          "team": "CHC",
-          "war": 2.66
+          "team": "CIN",
+          "war": 2.71
         },
         {
           "name": "Masyn Winn",
           "name_ja": null,
           "team": "STL",
-          "war": 2.58
+          "war": 2.69
+        },
+        {
+          "name": "Ian Happ",
+          "name_ja": null,
+          "team": "CHC",
+          "war": 2.67
         },
         {
           "name": "Liam Hicks",
@@ -28272,33 +28278,27 @@
           "war": 2.53
         },
         {
-          "name": "Tyler Stephenson",
-          "name_ja": null,
-          "team": "CIN",
-          "war": 2.5
-        },
-        {
-          "name": "Hunter Goodman",
-          "name_ja": null,
-          "team": "COL",
-          "war": 2.49
-        },
-        {
           "name": "William Contreras",
           "name_ja": null,
           "team": "MIL",
           "war": 2.47
         },
         {
-          "name": "Heriberto Hernández",
+          "name": "Hunter Goodman",
           "name_ja": null,
-          "team": "MIA",
+          "team": "COL",
           "war": 2.37
         },
         {
-          "name": "Luis García Jr.",
+          "name": "Oneil Cruz",
           "name_ja": null,
-          "team": "WSN",
+          "team": "PIT",
+          "war": 2.33
+        },
+        {
+          "name": "Heriberto Hernández",
+          "name_ja": null,
+          "team": "MIA",
           "war": 2.28
         }
       ]
@@ -28309,103 +28309,103 @@
           "name": "Cristopher Sánchez",
           "name_ja": null,
           "team": "PHI",
-          "war": 7.51
+          "war": 7.58
         },
         {
           "name": "Cam Schlittler",
           "name_ja": null,
           "team": "NYY",
-          "war": 6.65
+          "war": 6.58
         },
         {
           "name": "Jesús Luzardo",
           "name_ja": null,
           "team": "PHI",
-          "war": 6.32
+          "war": 6.37
         },
         {
           "name": "Dylan Cease",
           "name_ja": null,
           "team": "TOR",
-          "war": 5.83
+          "war": 5.8
         },
         {
           "name": "Jacob Misiorowski",
           "name_ja": null,
           "team": "MIL",
-          "war": 5.52
+          "war": 5.49
         },
         {
           "name": "Chris Sale",
           "name_ja": null,
           "team": "ATL",
-          "war": 5.43
-        },
-        {
-          "name": "Eduardo Rodríguez",
-          "name_ja": null,
-          "team": "ARI",
-          "war": 5.41
+          "war": 5.42
         },
         {
           "name": "Parker Messick",
           "name_ja": null,
           "team": "CLE",
-          "war": 5.34
+          "war": 5.42
+        },
+        {
+          "name": "Eduardo Rodríguez",
+          "name_ja": null,
+          "team": "ARI",
+          "war": 5.32
         },
         {
           "name": "Yoshinobu Yamamoto",
           "name_ja": null,
           "team": "LAD",
-          "war": 5.3
+          "war": 5.21
         },
         {
           "name": "Chase Burns",
           "name_ja": null,
           "team": "CIN",
-          "war": 5.0
+          "war": 5.01
         },
         {
           "name": "Zack Wheeler",
           "name_ja": null,
           "team": "PHI",
-          "war": 4.44
+          "war": 4.96
         },
         {
           "name": "Michael King",
           "name_ja": null,
           "team": "SDP",
-          "war": 4.13
-        },
-        {
-          "name": "Sonny Gray",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 4.05
+          "war": 4.12
         },
         {
           "name": "Michael Wacha",
           "name_ja": null,
           "team": "KCR",
-          "war": 4.04
+          "war": 4.09
         },
         {
-          "name": "Reid Detmers",
+          "name": "Sonny Gray",
           "name_ja": null,
-          "team": "LAA",
-          "war": 3.88
+          "team": "BOS",
+          "war": 4.03
         },
         {
           "name": "Sean Burke",
           "name_ja": null,
           "team": "CHW",
-          "war": 3.73
+          "war": 3.85
         },
         {
-          "name": "Drew Rasmussen",
+          "name": "Reid Detmers",
+          "name_ja": null,
+          "team": "LAA",
+          "war": 3.79
+        },
+        {
+          "name": "Nick Martinez",
           "name_ja": null,
           "team": "TBR",
-          "war": 3.67
+          "war": 3.79
         },
         {
           "name": "Braxton Ashcraft",
@@ -28414,64 +28414,52 @@
           "war": 3.57
         },
         {
-          "name": "Nick Martinez",
+          "name": "Drew Rasmussen",
           "name_ja": null,
           "team": "TBR",
-          "war": 3.52
+          "war": 3.55
         },
         {
           "name": "Walbert Ureña",
           "name_ja": null,
           "team": "LAA",
-          "war": 3.49
+          "war": 3.42
         },
         {
           "name": "Taj Bradley",
           "name_ja": null,
           "team": "MIN",
-          "war": 3.38
+          "war": 3.4
         },
         {
           "name": "Louis Varland",
           "name_ja": null,
           "team": "TOR",
-          "war": 3.38
+          "war": 3.36
         },
         {
           "name": "Foster Griffin",
           "name_ja": null,
           "team": "WSN",
-          "war": 3.31
-        },
-        {
-          "name": "Max Fried",
-          "name_ja": null,
-          "team": "NYY",
-          "war": 3.28
+          "war": 3.35
         },
         {
           "name": "Cade Cavalli",
           "name_ja": null,
           "team": "WSN",
-          "war": 3.28
+          "war": 3.33
+        },
+        {
+          "name": "Max Fried",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 3.31
         },
         {
           "name": "J.T. Ginn",
           "name_ja": null,
           "team": "ATH",
-          "war": 3.22
-        },
-        {
-          "name": "Troy Melton",
-          "name_ja": null,
-          "team": "DET",
-          "war": 3.17
-        },
-        {
-          "name": "Jhoan Duran",
-          "name_ja": null,
-          "team": "PHI",
-          "war": 3.15
+          "war": 3.21
         },
         {
           "name": "Mason Miller",
@@ -28480,88 +28468,100 @@
           "war": 3.15
         },
         {
+          "name": "Jhoan Duran",
+          "name_ja": null,
+          "team": "PHI",
+          "war": 3.13
+        },
+        {
           "name": "Logan Henderson",
           "name_ja": null,
           "team": "MIL",
-          "war": 3.12
+          "war": 3.11
+        },
+        {
+          "name": "Troy Melton",
+          "name_ja": null,
+          "team": "DET",
+          "war": 3.09
         },
         {
           "name": "Shohei Ohtani",
           "name_ja": null,
           "team": "LAD",
-          "war": 3.1
-        },
-        {
-          "name": "Keider Montero",
-          "name_ja": null,
-          "team": "DET",
-          "war": 2.96
+          "war": 3.06
         },
         {
           "name": "Sandy Alcantara",
           "name_ja": null,
           "team": "MIA",
-          "war": 2.95
+          "war": 3.0
         },
         {
           "name": "Peter Lambert",
           "name_ja": null,
           "team": "HOU",
-          "war": 2.95
-        },
-        {
-          "name": "Nolan McLean",
-          "name_ja": null,
-          "team": "NYM",
-          "war": 2.93
-        },
-        {
-          "name": "Max Meyer",
-          "name_ja": null,
-          "team": "MIA",
-          "war": 2.9
-        },
-        {
-          "name": "Paul Blackburn",
-          "name_ja": null,
-          "team": "NYY",
-          "war": 2.89
+          "war": 3.0
         },
         {
           "name": "Logan Gilbert",
           "name_ja": null,
           "team": "SEA",
-          "war": 2.85
+          "war": 2.96
         },
         {
-          "name": "Tarik Skubal",
+          "name": "Nolan McLean",
+          "name_ja": null,
+          "team": "NYM",
+          "war": 2.94
+        },
+        {
+          "name": "Max Meyer",
+          "name_ja": null,
+          "team": "MIA",
+          "war": 2.91
+        },
+        {
+          "name": "Paul Blackburn",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 2.86
+        },
+        {
+          "name": "Keider Montero",
           "name_ja": null,
           "team": "DET",
-          "war": 2.79
+          "war": 2.84
         },
         {
-          "name": "Paul Skenes",
+          "name": "Martín Pérez",
           "name_ja": null,
-          "team": "PIT",
-          "war": 2.76
+          "team": "ATL",
+          "war": 2.82
         },
         {
           "name": "Grant Taylor",
           "name_ja": null,
           "team": "CHW",
+          "war": 2.78
+        },
+        {
+          "name": "Paul Skenes",
+          "name_ja": null,
+          "team": "PIT",
+          "war": 2.77
+        },
+        {
+          "name": "Tarik Skubal",
+          "name_ja": null,
+          "team": "DET",
           "war": 2.72
         },
         {
-          "name": "Casey Mize",
+          "name": "Josh Hader",
           "name_ja": null,
-          "team": "DET",
+          "team": "HOU",
           "war": 2.71
-        },
-        {
-          "name": "Brent Headrick",
-          "name_ja": null,
-          "team": "NYY",
-          "war": 2.7
         },
         {
           "name": "Andre Pallante",
@@ -28570,10 +28570,22 @@
           "war": 2.68
         },
         {
+          "name": "Brent Headrick",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 2.67
+        },
+        {
+          "name": "Casey Mize",
+          "name_ja": null,
+          "team": "DET",
+          "war": 2.65
+        },
+        {
           "name": "José Soriano",
           "name_ja": null,
           "team": "LAA",
-          "war": 2.67
+          "war": 2.6
         },
         {
           "name": "Jacob Latz",
@@ -28582,28 +28594,16 @@
           "war": 2.6
         },
         {
-          "name": "Gerrit Cole",
+          "name": "Gavin Williams",
           "name_ja": null,
-          "team": "NYY",
+          "team": "CLE",
           "war": 2.59
         },
         {
           "name": "Payton Tolle",
           "name_ja": null,
           "team": "BOS",
-          "war": 2.59
-        },
-        {
-          "name": "Josh Hader",
-          "name_ja": null,
-          "team": "HOU",
           "war": 2.58
-        },
-        {
-          "name": "Emerson Hancock",
-          "name_ja": null,
-          "team": "SEA",
-          "war": 2.55
         }
       ],
       "al_top": [
@@ -28611,145 +28611,151 @@
           "name": "Cam Schlittler",
           "name_ja": null,
           "team": "NYY",
-          "war": 6.65
+          "war": 6.58
         },
         {
           "name": "Dylan Cease",
           "name_ja": null,
           "team": "TOR",
-          "war": 5.83
+          "war": 5.8
         },
         {
           "name": "Parker Messick",
           "name_ja": null,
           "team": "CLE",
-          "war": 5.34
-        },
-        {
-          "name": "Sonny Gray",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 4.05
+          "war": 5.42
         },
         {
           "name": "Michael Wacha",
           "name_ja": null,
           "team": "KCR",
-          "war": 4.04
+          "war": 4.09
         },
         {
-          "name": "Reid Detmers",
+          "name": "Sonny Gray",
           "name_ja": null,
-          "team": "LAA",
-          "war": 3.88
+          "team": "BOS",
+          "war": 4.03
         },
         {
           "name": "Sean Burke",
           "name_ja": null,
           "team": "CHW",
-          "war": 3.73
+          "war": 3.85
         },
         {
-          "name": "Drew Rasmussen",
+          "name": "Reid Detmers",
           "name_ja": null,
-          "team": "TBR",
-          "war": 3.67
+          "team": "LAA",
+          "war": 3.79
         },
         {
           "name": "Nick Martinez",
           "name_ja": null,
           "team": "TBR",
-          "war": 3.52
+          "war": 3.79
+        },
+        {
+          "name": "Drew Rasmussen",
+          "name_ja": null,
+          "team": "TBR",
+          "war": 3.55
         },
         {
           "name": "Walbert Ureña",
           "name_ja": null,
           "team": "LAA",
-          "war": 3.49
+          "war": 3.42
         },
         {
           "name": "Taj Bradley",
           "name_ja": null,
           "team": "MIN",
-          "war": 3.38
+          "war": 3.4
         },
         {
           "name": "Louis Varland",
           "name_ja": null,
           "team": "TOR",
-          "war": 3.38
+          "war": 3.36
         },
         {
           "name": "Max Fried",
           "name_ja": null,
           "team": "NYY",
-          "war": 3.28
+          "war": 3.31
         },
         {
           "name": "J.T. Ginn",
           "name_ja": null,
           "team": "ATH",
-          "war": 3.22
+          "war": 3.21
         },
         {
           "name": "Troy Melton",
           "name_ja": null,
           "team": "DET",
-          "war": 3.17
-        },
-        {
-          "name": "Keider Montero",
-          "name_ja": null,
-          "team": "DET",
-          "war": 2.96
+          "war": 3.09
         },
         {
           "name": "Peter Lambert",
           "name_ja": null,
           "team": "HOU",
-          "war": 2.95
-        },
-        {
-          "name": "Paul Blackburn",
-          "name_ja": null,
-          "team": "NYY",
-          "war": 2.89
+          "war": 3.0
         },
         {
           "name": "Logan Gilbert",
           "name_ja": null,
           "team": "SEA",
-          "war": 2.85
+          "war": 2.96
         },
         {
-          "name": "Tarik Skubal",
+          "name": "Paul Blackburn",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 2.86
+        },
+        {
+          "name": "Keider Montero",
           "name_ja": null,
           "team": "DET",
-          "war": 2.79
+          "war": 2.84
         },
         {
           "name": "Grant Taylor",
           "name_ja": null,
           "team": "CHW",
+          "war": 2.78
+        },
+        {
+          "name": "Tarik Skubal",
+          "name_ja": null,
+          "team": "DET",
           "war": 2.72
         },
         {
-          "name": "Casey Mize",
+          "name": "Josh Hader",
           "name_ja": null,
-          "team": "DET",
+          "team": "HOU",
           "war": 2.71
         },
         {
           "name": "Brent Headrick",
           "name_ja": null,
           "team": "NYY",
-          "war": 2.7
+          "war": 2.67
+        },
+        {
+          "name": "Casey Mize",
+          "name_ja": null,
+          "team": "DET",
+          "war": 2.65
         },
         {
           "name": "José Soriano",
           "name_ja": null,
           "team": "LAA",
-          "war": 2.67
+          "war": 2.6
         },
         {
           "name": "Jacob Latz",
@@ -28758,21 +28764,15 @@
           "war": 2.6
         },
         {
-          "name": "Gerrit Cole",
+          "name": "Gavin Williams",
           "name_ja": null,
-          "team": "NYY",
+          "team": "CLE",
           "war": 2.59
         },
         {
           "name": "Payton Tolle",
           "name_ja": null,
           "team": "BOS",
-          "war": 2.59
-        },
-        {
-          "name": "Josh Hader",
-          "name_ja": null,
-          "team": "HOU",
           "war": 2.58
         },
         {
@@ -28782,106 +28782,100 @@
           "war": 2.55
         },
         {
-          "name": "Gavin Williams",
+          "name": "Gerrit Cole",
           "name_ja": null,
-          "team": "CLE",
-          "war": 2.53
-        },
-        {
-          "name": "Bryan Baker",
-          "name_ja": null,
-          "team": "TBR",
-          "war": 2.49
-        },
-        {
-          "name": "Sean Newcomb",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 2.42
+          "team": "NYY",
+          "war": 2.54
         },
         {
           "name": "Davis Martin",
           "name_ja": null,
           "team": "CHW",
-          "war": 2.41
+          "war": 2.51
         },
         {
-          "name": "Steven Okert",
+          "name": "Sean Newcomb",
           "name_ja": null,
-          "team": "HOU",
-          "war": 2.3
+          "team": "CHW",
+          "war": 2.49
         },
         {
-          "name": "Ryan Weathers",
-          "name_ja": null,
-          "team": "NYY",
-          "war": 2.23
-        },
-        {
-          "name": "Spencer Miles",
-          "name_ja": null,
-          "team": "TOR",
-          "war": 2.22
-        },
-        {
-          "name": "Cade Smith",
-          "name_ja": null,
-          "team": "CLE",
-          "war": 2.07
-        },
-        {
-          "name": "Kevin Kelly",
+          "name": "Bryan Baker",
           "name_ja": null,
           "team": "TBR",
-          "war": 2.06
-        },
-        {
-          "name": "Ranger Suarez",
-          "name_ja": null,
-          "team": "BOS",
-          "war": 2.05
-        },
-        {
-          "name": "Randy Dobnak",
-          "name_ja": null,
-          "team": "KCR",
-          "war": 2.03
-        },
-        {
-          "name": "Trey Yesavage",
-          "name_ja": null,
-          "team": "TOR",
-          "war": 2.02
+          "war": 2.43
         },
         {
           "name": "Jacob deGrom",
           "name_ja": null,
           "team": "TEX",
+          "war": 2.37
+        },
+        {
+          "name": "Steven Okert",
+          "name_ja": null,
+          "team": "HOU",
+          "war": 2.33
+        },
+        {
+          "name": "Spencer Miles",
+          "name_ja": null,
+          "team": "TOR",
+          "war": 2.21
+        },
+        {
+          "name": "Ryan Weathers",
+          "name_ja": null,
+          "team": "NYY",
+          "war": 2.17
+        },
+        {
+          "name": "Cade Smith",
+          "name_ja": null,
+          "team": "CLE",
+          "war": 2.11
+        },
+        {
+          "name": "Randy Dobnak",
+          "name_ja": null,
+          "team": "KCR",
+          "war": 2.05
+        },
+        {
+          "name": "Ranger Suarez",
+          "name_ja": null,
+          "team": "BOS",
+          "war": 2.04
+        },
+        {
+          "name": "Trey Yesavage",
+          "name_ja": null,
+          "team": "TOR",
           "war": 2.0
+        },
+        {
+          "name": "Erick Fedde",
+          "name_ja": null,
+          "team": "CHW",
+          "war": 1.98
         },
         {
           "name": "Noah Cameron",
           "name_ja": null,
           "team": "KCR",
-          "war": 1.94
-        },
-        {
-          "name": "Joe Ryan",
-          "name_ja": null,
-          "team": "MIN",
-          "war": 1.88
+          "war": 1.97
         },
         {
           "name": "Bryan Hudson",
           "name_ja": null,
           "team": "CHW",
-          "war": 1.84
+          "war": 1.95
         },
         {
-          "name": "Connelly Early",
+          "name": "Joe Ryan",
           "name_ja": null,
-          "team": "BOS",
-          "war": 1.8
+          "team": "MIN",
+          "war": 1.89
         },
         {
           "name": "Garrett Whitlock",
@@ -28890,22 +28884,28 @@
           "war": 1.8
         },
         {
-          "name": "Aroldis Chapman",
+          "name": "Connelly Early",
           "name_ja": null,
           "team": "BOS",
-          "war": 1.79
+          "war": 1.8
         },
         {
           "name": "Bailey Ober",
           "name_ja": null,
           "team": "MIN",
-          "war": 1.77
+          "war": 1.79
         },
         {
-          "name": "Erick Fedde",
+          "name": "Aroldis Chapman",
           "name_ja": null,
-          "team": "CHW",
-          "war": 1.73
+          "team": "BOS",
+          "war": 1.78
+        },
+        {
+          "name": "Brandon Young",
+          "name_ja": null,
+          "team": "BAL",
+          "war": 1.76
         }
       ],
       "nl_top": [
@@ -28913,55 +28913,55 @@
           "name": "Cristopher Sánchez",
           "name_ja": null,
           "team": "PHI",
-          "war": 7.51
+          "war": 7.58
         },
         {
           "name": "Jesús Luzardo",
           "name_ja": null,
           "team": "PHI",
-          "war": 6.32
+          "war": 6.37
         },
         {
           "name": "Jacob Misiorowski",
           "name_ja": null,
           "team": "MIL",
-          "war": 5.52
+          "war": 5.49
         },
         {
           "name": "Chris Sale",
           "name_ja": null,
           "team": "ATL",
-          "war": 5.43
+          "war": 5.42
         },
         {
           "name": "Eduardo Rodríguez",
           "name_ja": null,
           "team": "ARI",
-          "war": 5.41
+          "war": 5.32
         },
         {
           "name": "Yoshinobu Yamamoto",
           "name_ja": null,
           "team": "LAD",
-          "war": 5.3
+          "war": 5.21
         },
         {
           "name": "Chase Burns",
           "name_ja": null,
           "team": "CIN",
-          "war": 5.0
+          "war": 5.01
         },
         {
           "name": "Zack Wheeler",
           "name_ja": null,
           "team": "PHI",
-          "war": 4.44
+          "war": 4.96
         },
         {
           "name": "Michael King",
           "name_ja": null,
           "team": "SDP",
-          "war": 4.13
+          "war": 4.12
         },
         {
           "name": "Braxton Ashcraft",
@@ -28973,19 +28973,13 @@
           "name": "Foster Griffin",
           "name_ja": null,
           "team": "WSN",
-          "war": 3.31
+          "war": 3.35
         },
         {
           "name": "Cade Cavalli",
           "name_ja": null,
           "team": "WSN",
-          "war": 3.28
-        },
-        {
-          "name": "Jhoan Duran",
-          "name_ja": null,
-          "team": "PHI",
-          "war": 3.15
+          "war": 3.33
         },
         {
           "name": "Mason Miller",
@@ -28994,40 +28988,52 @@
           "war": 3.15
         },
         {
+          "name": "Jhoan Duran",
+          "name_ja": null,
+          "team": "PHI",
+          "war": 3.13
+        },
+        {
           "name": "Logan Henderson",
           "name_ja": null,
           "team": "MIL",
-          "war": 3.12
+          "war": 3.11
         },
         {
           "name": "Shohei Ohtani",
           "name_ja": null,
           "team": "LAD",
-          "war": 3.1
+          "war": 3.06
         },
         {
           "name": "Sandy Alcantara",
           "name_ja": null,
           "team": "MIA",
-          "war": 2.95
+          "war": 3.0
         },
         {
           "name": "Nolan McLean",
           "name_ja": null,
           "team": "NYM",
-          "war": 2.93
+          "war": 2.94
         },
         {
           "name": "Max Meyer",
           "name_ja": null,
           "team": "MIA",
-          "war": 2.9
+          "war": 2.91
+        },
+        {
+          "name": "Martín Pérez",
+          "name_ja": null,
+          "team": "ATL",
+          "war": 2.82
         },
         {
           "name": "Paul Skenes",
           "name_ja": null,
           "team": "PIT",
-          "war": 2.76
+          "war": 2.77
         },
         {
           "name": "Andre Pallante",
@@ -29045,31 +29051,31 @@
           "name": "Kyle Leahy",
           "name_ja": null,
           "team": "STL",
-          "war": 2.47
-        },
-        {
-          "name": "Martín Pérez",
-          "name_ja": null,
-          "team": "ATL",
-          "war": 2.39
+          "war": 2.46
         },
         {
           "name": "Aaron Nola",
           "name_ja": null,
           "team": "PHI",
-          "war": 2.38
+          "war": 2.43
         },
         {
           "name": "Didier Fuentes",
           "name_ja": null,
           "team": "ATL",
-          "war": 2.31
+          "war": 2.39
+        },
+        {
+          "name": "Mason Montgomery",
+          "name_ja": null,
+          "team": "PIT",
+          "war": 2.22
         },
         {
           "name": "Ben Brown",
           "name_ja": null,
           "team": "CHC",
-          "war": 2.23
+          "war": 2.2
         },
         {
           "name": "Yohan Ramírez",
@@ -29078,28 +29084,22 @@
           "war": 2.18
         },
         {
-          "name": "Mason Montgomery",
-          "name_ja": null,
-          "team": "PIT",
-          "war": 2.14
-        },
-        {
           "name": "Robbie Ray",
           "name_ja": null,
           "team": "SFG",
-          "war": 2.06
-        },
-        {
-          "name": "Abner Uribe",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 1.94
+          "war": 2.03
         },
         {
           "name": "Andrew Alvarez",
           "name_ja": null,
           "team": "WSN",
-          "war": 1.92
+          "war": 1.95
+        },
+        {
+          "name": "Abner Uribe",
+          "name_ja": null,
+          "team": "MIL",
+          "war": 1.93
         },
         {
           "name": "Luke Weaver",
@@ -29114,52 +29114,34 @@
           "war": 1.87
         },
         {
-          "name": "Juan Morillo",
-          "name_ja": null,
-          "team": "ARI",
-          "war": 1.84
-        },
-        {
           "name": "Clay Holmes",
           "name_ja": null,
           "team": "NYM",
-          "war": 1.83
+          "war": 1.84
         },
         {
-          "name": "Tanner Scott",
+          "name": "Juan Morillo",
           "name_ja": null,
-          "team": "LAD",
-          "war": 1.81
+          "team": "ARI",
+          "war": 1.82
         },
         {
           "name": "Yuki Matsui",
           "name_ja": null,
           "team": "SDP",
-          "war": 1.8
+          "war": 1.79
         },
         {
           "name": "Tyler Phillips",
           "name_ja": null,
           "team": "MIA",
-          "war": 1.78
+          "war": 1.79
         },
         {
-          "name": "Brandon Pfaadt",
-          "name_ja": null,
-          "team": "ARI",
-          "war": 1.76
-        },
-        {
-          "name": "Chad Patrick",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 1.75
-        },
-        {
-          "name": "Justin Wrobleski",
+          "name": "Tanner Scott",
           "name_ja": null,
           "team": "LAD",
-          "war": 1.75
+          "war": 1.78
         },
         {
           "name": "Christian Scott",
@@ -29168,10 +29150,10 @@
           "war": 1.74
         },
         {
-          "name": "Michael Soroka",
+          "name": "Chad Patrick",
           "name_ja": null,
-          "team": "ARI",
-          "war": 1.73
+          "team": "MIL",
+          "war": 1.72
         },
         {
           "name": "Robert Suarez",
@@ -29180,15 +29162,33 @@
           "war": 1.71
         },
         {
-          "name": "Dylan Lee",
+          "name": "Brandon Pfaadt",
           "name_ja": null,
-          "team": "ATL",
-          "war": 1.68
+          "team": "ARI",
+          "war": 1.7
         },
         {
           "name": "Brennan Bernardino",
           "name_ja": null,
           "team": "COL",
+          "war": 1.69
+        },
+        {
+          "name": "Michael Soroka",
+          "name_ja": null,
+          "team": "ARI",
+          "war": 1.68
+        },
+        {
+          "name": "Justin Wrobleski",
+          "name_ja": null,
+          "team": "LAD",
+          "war": 1.68
+        },
+        {
+          "name": "Dylan Lee",
+          "name_ja": null,
+          "team": "ATL",
           "war": 1.67
         },
         {
@@ -29198,16 +29198,16 @@
           "war": 1.63
         },
         {
-          "name": "Trevor Megill",
+          "name": "Jared Jones",
           "name_ja": null,
-          "team": "MIL",
+          "team": "PIT",
           "war": 1.63
         },
         {
-          "name": "Adrián Morejón",
+          "name": "Trevor Megill",
           "name_ja": null,
-          "team": "SDP",
-          "war": 1.62
+          "team": "MIL",
+          "war": 1.61
         }
       ]
     }
