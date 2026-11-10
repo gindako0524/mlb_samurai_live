@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T01:27:44.448347+00:00",
+  "updated_at": "2026-11-10T03:58:27.876464+00:00",
   "players": {
     "665871": {
       "name": "Javier Assad",
@@ -28172,15 +28172,15 @@
           "war": 5.36
         },
         {
-          "name": "Steven Kwan",
-          "name_ja": null,
-          "team": "CLE",
-          "war": 5.34
-        },
-        {
           "name": "Brandon Lowe",
           "name_ja": null,
           "team": "PIT",
+          "war": 5.34
+        },
+        {
+          "name": "Steven Kwan",
+          "name_ja": null,
+          "team": "CLE",
           "war": 5.34
         },
         {
@@ -28274,15 +28274,15 @@
           "war": 4.38
         },
         {
-          "name": "Matt Olson",
-          "name_ja": null,
-          "team": "ATL",
-          "war": 4.35
-        },
-        {
           "name": "Fernando Tatis Jr.",
           "name_ja": null,
           "team": "SDP",
+          "war": 4.35
+        },
+        {
+          "name": "Matt Olson",
+          "name_ja": null,
+          "team": "ATL",
           "war": 4.35
         },
         {
@@ -28570,15 +28570,15 @@
           "war": 3.29
         },
         {
-          "name": "Jac Caglianone",
-          "name_ja": null,
-          "team": "KCR",
-          "war": 3.25
-        },
-        {
           "name": "Byron Buxton",
           "name_ja": null,
           "team": "MIN",
+          "war": 3.25
+        },
+        {
+          "name": "Jac Caglianone",
+          "name_ja": null,
+          "team": "KCR",
           "war": 3.25
         },
         {
@@ -28636,15 +28636,15 @@
           "war": 2.7
         },
         {
-          "name": "Taylor Ward",
-          "name_ja": null,
-          "team": "BAL",
-          "war": 2.65
-        },
-        {
           "name": "Tyler Soderstrom",
           "name_ja": null,
           "team": "ATH",
+          "war": 2.65
+        },
+        {
+          "name": "Taylor Ward",
+          "name_ja": null,
+          "team": "BAL",
           "war": 2.65
         },
         {
@@ -28782,15 +28782,15 @@
           "war": 4.48
         },
         {
-          "name": "Matt Olson",
-          "name_ja": null,
-          "team": "ATL",
-          "war": 4.35
-        },
-        {
           "name": "Fernando Tatis Jr.",
           "name_ja": null,
           "team": "SDP",
+          "war": 4.35
+        },
+        {
+          "name": "Matt Olson",
+          "name_ja": null,
+          "team": "ATL",
           "war": 4.35
         },
         {
@@ -28980,9 +28980,9 @@
           "war": 2.61
         },
         {
-          "name": "Joey Ortiz",
+          "name": "Hunter Goodman",
           "name_ja": null,
-          "team": "MIL",
+          "team": "COL",
           "war": 2.58
         }
       ]
@@ -29158,15 +29158,15 @@
           "war": 3.31
         },
         {
-          "name": "Logan Henderson",
-          "name_ja": null,
-          "team": "MIL",
-          "war": 3.28
-        },
-        {
           "name": "Logan Gilbert",
           "name_ja": null,
           "team": "SEA",
+          "war": 3.28
+        },
+        {
+          "name": "Logan Henderson",
+          "name_ja": null,
+          "team": "MIL",
           "war": 3.28
         },
         {
@@ -29230,15 +29230,15 @@
           "war": 2.94
         },
         {
-          "name": "Cade Smith",
-          "name_ja": null,
-          "team": "CLE",
-          "war": 2.92
-        },
-        {
           "name": "Payton Tolle",
           "name_ja": null,
           "team": "BOS",
+          "war": 2.92
+        },
+        {
+          "name": "Cade Smith",
+          "name_ja": null,
+          "team": "CLE",
           "war": 2.92
         },
         {
@@ -29266,15 +29266,15 @@
           "war": 2.8
         },
         {
-          "name": "José Soriano",
-          "name_ja": null,
-          "team": "LAA",
-          "war": 2.71
-        },
-        {
           "name": "Grant Holmes",
           "name_ja": null,
           "team": "ATL",
+          "war": 2.71
+        },
+        {
+          "name": "José Soriano",
+          "name_ja": null,
+          "team": "LAA",
           "war": 2.71
         },
         {
@@ -29284,9 +29284,9 @@
           "war": 2.7
         },
         {
-          "name": "Tarik Skubal",
+          "name": "Josh Hader",
           "name_ja": null,
-          "team": "DET",
+          "team": "HOU",
           "war": 2.69
         }
       ],
@@ -29412,15 +29412,15 @@
           "war": 2.94
         },
         {
-          "name": "Cade Smith",
-          "name_ja": null,
-          "team": "CLE",
-          "war": 2.92
-        },
-        {
           "name": "Payton Tolle",
           "name_ja": null,
           "team": "BOS",
+          "war": 2.92
+        },
+        {
+          "name": "Cade Smith",
+          "name_ja": null,
+          "team": "CLE",
           "war": 2.92
         },
         {
@@ -29448,12 +29448,6 @@
           "war": 2.7
         },
         {
-          "name": "Tarik Skubal",
-          "name_ja": null,
-          "team": "DET",
-          "war": 2.69
-        },
-        {
           "name": "Josh Hader",
           "name_ja": null,
           "team": "HOU",
@@ -29463,6 +29457,12 @@
           "name": "Ranger Suarez",
           "name_ja": null,
           "team": "BOS",
+          "war": 2.69
+        },
+        {
+          "name": "Tarik Skubal",
+          "name_ja": null,
+          "team": "DET",
           "war": 2.69
         },
         {
@@ -29544,21 +29544,21 @@
           "war": 2.06
         },
         {
-          "name": "Erick Fedde",
-          "name_ja": null,
-          "team": "CHW",
-          "war": 2.01
-        },
-        {
           "name": "Noah Cameron",
           "name_ja": null,
           "team": "KCR",
           "war": 2.01
         },
         {
-          "name": "Hogan Harris",
+          "name": "Erick Fedde",
           "name_ja": null,
-          "team": "ATH",
+          "team": "CHW",
+          "war": 2.01
+        },
+        {
+          "name": "Trey Yesavage",
+          "name_ja": null,
+          "team": "TOR",
           "war": 1.99
         },
         {
@@ -29568,21 +29568,21 @@
           "war": 1.99
         },
         {
-          "name": "Trey Yesavage",
+          "name": "Hogan Harris",
           "name_ja": null,
-          "team": "TOR",
+          "team": "ATH",
           "war": 1.99
-        },
-        {
-          "name": "Bryan Woo",
-          "name_ja": null,
-          "team": "SEA",
-          "war": 1.98
         },
         {
           "name": "Sean Newcomb",
           "name_ja": null,
           "team": "CHW",
+          "war": 1.98
+        },
+        {
+          "name": "Bryan Woo",
+          "name_ja": null,
+          "team": "SEA",
           "war": 1.98
         },
         {
@@ -29840,9 +29840,9 @@
           "war": 2.0
         },
         {
-          "name": "DL Hall",
+          "name": "Tarik Skubal",
           "name_ja": null,
-          "team": "MIL",
+          "team": "LAD",
           "war": 1.94
         },
         {
@@ -29852,9 +29852,9 @@
           "war": 1.94
         },
         {
-          "name": "Tarik Skubal",
+          "name": "DL Hall",
           "name_ja": null,
-          "team": "LAD",
+          "team": "MIL",
           "war": 1.94
         },
         {
